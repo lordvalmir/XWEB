@@ -4,6 +4,10 @@ import rand1 from "../../images/rand1.jpg";
 import plus from "../../images/plus.png";
 import book from "../../images/book.png";
 import youtube2 from "../../images/youtube2.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPlus,
+} from "@fortawesome/free-solid-svg-icons";
 
 function HomePage5() {
   const [plus1, togglePlus1] = useState(false);
@@ -18,9 +22,10 @@ function HomePage5() {
       <div className="instructors">
         <div className="instructor">
           <div className="categorieIMG">
-            <img src={rand1} alt="rand1"></img>
+            <div className="categorieIMGplaceholder"></div>
           </div>
           <div className="plusMenu" onClick={() => togglePlus1(!plus1)}>
+          <FontAwesomeIcon icon={faPlus} />
             {plus1 ? (
               <div className="openPlusMenu">
                 <img src={youtube2} width="32px" height="32px" alt="img1"></img>
@@ -42,9 +47,11 @@ function HomePage5() {
         </div>
         <div className="instructor">
           <div className="categorieIMG">
-            <img src={rand1} alt="rand1"></img>
+            {/* <div className="categorieIMGplaceholder"></div> */}
+            <div className="categorieIMGplaceholder"></div>
           </div>
           <div className="plusMenu" onClick={() => togglePlus2(!plus2)}>
+          <FontAwesomeIcon icon={faPlus} />
             {plus2 ? (
               <div className="openPlusMenu">
                 <img src={youtube2} width="32px" height="32px" alt="img1"></img>
@@ -66,9 +73,10 @@ function HomePage5() {
         </div>
         <div className="instructor">
           <div className="categorieIMG">
-            <img src={rand1} alt="rand1"></img>
+            <div className="categorieIMGplaceholder"></div>
           </div>
           <div className="plusMenu" onClick={() => togglePlus3(!plus3)}>
+          <FontAwesomeIcon icon={faPlus} />
             {plus3 ? (
               <div className="openPlusMenu">
                 <img src={youtube2} width="32px" height="32px" alt="img1"></img>
@@ -90,9 +98,10 @@ function HomePage5() {
         </div>
         <div className="instructor">
           <div className="categorieIMG">
-            <img src={rand1} alt="rand1"></img>
+            <div className="categorieIMGplaceholder"></div>
           </div>
           <div className="plusMenu" onClick={() => togglePlus4(!plus4)}>
+          <FontAwesomeIcon icon={faPlus} />
             {plus4 ? (
               <div className="openPlusMenu">
                 <img src={youtube2} width="32px" height="32px" alt="img1"></img>

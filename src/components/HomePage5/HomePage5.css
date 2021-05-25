@@ -20,7 +20,6 @@
   width: 22%;
   height: 70%;
   margin: auto;
-  border: solid black 2px;
   background-color: white;
 }
 
@@ -76,9 +75,15 @@
   width: 2rem;
   height: 2rem;
   display: block;
-  background-color: orange;
-  background-image: url(../../images/plus.png);
+  background-color: #ea5822;
   display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plusMenu path{
+  fill: white;
 }
 
 .plusPlusMenu {
