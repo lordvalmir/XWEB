@@ -1,0 +1,168 @@
+.bg6 {
+  width: 100vw;
+  height: 760px;
+  max-width: 1920px;
+  max-height: 760px;
+  background-color: #000c0f;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+.eventsBox {
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 70%;
+  display: flex;
+  min-height: 505px;
+}
+.studentTitle {
+  color: white;
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
+  line-height: 12px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.studentSubtitle {
+  color: white;
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+.paper {
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -10px -10px 0 0px #eee;
+  width: 430px;
+  height: 491px;
+  margin-left: 30%;
+}
+
+.StudentsBlock {
+  width: 100%;
+  display: flex;
+}
+
+.StudentsBlockRight {
+  width: 45%;
+  margin-left: 5%;
+}
+.StudentsBlockLeft {
+  width: 50%;
+  margin-top: 4rem;
+}
+
+.bigPaperMain {
+  padding: 10%;
+  padding-top: 13%;
+}
+
+.bigPaperMainText {
+  color: #062a35;
+  font-family: Hind-Medium, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 25px;
+}
+.bigPaperMainSubText {
+  color: #708389;
+  font-family: IBMPlexSans, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  line-height: 25px;
+}
+
+.bigPaperMainProfile {
+  display: flex;
+}
+
+.bigPaperMainProfileIMG {
+  width: 20%;
+}
+
+.bigPaperMainProfileIMGINFO {
+  width: 80%;
+}
+.bigPaperMainProfileName {
+  color: #062a35;
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bigPaperMainProfilePosition {
+  color: #ea5822;
+  font-family: Hind-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.bigPaperMainButtons {
+  margin-top: 5rem;
+  display: flex;
+  width: 30%;
+  margin-right: 30%;
+}
+
+.bigPaperMainButton {
+  background-color: #eaf4f7;
+  margin: auto;
+  width: 41px;
+  height: 41px;
+  text-align: center;
+}
+
+.bigPaperMainButton:hover {
+  background-color: #ea5822;
+  cursor: pointer;
+}
+
+.bigPaperMainButton svg {
+  margin-top: 20%;
+}
+
+.bigPaperMainFooter {
+  display: flex;
+}
+
+.StudentsBlockRightFiles {
+  display: flex;
+}
+
+.StudentsBlockRightFiles1 {
+  margin-top: 20%;
+}
+
+.smallPaper1 {
+  background: #b7b7b7;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -5px -5px 0 0px #ea5822;
+  width: 138px;
+  height: 138px;
+  margin-bottom: 1rem;
+}
+
+.smallPaper2 {
+  background: #b7b7b7;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -5px 5px 0 0px #fff;
+  width: 138px;
+  height: 138px;
+}
+
+.smallPaper {
+  background: #b7b7b7;
+  width: 138px;
+  height: 138px;
+  margin-bottom: 1rem;
+}
+.StudentsBlockRightFiles2 {
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+
+.StudentsBlockRightFiles3 {
+  margin-top: 3rem;
+  margin-left: 1rem;
+}

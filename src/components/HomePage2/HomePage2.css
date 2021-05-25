@@ -1,0 +1,88 @@
+.courseCategories {
+  height: 100vh;
+  max-height: 951px;
+}
+
+.categoriesTitle {
+  text-align: center;
+  font-family: Hind-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 15px;
+  color: #ea5822;
+}
+
+.categoriesSubTitle {
+  margin-top: 1%;
+  text-align: center;
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.categories {
+  width: 60%;
+  margin: auto;
+  margin-top: 3%;
+  height: 40rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.rowCategorie {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.categorie {
+  width: 22%;
+  height: 40%;
+  margin: auto;
+  border: solid black 2px;
+}
+
+.categorieIMG {
+  height: 60%;
+}
+
+.categorieIMG img {
+  width: 100%;
+  height: 100%;
+  border-bottom: solid black 2px;
+}
+
+.categorieInfoBox {
+  margin: auto;
+  height: 30%;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.categorieTitle {
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.categorieSubtitle {
+  font-size: 13px;
+  font-family: Hind-Regular, AdobeInvisFont, MyriadPro-Regular;
+  margin-bottom: 0.5rem;
+}
+
+.categorieInfo {
+  display: flex;
+  font-size: 13px;
+  font-family: Roboto-Medium, AdobeInvisFont, MyriadPro-Regular;
+}
+
+.categorieInfo svg {
+  margin-right: 0.25rem;
+}
+.categorieInfo path {
+  fill: #ea5822;
+}
+.categorieInfo div {
+  margin-right: 0.5rem;
+}

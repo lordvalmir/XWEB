@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  max-width: 1920px;
+}
+
+.bg {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: relative;
+  max-width: 1920px;
+  background-size: 100vw auto;
+  background-image: url("../images/bg1.png");
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1920px) {
+  .bg {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    max-height: 951px;
+    display: block;
+    position: relative;
+    max-width: 1920px;
+    background-size: 1920px auto;
+    background-image: url("../images/bg1.png");
+    background-repeat: no-repeat;
+  }
+}

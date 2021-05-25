@@ -1,0 +1,76 @@
+.underSearch {
+  display: flex;
+}
+
+.underSearch img {
+  height: 50%;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.left {
+  width: 45%;
+  margin: auto;
+}
+
+.right {
+  margin: auto;
+  width: 45%;
+  display: flex;
+}
+
+.right img {
+  align-self: center;
+  margin-right: 5%;
+  margin-left: 10%;
+}
+
+form.searchBar {
+  width: 100%;
+  height: inherit;
+  background-color: white;
+}
+
+input.searchBar {
+  border: none;
+  width: 90%;
+  height: inherit;
+  background-color: white;
+}
+
+button.searchBar {
+  margin: 0px;
+  border: none;
+  width: 8%;
+  height: 80%;
+  background-color: #ea5822;
+}
+
+.searchBar {
+  height: 3rem;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.homeBlock {
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 30%;
+  margin-bottom: 10%;
+}
+
+.mainPageTitle {
+  font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+  opacity: 1;
+  color: #062a35;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.orangeLink {
+  color: #ea5822;
+}

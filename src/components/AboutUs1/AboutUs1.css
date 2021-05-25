@@ -1,0 +1,91 @@
+.welcomeSection {
+  width: 100vw;
+  height: 650px;
+  max-width: 1920px;
+  max-height: 650px;
+  padding-top: 5%;
+  background-color: #ffffff;
+}
+.becomeIns {
+    width: 60%;
+    height: 100%;
+    margin: 0 20% 0 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+.becomeInsLeftPaperBehind {
+  width: 75%;
+  height: 75%;
+  background: #b7b7b7;
+  z-index: 1;
+}
+
+.becomeInsLeftPaperFront {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background: #dedede;
+}
+.circleText b {
+    font-size: 25px;
+}
+.circleText r {
+    font-size: 12px;
+}
+.circleBase {
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.circle1 {
+  width: 100px;
+  height: 100px;
+  background: #ea5822;
+  margin-top: -20%;
+  margin-left: -15%;
+  z-index: 5;
+  position: absolute;
+}
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  margin-top: -18%;
+  margin-left: -13%;
+  z-index: 3;
+  position: absolute;
+}
+.welcomeSectionInfo {
+    color: #ea5822;
+}
+.welcomeSectionTitle {
+    font-size: 40px;
+    letter-spacing: -1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #11212d;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+.welcomeSectionText {
+    border-left: 2px solid #EA5822;
+    padding-left: 1.5rem;
+    color:#708389;
+    line-height: 1.5rem;
+}
+.becomeInsLeft {
+    width: 48%;
+    position: relative;
+  }
+  .becomeInsRight {
+    width: 44%;
+  }
+  .welcomeSectionSubTifo {
+      display: flex;
+  }

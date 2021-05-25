@@ -1,0 +1,33 @@
+.navbar2 {
+    width: 100%;
+    height: 100px;
+    background-color: #EAF4F7;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    height: 100px;
+    margin: 0;
+    align-items: center;
+    margin-left: 5%;
+}
+.links {
+    height: 100px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+.dropdown {
+    margin-right: 1rem;
+}
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    line-height: 1rem;
+}
+.nawRightSite {
+    height: 100px;
+    margin: 0;
+    align-items: center;
+    margin-right: 5%;
+}

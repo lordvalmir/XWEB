@@ -1,0 +1,174 @@
+@namespace xlink "http://www.w3.org/1999/xlink";
+
+.bg5 {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1920px;
+  max-height: 1200px;
+  background-color: white;
+  padding-top: 5%;
+}
+
+.eventsBox {
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 70%;
+  display: flex;
+  min-height: 505px;
+}
+
+.eventsBoxLeft {
+  height: 100%;
+  width: 60%;
+}
+
+.eventsBoxRight {
+  height: 100%;
+  width: 40%;
+}
+
+.eventIMG {
+  height: 55%;
+  width: 100%;
+  background-color: gray;
+}
+
+.eventInfo {
+  width: 100%;
+  height: 45%;
+  background-color: #eaf4f7;
+}
+.eventInfoBox {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.eventInfoBox1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.eventInfoAux {
+  display: flex;
+}
+
+.eventInfoAuxText {
+  margin-left: 1rem;
+  font-family: Hind-Medium, AdobeInvisFont, MyriadPro-Regular;
+  color: #708389;
+}
+.eventInfo svg {
+  color: #ea5822;
+}
+.eventInfoTitle {
+  margin-top: 0.8rem;
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
+  color: #062a35;
+  font-size: 24px;
+  margin-bottom: 1.1rem;
+  font-weight: bold;
+}
+.eventInfoText {
+  font-family: Hind-Medium, AdobeInvisFont, MyriadPro-Regular;
+  color: #708389;
+  margin-bottom: 1rem;
+}
+
+.eventInfoButton {
+  width: 30%;
+  background-color: #ea5822;
+  text-align: center;
+  line-height: 250%;
+  display: flex;
+}
+.eventInfoButton svg {
+  margin-top: 8%;
+}
+.eventInfoButtonText {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+.eventsSideBoxTop {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  height: 47.5%;
+  background-color: #616161;
+}
+.eventsSideBoxBot {
+  margin-left: 5%;
+  height: 47.5%;
+  background-color: #616161;
+}
+
+.eventInfoBoxTop {
+  display: flex;
+  width: 80%;
+}
+
+.eventInfoBoxDate {
+  display: flex;
+  width: 50%;
+}
+.eventInfoBoxDate svg {
+  color: #ea5822;
+}
+.eventInfoBoxDateText {
+  color: white;
+}
+.eventInfoBoxTopTitle {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.eventInfoBoxTopButton {
+  display: flex;
+}
+.eventInfoBoxTopContainer {
+  margin-left: 5%;
+  padding-top: 10%;
+}
+.eventInfoBoxTopTitle {
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
+  color: white;
+  font-size: 1.5rem;
+}
+.eventInfoButtonTopText {
+  margin-right: 1rem;
+  color: white;
+}
+.eventInfoBoxTopButton svg {
+  margin-top: 1%;
+}
+.eventStickers {
+  position: absolute;
+  transform: translate(0, -50%);
+  right: 45%;
+}
+.eventStickers2 {
+  margin-left: 75%;
+  padding-top: 5%;
+}
+
+.eventsButtonMore {
+  margin-top: 2%;
+}
+
+.eventsButtonMoreText {
+  margin: auto;
+  width: 14%;
+  border: solid 2px #dddddd;
+}
+
+.eventsButtonMoreButton {
+  margin: 8%;
+  display: flex;
+}
+.eventsButtonMoreButton svg {
+  margin-top: 2%;
+}
+.eventsBText {
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}

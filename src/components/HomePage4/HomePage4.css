@@ -1,0 +1,76 @@
+.bg3 {
+  margin-top: 5%;
+  width: 100vw;
+  height: 150vh;
+  max-width: 1920px;
+  max-height: 1200px;
+  background-color: white;
+}
+
+.galeryDisplayMenu {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  height: 10%;
+  margin-top: 3%;
+}
+
+.galeryDisplayOption {
+  width: 10%;
+  margin: auto;
+}
+
+.galeryDisplayBar {
+  width: 70%;
+  margin: auto;
+}
+
+.galeryCards {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.galeryCardRow {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3%;
+  justify-content: space-evenly;
+}
+
+.galeryCard {
+  height: 371px;
+  width: 371px;
+  background-color: #417b8d;
+}
+
+.galeryCardInside {
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}
+
+.galeryCardTitle {
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 30px;
+  color: white;
+}
+
+.galeryCardSubtitle {
+  font-family: Hind-Medium, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 15px;
+  color: white;
+}
+.galeryCardButton {
+  display: flex;
+  align-items: flex-end;
+  float: right;
+  margin-top: 70%;
+}
+.galeryCardButton button {
+  height: 3rem;
+  width: 3rem;
+  background-color: #ea5822;
+  border: none;
+}
