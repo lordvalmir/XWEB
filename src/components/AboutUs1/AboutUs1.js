@@ -20,9 +20,21 @@ function AboutUs1() {
           <div className="welcomeSectionInfo">... Introduced About EduPlus</div>
           <div className="welcomeSectionTitle">Welcome To EduPlus</div>
           <div className="welcomeSectionText">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quase
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae
+            ab illo inventore veritatis et quase
           </div>
-          <div className="welcomeSectionSub"></div>
+          <div className="welcomeSectionSub">
+            <div className="welcomeSectionSubIcon"></div>
+            <div className="welcomeSectionSubTifo">
+              <div className="welcomeSectionSubTitle">
+                Professional & Expert
+              </div>
+              <div className="welcomeSectionSubText">
+                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+              </div>
+            </div>
+          </div>
           <div className="welcomeSectionSub2"></div>
           <div className="welcomeSectionButton"></div>
         </div>
