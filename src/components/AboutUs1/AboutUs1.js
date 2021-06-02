@@ -105,7 +105,7 @@ function AboutUs1() {
           </div>
         </div>
       </div>
-        <HomePage5/>
+        <HomePage5 background={false}/>
         <HomePage7/>
         <HomePage9/>
     </div>

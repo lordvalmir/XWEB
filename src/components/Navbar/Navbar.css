@@ -8,6 +8,7 @@
 
 .nawLeftSite {
   display: flex;
+  width: 70%;
 }
 
 .nawRightSite {
@@ -30,7 +31,6 @@
 }
 .navbar a {
   float: left;
-  font-size:2vw;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -59,7 +59,7 @@
   color: #062a35;
   font-weight: 500;
   font-family: "Roboto";
-  font-size:1vw;
+  font-size:24px;
 }
 
 .dropbtn svg{

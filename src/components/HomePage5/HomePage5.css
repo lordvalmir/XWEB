@@ -3,12 +3,20 @@
   height: auto;
   max-width: 1920px;
   max-height: 1200px;
-  background-color: #eaf4f7;
+  background-color: white;
+  padding-top: 5%;
+}
+.bg4b {
+  width: 100vw;
+  height: auto;
+  max-width: 1920px;
+  max-height: 1200px;
+  background-color: #EAF4F7;
   padding-top: 5%;
 }
 
 .instructors {
-  width: 70%;
+  width: 60%;
   margin: auto;
   margin-top: 3%;
   padding-bottom: 3%;

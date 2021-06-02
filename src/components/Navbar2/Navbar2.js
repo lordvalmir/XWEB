@@ -11,7 +11,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 function Navbar2() {
   return (
     <div className="navbar2">
-      <div className="nawLeftSite">
+      <div className="nawLeftSite2">
         <div className="logo">
           <img src={logo} height="61px" width="61px" alt="logo" />
           <div className="logoText">
@@ -20,7 +20,7 @@ function Navbar2() {
         </div>
       </div>
       <div className="links">
-      <div className="dropdown">
+      <div className="dropdown2">
           <a href="/">
             <div className="dropbtn">
               Home
@@ -28,7 +28,7 @@ function Navbar2() {
             </div>
           </a>
         </div>
-        <div className="dropdown">
+        <div className="dropdown2">
           <a href="/Courses">
             <div className="dropbtn">
               Courses
@@ -36,7 +36,7 @@ function Navbar2() {
             </div>
           </a>
         </div>
-        <div className="dropdown">
+        <div className="dropdown2">
           <a href="/Events">
             <div className="dropbtn">
               Events
@@ -44,7 +44,7 @@ function Navbar2() {
             </div>
           </a>
         </div>
-        <div className="dropdown">
+        <div className="dropdown2">
           <a href="/Pages">
             <div className="dropbtn">
               Pages
@@ -52,7 +52,7 @@ function Navbar2() {
             </div>
           </a>
         </div>
-        <div className="dropdown">
+        <div className="dropdown2">
           <a href="/Blog">
             <div className="dropbtn">
               Blog
@@ -60,7 +60,7 @@ function Navbar2() {
             </div>
           </a>
         </div>
-        <div className="dropdown">
+        <div className="dropdown2">
           <a href="/Contact">
             <div className="dropbtn">
               Contact

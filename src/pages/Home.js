@@ -24,7 +24,7 @@ function Home() {
       <HomePage2/>
       <HomePage3/>
       <HomePage4/>
-      <HomePage5/>
+      <HomePage5 background={true}/>
       <HomePage6/>
       <HomePage7/>
       <HomePage8/>

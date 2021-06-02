@@ -1,49 +1,72 @@
 .bg2 {
-  margin-top: 5%;
-  padding-top: 5%;
   width: 100vw;
-  height: 110vh;
+  height: 1036px;
   max-width: 1920px;
-  max-height: 951px;
+  max-height: 1036px;
   background-color: #062a35;
 }
-
 .coursesTitle {
   text-align: center;
   font-family: Hind-SemiBold, AdobeInvisFont, MyriadPro-Regular;
   font-size: 15px;
   color: #ea5822;
 }
+.coursesTitle2 {
+  text-align: center;
+  font-family: Hind-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 15px;
+  color: #ea5822;
+  padding-top: 8rem;
+}
 
 .coursesSubTitle {
-  margin-top: 1%;
   text-align: center;
   font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
   font-weight: bold;
   font-size: 30px;
   color: white;
 }
-
+.cardImgPrice {
+  background-color: #ea5822;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.cardImgPrice2 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  color: #ea5822;
+}
+.cardLanguage {
+  background-color: #4582FF;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+.cardLanguage2 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  color: #ea5822;
+  text-transform: uppercase;
+}
 .cards {
   display: flex;
-  margin: 5%;
-  margin-bottom: 0%;
-  width: 90%;
+  margin: 3rem auto;
+  width: 60%;
   justify-content: space-around;
-  height: 65%;
-  perspective: 600px;
 }
 .card {
-  width: 25%;
-  height: 100%;
+  width: 371px;
+  height: 453px;
   transition: transform 1s;
   transform-style: preserve-3d;
 }
 
 .card__face {
   position: absolute;
-  height: 100%;
-  width: 100%;
   backface-visibility: hidden;
 }
 
@@ -56,23 +79,41 @@
 }
 
 .cardImg {
-  width: 100%;
-  height: 50%;
+  height: 251px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
   background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(180deg, white, black);
 }
 
-.circle {
+.cardImgcircle {
   display: flex;
+  height: 46px;
+  width: 46px;
   margin: 1rem;
+  margin-left: 2rem;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
 }
-
-.name {
+.cardImgcircle2 {
+  display: flex;
+  height: 46px;
+  width: 46px;
+  margin: 1rem;
+  margin-left: 0;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+.cardImgName {
+  display: flex;
+}
+.cardImgname {
+  font-weight: 800;
+  font-size: 22px;
   margin: auto;
-  margin-left: 1rem;
   font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
   color: white;
 }
@@ -83,13 +124,12 @@
 
 .cardInfo {
   background-color: white;
-  height: 50%;
+  height: 239px;
 }
 
 .cardHeader {
   display: flex;
   padding: 2rem;
-  height: 20%;
   padding-bottom: 0;
   padding-top: 5%;
   margin-bottom: 5%;
@@ -99,37 +139,50 @@
   margin: auto;
   margin-left: 1rem;
 }
-.rating img {
-  margin-left: 5px;
+.rating path {
+  fill: #ea5822
 }
+.rating2 {
+  margin: auto;
+  margin-left: 1rem;
+}
+.rating2 path {
+  fill: white;
+}
+
 .courseTitle {
   font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
   font-weight: bold;
   font-size: 22px;
   padding-left: 2rem;
   padding-right: 2rem;
-  height: 25%;
 }
 
 .cardInfo hr {
   background: #e2e2e2;
   border: none;
-  height: 1%;
-  margin-top: 5%;
-  margin-bottom: 4%;
+  height: 1px;
+  width: 80%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .courseIcons {
-  margin-top: 10%;
-  height: 15%;
   display: flex;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 1rem 2rem;
 }
 
 .courseIcon {
   display: flex;
   width: 30%;
+}
+
+.courseIcons path{
+  fill: #ea5822;
+}
+
+.courseIcons2 path{
+  fill: white;
 }
 
 .imgtext2 {
@@ -138,15 +191,6 @@
   color: white;
 }
 
-.language {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.language2 {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 .courseIcon .imgtext {
   margin-left: 10px;
   font-family: Roboto-Medium, AdobeInvisFont, MyriadPro-Regular;
@@ -161,17 +205,15 @@
 
 .cardInfo2 {
   background-color: #ea5822;
-  height: 100%;
+  height: 489px;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 .cardHeader2 {
-  background-color: #ea5822;
   display: flex;
-  height: 10%;
-  padding-top: 2rem;
-  margin-bottom: 5%;
+  padding-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .courseTitle2 {
@@ -179,13 +221,13 @@
   color: white;
   font-weight: bold;
   font-size: 22px;
-  height: 15%;
 }
 
 .priceBox2 {
   display: flex;
   justify-content: space-between;
-  height: 20%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .price2 {
@@ -197,14 +239,13 @@
 .curseText {
   font-family: Hind-Regular, AdobeInvisFont, MyriadPro-Regular;
   color: white;
-  font-size: 15;
-  line-height: 1.5;
-  height: 20%;
+  font-size: 18px;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .getEnrolled {
   width: 100%;
-  height: 15%;
 }
 
 .getEnrolledButton {
@@ -228,10 +269,19 @@
   display: flex;
   margin: auto;
   height: 100%;
+  align-items: center;
+  justify-content: center;
 }
+.getEnrolledData svg{
+  margin-left: 1rem;
+}
+
+.getEnrolledData path{
+  fill: #ea5822;
+}
+
 .getEnrolledText {
-  margin: auto;
-  color: #ea5822;
+  color:#ea5822;
   font-weight: bold;
 }
 .getEnrolled img {
@@ -240,20 +290,20 @@
 }
 
 .courseIcons2 {
+  margin-top: 3rem;
   display: flex;
 }
 
 .allCourses {
-  margin-top: 2rem;
-  height: 20%;
+  padding-top: 5rem;
 }
 
 .allCoursesButton {
-  height: 30%;
-  width: 20%;
+  height: 67px;
+  width: 281px;
   margin: auto;
   background: transparent;
-  border: solid #708389 2px;
+  border: solid #113742 2px;
 }
 
 .allCoursesButtonData {
@@ -262,16 +312,21 @@
   background-color: transparent;
   border: none;
   display: flex;
+  justify-content: center;
+    align-items: center;
 }
 
 .allCoursesButtonText {
-  margin: auto;
   font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
   color: #417b8d;
-  margin-right: 0;
   text-transform: uppercase;
 }
 
-.allCoursesButtonData img {
-  margin: auto;
+.allCoursesButtonData svg {
+  margin-left: 1rem;
+}
+
+
+.allCoursesButtonData path {
+  fill: #417B8D;
 }

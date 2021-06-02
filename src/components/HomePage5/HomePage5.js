@@ -1,7 +1,5 @@
 import "./HomePage5.css";
 import { useState } from "react";
-import rand1 from "../../images/rand1.jpg";
-import plus from "../../images/plus.png";
 import book from "../../images/book.png";
 import youtube2 from "../../images/youtube2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,14 +7,14 @@ import {
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
 
-function HomePage5() {
+function HomePage5(props) {
   const [plus1, togglePlus1] = useState(false);
   const [plus2, togglePlus2] = useState(false);
   const [plus3, togglePlus3] = useState(false);
   const [plus4, togglePlus4] = useState(false);
-  console.log(plus);
+
   return (
-    <div className="bg4">
+    <div className={props.background ? "bg4b" : "bg4"}>
       <div className="coursesTitle">... Team Members ...</div>
       <div className="categoriesSubTitle">Expert Instructors</div>
       <div className="instructors">
