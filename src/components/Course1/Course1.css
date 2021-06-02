@@ -1,0 +1,179 @@
+.CourseMain {
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  background-color: white;
+}
+.CourseBoxes {
+  width: 60%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.CourseBoxLeft {
+  width: 760px;
+  height: 100%;
+}
+.CourseBoxRight {
+  width: 360px;
+  height: 100%;
+}
+.CourseVideo {
+  width: 100%;
+  height: 451px;
+  background-color: #a2a2a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CourseVideoPlay {
+  width: 81px;
+  height: 61px;
+  background-color: #ec1f1f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CourseVideoPlay path {
+  fill: white;
+}
+.CourseInfo {
+  width: 100%;
+  height: 662px;
+  border: 2px solid #ebebeb;
+}
+.CourseInfoParam {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem 0 3rem;
+  padding-bottom: 1.5rem;
+  font-weight: 800;
+  border-bottom: 1px solid #a2a2a8;
+}
+
+.CourseInfoParam2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem 0 3rem;
+  padding-bottom: 1.5rem;
+  font-weight: 800;
+}
+
+.CourseInfoParamLeft svg {
+  margin-right: 1rem;
+}
+.CourseInfoParamLeft path {
+  fill: #ea5822;
+}
+.CourseInfoParamRight {
+  color: #ea5822;
+}
+.CourseInfoButton {
+  margin: auto;
+  color: white;
+  font-weight: 800;
+  margin-top: 1rem;
+  background-color: #3662ff;
+  border-radius: 40px;
+  width: 245px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CourseInfoButton svg {
+  margin-left: 1rem;
+}
+.CourseInfoIMG {
+  width: 100%;
+  height: 453px;
+  background-color: #a2a2a8;
+  margin-top: 3rem;
+}
+.CourseStars {
+  margin-top: 2rem;
+}
+.CourseStars path {
+  fill: #ea5822;
+}
+.CourseTitle {
+  margin-top: 0.5rem;
+  font-size: 25px;
+  font-weight: 800;
+}
+.CourseText {
+  margin-top: 1.5rem;
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
+}
+.CourseSubTitle {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 3rem;
+}
+.CourseLessons {
+  border: #708389 solid 1px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.CourseLesson {
+  display: flex;
+  padding: 1.3rem 2rem;
+  font-weight: 600;
+  justify-content: space-between;
+  border-bottom: #708389 solid 1px;
+}
+.CourseLesson:hover {
+  background-color: #eaf4f7;
+}
+.CourseLessonRight {
+  font-weight: 400;
+  color: #708389;
+}
+.CourseLessonRight svg {
+  margin-right: 1rem;
+}
+.CourseLessonRight path {
+  fill: #ea5822;
+}
+.CourseLesson2 {
+  display: flex;
+  padding: 1.3rem 2rem;
+  font-weight: 600;
+  justify-content: space-between;
+}
+.CourseLesson2:hover {
+  background-color: #eaf4f7;
+}
+.CourseLesson2Right {
+  font-weight: 400;
+  color: #708389;
+}
+.CourseLesson2Right svg {
+  margin-right: 1rem;
+}
+.CourseLesson2Right path {
+  fill: #ea5822;
+}
+.CourseMainIMG {
+  height: 451px;
+  width: 100%;
+  background-color: #b7b7b7;
+  margin-top: 3rem;
+}
+.CourseFAQTitle {
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 25px;
+}
+.CourseFAQText {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #708389;
+  line-height: 28px;
+}

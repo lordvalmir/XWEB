@@ -39,9 +39,7 @@ const Card = ({ toggleCard, card, tag, title }) => {
               <FontAwesomeIcon icon={faStar} />
             </div>
           </div>
-          <div className="courseTitle2a">
-            {title}
-          </div>
+          <div className="courseTitle2a">{title}</div>
           <hr></hr>
           <div className="courseIcons2a">
             <div className="courseIcon">
@@ -71,9 +69,7 @@ const Card = ({ toggleCard, card, tag, title }) => {
               <FontAwesomeIcon icon={faStar} />
             </div>
           </div>
-          <div className="courseTitle2b">
-            {title}
-          </div>
+          <div className="courseTitle2b">{title}</div>
           <div className="priceBox2">
             <div className="cardImgName">
               <div className="cardImgcircle2"></div>
@@ -142,17 +138,57 @@ const Courses1 = () => {
           <div className="aboutNavbarItem">Business</div>
         </div>
         <div className="cards2">
-          <Card toggleCard={() => toggleCard1(!card1)} card={card1} tag={'english'} title={'Best Courses For Learning  English Courses'}/>
-          <Card toggleCard={() => toggleCard2(!card2)} card={card2} tag={'design'} title={'Introduce About Graphics  Design For Beginners'}/>
-          <Card toggleCard={() => toggleCard3(!card3)} card={card3} tag={'business'} title={'How To Improve Business Studies For Beginners'}/>
-          <Card toggleCard={() => toggleCard4(!card4)} card={card4} tag={'php'} title={'Best Courses For Learning  English Courses'}/>
-          <Card toggleCard={() => toggleCard5(!card5)} card={card5} tag={'marketing'} title={'Best Courses For Learning  Marketing Courses'}/>
-          <Card toggleCard={() => toggleCard6(!card6)} card={card6} tag={'films'} title={'Introduce About Movie & Photography For Beginners'}/>
-          <Card toggleCard={() => toggleCard7(!card7)} card={card7} tag={'medical'} title={'Best Courses For Learning  English Courses'}/>
-          <Card toggleCard={() => toggleCard8(!card8)} card={card8} tag={'apps UI'} title={'Learning How To Improve Mobile Ui Design'}/>
+          <Card
+            toggleCard={() => toggleCard1(!card1)}
+            card={card1}
+            tag={"english"}
+            title={"Best Courses For Learning  English Courses"}
+          />
+          <Card
+            toggleCard={() => toggleCard2(!card2)}
+            card={card2}
+            tag={"design"}
+            title={"Introduce About Graphics  Design For Beginners"}
+          />
+          <Card
+            toggleCard={() => toggleCard3(!card3)}
+            card={card3}
+            tag={"business"}
+            title={"How To Improve Business Studies For Beginners"}
+          />
+          <Card
+            toggleCard={() => toggleCard4(!card4)}
+            card={card4}
+            tag={"php"}
+            title={"Best Courses For Learning  English Courses"}
+          />
+          <Card
+            toggleCard={() => toggleCard5(!card5)}
+            card={card5}
+            tag={"marketing"}
+            title={"Best Courses For Learning  Marketing Courses"}
+          />
+          <Card
+            toggleCard={() => toggleCard6(!card6)}
+            card={card6}
+            tag={"films"}
+            title={"Introduce About Movie & Photography For Beginners"}
+          />
+          <Card
+            toggleCard={() => toggleCard7(!card7)}
+            card={card7}
+            tag={"medical"}
+            title={"Best Courses For Learning  English Courses"}
+          />
+          <Card
+            toggleCard={() => toggleCard8(!card8)}
+            card={card8}
+            tag={"apps UI"}
+            title={"Learning How To Improve Mobile Ui Design"}
+          />
         </div>
       </div>
-      <HomePage5 background={true}/>
+      <HomePage5 background={true} />
       <HomePage9 />
     </div>
   );

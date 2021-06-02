@@ -16,20 +16,20 @@ function Home() {
   return (
     <div>
       <div className="bg">
-        <Navbar/>
-        <HomePage1/>
+        <Navbar />
+        <HomePage1 />
       </div>
 
-      <InfoBoxes/>
-      <HomePage2/>
-      <HomePage3/>
-      <HomePage4/>
-      <HomePage5 background={true}/>
-      <HomePage6/>
-      <HomePage7/>
-      <HomePage8/>
-      <HomePage9/>
-      <Footer/>
+      <InfoBoxes />
+      <HomePage2 />
+      <HomePage3 />
+      <HomePage4 />
+      <HomePage5 background={true} />
+      <HomePage6 />
+      <HomePage7 />
+      <HomePage8 />
+      <HomePage9 />
+      <Footer />
     </div>
   );
 }

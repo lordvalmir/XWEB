@@ -7,7 +7,6 @@ import menu from "../../images/menu.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
-
 function Navbar2() {
   return (
     <div className="navbar2">
@@ -20,7 +19,7 @@ function Navbar2() {
         </div>
       </div>
       <div className="links">
-      <div className="dropdown2">
+        <div className="dropdown2">
           <a href="/">
             <div className="dropbtn">
               Home
@@ -62,9 +61,7 @@ function Navbar2() {
         </div>
         <div className="dropdown2">
           <a href="/Contact">
-            <div className="dropbtn">
-              Contact
-            </div>
+            <div className="dropbtn">Contact</div>
           </a>
         </div>
       </div>

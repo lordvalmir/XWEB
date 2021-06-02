@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 function UnderHeader() {
   const location = useLocation();
-  const subPage = location.pathname.split('/')
+  const subPage = location.pathname.split("/");
   const page = subPage[1].replace("-", " ");
 
   return (

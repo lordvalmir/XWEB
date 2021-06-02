@@ -3,9 +3,7 @@ import { useState } from "react";
 import book from "../../images/book.png";
 import youtube2 from "../../images/youtube2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPlus,
-} from "@fortawesome/free-solid-svg-icons";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 function HomePage5(props) {
   const [plus1, togglePlus1] = useState(false);
@@ -23,7 +21,7 @@ function HomePage5(props) {
             <div className="categorieIMGplaceholder"></div>
           </div>
           <div className="plusMenu" onClick={() => togglePlus1(!plus1)}>
-          <FontAwesomeIcon icon={faPlus} />
+            <FontAwesomeIcon icon={faPlus} />
             {plus1 ? (
               <div className="openPlusMenu">
                 <img src={youtube2} width="32px" height="32px" alt="img1"></img>
@@ -49,7 +47,7 @@ function HomePage5(props) {
             <div className="categorieIMGplaceholder"></div>
           </div>
           <div className="plusMenu" onClick={() => togglePlus2(!plus2)}>
-          <FontAwesomeIcon icon={faPlus} />
+            <FontAwesomeIcon icon={faPlus} />
             {plus2 ? (
               <div className="openPlusMenu">
                 <img src={youtube2} width="32px" height="32px" alt="img1"></img>
@@ -74,7 +72,7 @@ function HomePage5(props) {
             <div className="categorieIMGplaceholder"></div>
           </div>
           <div className="plusMenu" onClick={() => togglePlus3(!plus3)}>
-          <FontAwesomeIcon icon={faPlus} />
+            <FontAwesomeIcon icon={faPlus} />
             {plus3 ? (
               <div className="openPlusMenu">
                 <img src={youtube2} width="32px" height="32px" alt="img1"></img>
@@ -99,7 +97,7 @@ function HomePage5(props) {
             <div className="categorieIMGplaceholder"></div>
           </div>
           <div className="plusMenu" onClick={() => togglePlus4(!plus4)}>
-          <FontAwesomeIcon icon={faPlus} />
+            <FontAwesomeIcon icon={faPlus} />
             {plus4 ? (
               <div className="openPlusMenu">
                 <img src={youtube2} width="32px" height="32px" alt="img1"></img>

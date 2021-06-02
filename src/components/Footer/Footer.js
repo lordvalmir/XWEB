@@ -109,10 +109,10 @@ function Footer() {
               </div>
             </div>
             <div className="footersLinkBoxRight">
-            <a href="#top">
-              <div className="randomButton">
-                <FontAwesomeIcon icon={faArrowUp} />
-              </div>
+              <a href="#top">
+                <div className="randomButton">
+                  <FontAwesomeIcon icon={faArrowUp} />
+                </div>
               </a>
               <div className="footersLinkBoxRightTitle">Newsletters</div>
               <div className="footersLinkBoxRightText">
@@ -120,13 +120,23 @@ function Footer() {
                 accu santium doloremque laudantium totam rem aperiam
               </div>
               <div className="footersLinkBoxRightSearch">
-                <input className="footersLinkBoxRightSearchBox" placeholder='Enter Your Email'></input>
-                <div className="footersLinkBoxRightSearchButton"> <FontAwesomeIcon icon={faArrowRight} /></div>
+                <input
+                  className="footersLinkBoxRightSearchBox"
+                  placeholder="Enter Your Email"
+                ></input>
+                <div className="footersLinkBoxRightSearchButton">
+                  {" "}
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="footerLowerSection2"><div className="footerLowerSection2Text">Copyright © 2020 <b>Edu</b>Plus  All Rights Reserved.</div></div>
+        <div className="footerLowerSection2">
+          <div className="footerLowerSection2Text">
+            Copyright © 2020 <b>Edu</b>Plus All Rights Reserved.
+          </div>
+        </div>
       </div>
     </div>
   );

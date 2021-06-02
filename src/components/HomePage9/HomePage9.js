@@ -1,7 +1,11 @@
 import "./HomePage9.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarAlt, faComment, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCalendarAlt,
+  faComment,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 function HomePage9() {
   return (
@@ -12,7 +16,9 @@ function HomePage9() {
         <div className="new">
           <div className="newIMG"></div>
           <div className="newMain">
-            <div className="newButton"><FontAwesomeIcon icon={faArrowRight} /></div>
+            <div className="newButton">
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
             <div className="newBlock">
               <div className="newINFO">
                 <div className="newINFOText">
@@ -55,7 +61,9 @@ function HomePage9() {
         <div className="new">
           <div className="newIMG"></div>
           <div className="newMain">
-            <div className="newButton2"><FontAwesomeIcon icon={faArrowRight} /></div>
+            <div className="newButton2">
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
             <div className="newBlock">
               <div className="newINFO">
                 <div className="newINFOText">
@@ -98,7 +106,9 @@ function HomePage9() {
         <div className="new">
           <div className="newIMG"></div>
           <div className="newMain">
-            <div className="newButton"><FontAwesomeIcon icon={faArrowRight} /></div>
+            <div className="newButton">
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
             <div className="newBlock">
               <div className="newINFO">
                 <div className="newINFOText">

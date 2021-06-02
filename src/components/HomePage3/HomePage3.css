@@ -39,7 +39,7 @@
   color: #ea5822;
 }
 .cardLanguage {
-  background-color: #4582FF;
+  background-color: #4582ff;
   border-radius: 20px;
   padding: 0.5rem 1rem;
   color: white;
@@ -140,7 +140,7 @@
   margin-left: 1rem;
 }
 .rating path {
-  fill: #ea5822
+  fill: #ea5822;
 }
 .rating2 {
   margin: auto;
@@ -177,11 +177,11 @@
   width: 30%;
 }
 
-.courseIcons path{
+.courseIcons path {
   fill: #ea5822;
 }
 
-.courseIcons2 path{
+.courseIcons2 path {
   fill: white;
 }
 
@@ -272,16 +272,16 @@
   align-items: center;
   justify-content: center;
 }
-.getEnrolledData svg{
+.getEnrolledData svg {
   margin-left: 1rem;
 }
 
-.getEnrolledData path{
+.getEnrolledData path {
   fill: #ea5822;
 }
 
 .getEnrolledText {
-  color:#ea5822;
+  color: #ea5822;
   font-weight: bold;
 }
 .getEnrolled img {
@@ -313,7 +313,7 @@
   border: none;
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
 .allCoursesButtonText {
@@ -326,7 +326,6 @@
   margin-left: 1rem;
 }
 
-
 .allCoursesButtonData path {
-  fill: #417B8D;
+  fill: #417b8d;
 }

@@ -6,13 +6,13 @@
   font-weight: 600;
 }
 .welcomeSection2 {
-    width: 100vw;
-    height: 1050px;
-    max-width: 1920px;
-    max-height: 1050px;
-    padding-top: 5%;
-    background-color: #ffffff;
-    padding-bottom: 10rem;
+  width: 100vw;
+  height: 1050px;
+  max-width: 1920px;
+  max-height: 1050px;
+  padding-top: 5%;
+  background-color: #ffffff;
+  padding-bottom: 10rem;
 }
 .aboutNavbarItem {
   padding: 0.5rem;

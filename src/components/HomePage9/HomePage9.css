@@ -22,11 +22,11 @@
 }
 .newIMG {
   height: 55%;
-  background-color: #B7B7B7;
+  background-color: #b7b7b7;
 }
 .newMain {
   height: 50%;
-  border: #E6E6E6 solid 2px;
+  border: #e6e6e6 solid 2px;
   border-top: none;
   position: relative;
 }
@@ -42,13 +42,12 @@
   font-size: 14px;
 }
 .newINFOText {
-
 }
-.newINFO svg{
+.newINFO svg {
   margin-right: 0.5rem;
 }
-.newINFO path{
-    fill: #ea5822;
+.newINFO path {
+  fill: #ea5822;
 }
 .newTitle {
   font-weight: 800;
@@ -73,14 +72,14 @@
   position: absolute;
   bottom: -2px;
   right: -2px;
-  background-color: #062A35;
+  background-color: #062a35;
   text-align: center;
 }
-.newButton svg{
+.newButton svg {
   fill: white;
   margin-top: 35%;
 }
-.newButton path{
+.newButton path {
   fill: white;
 }
 .newButton2 {
@@ -92,10 +91,10 @@
   background-color: #ea5822;
   text-align: center;
 }
-.newButton2 svg{
+.newButton2 svg {
   fill: white;
   margin-top: 35%;
 }
-.newButton2 path{
+.newButton2 path {
   fill: white;
 }

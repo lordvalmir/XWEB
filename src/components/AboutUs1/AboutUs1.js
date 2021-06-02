@@ -10,7 +10,8 @@ import InfoBoxes from "../InfoBoxes/InfoBoxes";
 import HomePage5 from "../HomePage5/HomePage5";
 import HomePage7 from "../HomePage7/HomePage7";
 import HomePage9 from "../HomePage9/HomePage9";
-function AboutUs1() {
+
+const AboutUs1 = () => {
   return (
     <div className="aboutSection">
       <div className="welcomeSection">
@@ -101,15 +102,17 @@ function AboutUs1() {
             </div>
           </div>
           <div className="instituteSectionRight">
-            <div className="instituteSectionRightPlay"><FontAwesomeIcon icon={faPlay} /></div>
+            <div className="instituteSectionRightPlay">
+              <FontAwesomeIcon icon={faPlay} />
+            </div>
           </div>
         </div>
       </div>
-        <HomePage5 background={false}/>
-        <HomePage7/>
-        <HomePage9/>
+      <HomePage5 background={false} />
+      <HomePage7 />
+      <HomePage9 />
     </div>
   );
-}
+};
 
 export default AboutUs1;

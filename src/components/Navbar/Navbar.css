@@ -59,13 +59,12 @@
   color: #062a35;
   font-weight: 500;
   font-family: "Roboto";
-  font-size:24px;
+  font-size: 24px;
 }
 
-.dropbtn svg{
+.dropbtn svg {
   margin-left: 0.5rem;
 }
-
 
 .dropdown-content {
   display: none;
@@ -85,11 +84,11 @@
   text-align: left;
 }
 
-.nawRightSite a{
+.nawRightSite a {
   padding: 0;
   margin-left: 1rem;
 }
-.nawRightSite a:last-of-type{
+.nawRightSite a:last-of-type {
   margin-left: 3rem;
 }
 .dropdown-content a:hover {

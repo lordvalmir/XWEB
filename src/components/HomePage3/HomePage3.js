@@ -73,13 +73,13 @@ const Card = ({ toggleCard, card }) => {
             Best Courses For Learning English Courses
           </div>
           <div className="priceBox2">
-          <div className="cardImgName">
-            <div className="cardImgcircle2"></div>
-            <div className="cardImgname">Warner</div>
-          </div>
-          <div className="price2">
-            <div className="cardImgPrice2">$59.95</div>
-          </div>
+            <div className="cardImgName">
+              <div className="cardImgcircle2"></div>
+              <div className="cardImgname">Warner</div>
+            </div>
+            <div className="price2">
+              <div className="cardImgPrice2">$59.95</div>
+            </div>
           </div>
           <div className="curseText">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem

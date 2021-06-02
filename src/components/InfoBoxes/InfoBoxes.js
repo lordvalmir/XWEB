@@ -39,7 +39,7 @@ function InfoBoxes() {
       </div>
       <div className="infobox">
         <div className="boxcom">
-          <FontAwesomeIcon icon={faLaptop} size="3x"/>
+          <FontAwesomeIcon icon={faLaptop} size="3x" />
           <div className="boxcomText">
             <div className="boxcomMain">8963+</div>
             <div className="boxcomSub">Active Courses</div>

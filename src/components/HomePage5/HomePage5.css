@@ -11,7 +11,7 @@
   height: auto;
   max-width: 1920px;
   max-height: 1200px;
-  background-color: #EAF4F7;
+  background-color: #eaf4f7;
   padding-top: 5%;
 }
 
@@ -90,7 +90,7 @@
   align-items: center;
 }
 
-.plusMenu path{
+.plusMenu path {
   fill: white;
 }
 
