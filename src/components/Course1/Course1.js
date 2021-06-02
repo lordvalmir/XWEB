@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./Course1.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,9 +12,15 @@ import {
   faCalendar,
   faStar,
   faPlayCircle,
+  faAngleRight,
+  faAngleDown,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Course1 = () => {
+  const [fag1, setFAG1] = useState(false);
+  const [fag2, setFAG2] = useState(false);
+  const [fag3, setFAG3] = useState(false);
+  const [fag4, setFAG4] = useState(false);
   return (
     <div className="CourseMain">
       <div className="CourseBoxes">
@@ -101,10 +108,145 @@ const Course1 = () => {
               adipisci velit, sed quia non numquam eius modi tempora incidunt ut
               labore et dolore magnam aliquam
             </div>
-            <div className="CourseFAQRow"></div>
-            <div className="CourseFAQRow"></div>
-            <div className="CourseFAQRow"></div>
-            <div className="CourseFAQRow"></div>
+            <div className="CourseFAQRow">
+              <div
+                className={fag1 ? "CourseFAQQuestion2" : "CourseFAQQuestion"}
+                onClick={() => setFAG1(!fag1)}
+              >
+                Best Online Course For Basic Web Design For Beginners
+                {fag1 ? (
+                  <FontAwesomeIcon icon={faAngleDown} />
+                ) : (
+                  <FontAwesomeIcon icon={faAngleRight} />
+                )}
+              </div>
+              {fag1 ? (
+                <div className="CourseFAQAnswer">
+                  <div className="CourseFAQAnswerBox">
+                    <div className="CourseFAQAnswerBoxLeft"></div>
+                    <div className="CourseFAQAnswerBoxRight">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusan mque laud totam rem aperiam, eaque ipsa
+                      quae ab illo inventore veritatis etq ectosd beatae vitae
+                      dicta sunt explicabo. Nemo enim ipsam voluptatem quiatas
+                      sit asperatur aut odit aut fugit sed quia consequuntur
+                      magni dolores
+                    </div>
+                  </div>
+                </div>
+              ) : null}
+            </div>
+            <div className="CourseFAQRow">
+              <div
+                className={fag2 ? "CourseFAQQuestion2" : "CourseFAQQuestion"}
+                onClick={() => setFAG2(!fag2)}
+              >
+                Best Online Course For Basic Web Design For Beginners
+                {fag2 ? (
+                  <FontAwesomeIcon icon={faAngleDown} />
+                ) : (
+                  <FontAwesomeIcon icon={faAngleRight} />
+                )}
+              </div>
+              {fag2 ? (
+                <div className="CourseFAQAnswer">
+                  <div className="CourseFAQAnswerBox">
+                    <div className="CourseFAQAnswerBoxLeft"></div>
+                    <div className="CourseFAQAnswerBoxRight">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusan mque laud totam rem aperiam, eaque ipsa
+                      quae ab illo inventore veritatis etq ectosd beatae vitae
+                      dicta sunt explicabo. Nemo enim ipsam voluptatem quiatas
+                      sit asperatur aut odit aut fugit sed quia consequuntur
+                      magni dolores
+                    </div>
+                  </div>
+                </div>
+              ) : null}
+            </div>
+            <div className="CourseFAQRow">
+              <div
+                className={fag3 ? "CourseFAQQuestion2" : "CourseFAQQuestion"}
+                onClick={() => setFAG3(!fag3)}
+              >
+                Best Online Course For Basic Web Design For Beginners
+                {fag3 ? (
+                  <FontAwesomeIcon icon={faAngleDown} />
+                ) : (
+                  <FontAwesomeIcon icon={faAngleRight} />
+                )}
+              </div>
+              {fag3 ? (
+                <div className="CourseFAQAnswer">
+                  <div className="CourseFAQAnswerBox">
+                    <div className="CourseFAQAnswerBoxLeft"></div>
+                    <div className="CourseFAQAnswerBoxRight">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusan mque laud totam rem aperiam, eaque ipsa
+                      quae ab illo inventore veritatis etq ectosd beatae vitae
+                      dicta sunt explicabo. Nemo enim ipsam voluptatem quiatas
+                      sit asperatur aut odit aut fugit sed quia consequuntur
+                      magni dolores
+                    </div>
+                  </div>
+                </div>
+              ) : null}
+            </div>
+            <div className="CourseFAQRow">
+              <div
+                className={fag4 ? "CourseFAQQuestion2" : "CourseFAQQuestion"}
+                onClick={() => setFAG4(!fag4)}
+              >
+                Best Online Course For Basic Web Design For Beginners
+                {fag4 ? (
+                  <FontAwesomeIcon icon={faAngleDown} />
+                ) : (
+                  <FontAwesomeIcon icon={faAngleRight} />
+                )}
+              </div>
+              {fag4 ? (
+                <div className="CourseFAQAnswer">
+                  <div className="CourseFAQAnswerBox">
+                    <div className="CourseFAQAnswerBoxLeft"></div>
+                    <div className="CourseFAQAnswerBoxRight">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusan mque laud totam rem aperiam, eaque ipsa
+                      quae ab illo inventore veritatis etq ectosd beatae vitae
+                      dicta sunt explicabo. Nemo enim ipsam voluptatem quiatas
+                      sit asperatur aut odit aut fugit sed quia consequuntur
+                      magni dolores
+                    </div>
+                  </div>
+                </div>
+              ) : null}
+            </div>
+          </div>
+          <div className="CourseInstructors">
+            <div className="CourseInstructorsTitle">Course Instructors</div>
+            <div className="CourseInstructorsRow">
+              <div className="CourseInstructor">
+                <div className="CourseInstructorIMG"></div>
+                <div className="CourseInstructorName">Somalia D Silva</div>
+                <div className="CourseInstructorSpecialization">Math Teacher</div>
+              </div>
+              <div className="CourseInstructor">
+                <div className="CourseInstructorIMG"></div>
+                <div className="CourseInstructorName">David Warner</div>
+                <div className="CourseInstructorSpecialization">Math Teacher</div>
+              </div>
+            </div>
+            <div className="CourseInstructorsRow">
+              <div className="CourseInstructor">
+                <div className="CourseInstructorIMG"></div>
+                <div className="CourseInstructorName">Zavib Makaullah</div>
+                <div className="CourseInstructorSpecialization">Math Teacher</div>
+              </div>
+              <div className="CourseInstructor">
+                <div className="CourseInstructorIMG"></div>
+                <div className="CourseInstructorName">Jhonson Maxwell</div>
+                <div className="CourseInstructorSpecialization">Math Teacher</div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="CourseBoxRight">

@@ -176,4 +176,84 @@
   font-size: 14px;
   color: #708389;
   line-height: 28px;
+  margin-bottom: 1rem;
+}
+.CourseFAQQuestion {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #ebebeb;
+}
+.CourseFAQQuestion path{
+fill: #ea5822;
+}
+.CourseFAQQuestion2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+.CourseFAQQuestion2 path{
+  fill: #ea5822;
+  }
+.CourseFAQAnswer {
+  border: 1px solid #ebebeb;
+}
+.CourseFAQAnswerBox {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.CourseFAQAnswerBoxLeft {
+  height: 102px;
+  width: 171px;
+  background-color: #b7b7b7;
+}
+.CourseFAQAnswerBoxRight {
+  width: 501px;
+  height: 102px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
+  display: flex;
+  align-items: center;
+}
+.CourseInstructorsTitle {
+  margin-top: 3rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+.CourseInstructorsRow {
+  display: flex;
+  justify-content: space-between;
+}
+.CourseInstructor {
+  margin-top: 1.5rem;
+  width: 371px;
+  height: 371px;
+  border: 1px solid #EBEBEB;
+}
+.CourseInstructorIMG {
+  height: 181px;
+  width: 181px;
+  border-radius: 50%;
+  background-color: #B7B7B7;
+  margin: auto;
+  margin-top: 4rem;
+}
+.CourseInstructorName {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+.CourseInstructorSpecialization {
+  text-align: center;
+  color: #708389;
+  font-size: 14px;
+  line-height: 28px;
 }
