@@ -28,7 +28,7 @@ function Navbar2() {
           </a>
         </div>
         <div className="dropdown2">
-          <a href="/Courses">
+          <a href="/Our-Courses">
             <div className="dropbtn">
               Courses
               <FontAwesomeIcon icon={faAngleDown} />
@@ -36,7 +36,7 @@ function Navbar2() {
           </a>
         </div>
         <div className="dropdown2">
-          <a href="/Events">
+          <a href="/Our-Events">
             <div className="dropbtn">
               Events
               <FontAwesomeIcon icon={faAngleDown} />

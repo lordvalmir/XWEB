@@ -1,0 +1,187 @@
+.EventMain {
+  width: 60%;
+  margin: auto;
+}
+
+.EventBoxes {
+  margin-top: 4rem;
+}
+.EventBoxTitle {
+  font-size: 30px;
+  font-weight: 600;
+}
+.EventBoxInfo {
+  color: #708389;
+  font-size: 14px;
+  line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.EventBoxInfo svg {
+  margin-right: 1rem;
+}
+.EventBoxInfo path {
+  fill: #ea5822;
+}
+.EventBoxInfoLeft {
+  display: flex;
+}
+.EventBoxInfoRight {
+  display: flex;
+}
+.EventBoxInfoLeftItem {
+  margin-right: 2rem;
+  align-self: flex-end;
+}
+.EventBoxInfoRightBox1 {
+  width: 81px;
+  height: 51px;
+  background-color: #3662ff;
+  color: white;
+  font-weight: 800;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.EventBoxInfoRightBox2 {
+  width: 210px;
+  height: 51px;
+  background-color: #ea5822;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.EventBoxInfoRightBox2 svg {
+  margin-left: 1rem;
+}
+.EventBoxInfoRightBox2 path {
+  fill: white;
+}
+.EventBoxText {
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
+  margin-bottom: 1.5rem;
+}
+.EventBoxIMG {
+  height: 672px;
+  background-color: #b7b7b7;
+  margin-bottom: 1.5rem;
+}
+.EventBoxMapSection {
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #E4E4E4;
+}
+.EventBoxMapSectionLeft {
+  width: 50%;
+  margin-right: 2rem;
+}
+.EventBoxMapSectionRight {
+  width: 50%;
+  height: 420px;
+  background-color: #b7b7b7;
+}
+.EventBoxMapSectionTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.EventBoxMapSectionText {
+  color: #708389;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 1rem;
+}
+.EventBoxMapSectionPointCircle {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.EventBoxMapSectionPointCircle path{
+    fill: #E0E0E0
+}
+.EventBoxMapSectionPoint {
+    display: flex;
+    align-items: center;
+    color: #062A35;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0.8rem;
+}
+.EventBoxMoreEvents {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.EventBoxMoreEvent {
+    width: 371px;
+    height: 318px;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 0%, rgba(97,97,97,1) 100%);
+    
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.EventBoxMoreEventPrice {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    height: 71px;
+    width: 71px;
+    background-color: #ea5822;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.EventBoxMoreEventInfoLine {
+    display: flex;
+    color: #BACBD8;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+.EventBoxMoreEventInfoLine svg{
+    fill: #ea5822;
+    margin-right: 0.5rem;
+}
+.EventBoxMoreEventInfoLine path{
+    fill: #ea5822;
+}
+.EventBoxMoreEventInfoLineItem {
+    margin-right: 1.5rem;
+}
+.EventBoxMoreEventInfoTitle {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+.EventBoxMoreEventInfoJoin {
+    margin-left: 1.5rem;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.EventBoxMoreEventInfoJoin svg{
+    margin-left: 1rem;
+}

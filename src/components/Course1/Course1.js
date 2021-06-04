@@ -37,7 +37,7 @@ const Course1 = () => {
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
           </div>
-          <div className="CourseTitle">How To Improve Wed Design Skills</div>
+          <div className="CourseTitle">How To Improve Web Design Skills</div>
           <div className="CourseText">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa

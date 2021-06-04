@@ -253,6 +253,7 @@
   width: 60%;
   height: 3rem;
   background-color: white;
+  cursor: pointer;
 }
 
 .getEnrolled a {
@@ -296,6 +297,7 @@
 
 .allCourses {
   padding-top: 5rem;
+  
 }
 
 .allCoursesButton {
@@ -314,6 +316,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .allCoursesButtonText {

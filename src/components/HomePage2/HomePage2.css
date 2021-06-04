@@ -89,3 +89,7 @@
 .categorieInfo div {
   margin-right: 0.5rem;
 }
+.categorie a{
+  text-decoration: none;
+  color: black;
+}

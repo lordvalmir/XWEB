@@ -91,6 +91,7 @@
   height: 3rem;
   background-color: white;
   border-radius: 25px;
+  cursor: pointer;
 }
 .getEnrolledButton2 .getEnrolledText {
   color: #3662ff;

@@ -86,7 +86,7 @@ const Card = ({ toggleCard, card }) => {
             accusantium dolorque laudantium totam rem aperiam
           </div>
           <div className="getEnrolled">
-            <a href="/course/English">
+            <a href="/Our-Courses/English">
               <button className="getEnrolledButton">
                 <div className="getEnrolledData">
                   <div className="getEnrolledText">GET ENROLLED</div>
@@ -131,7 +131,7 @@ const HomePage3 = () => {
       </div>
       <div className="allCourses">
         <div className="allCoursesButton">
-          <a href="/course">
+          <a href="/Our-Courses">
             <button className="allCoursesButtonData">
               <div className="allCoursesButtonText">view all courses</div>
               <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />

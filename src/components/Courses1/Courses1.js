@@ -12,7 +12,7 @@ import {
   faLongArrowAltRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Card = ({ toggleCard, card, tag, title }) => {
+const Card = ({ toggleCard, card, tag, title, link }) => {
   return (
     <div
       className={card ? "card2 is-flipped" : "card2"}
@@ -84,7 +84,7 @@ const Card = ({ toggleCard, card, tag, title }) => {
             accusane tium dolorque laudantium
           </div>
           <div className="getEnrolled">
-            <a href="/course/English">
+            <a href={link}>
               <button className="getEnrolledButton2">
                 <div className="getEnrolledData">
                   <div className="getEnrolledText">GET ENROLLED</div>
@@ -141,50 +141,58 @@ const Courses1 = () => {
           <Card
             toggleCard={() => toggleCard1(!card1)}
             card={card1}
-            tag={"english"}
+            tag={"English"}
             title={"Best Courses For Learning  English Courses"}
+            link={'/Our-Courses/English'}
           />
           <Card
             toggleCard={() => toggleCard2(!card2)}
             card={card2}
-            tag={"design"}
+            tag={"Design"}
             title={"Introduce About Graphics  Design For Beginners"}
+            link={'/Our-Courses/Design'}
           />
           <Card
             toggleCard={() => toggleCard3(!card3)}
             card={card3}
-            tag={"business"}
+            tag={"Business"}
             title={"How To Improve Business Studies For Beginners"}
+            link={'/Our-Courses/Business'}
           />
           <Card
             toggleCard={() => toggleCard4(!card4)}
             card={card4}
-            tag={"php"}
+            tag={"Php"}
             title={"Best Courses For Learning  English Courses"}
+            link={'/Our-Courses/Php'}
           />
           <Card
             toggleCard={() => toggleCard5(!card5)}
             card={card5}
-            tag={"marketing"}
+            tag={"Marketing"}
             title={"Best Courses For Learning  Marketing Courses"}
+            link={'/Our-Courses/Marketing'}
           />
           <Card
             toggleCard={() => toggleCard6(!card6)}
             card={card6}
-            tag={"films"}
+            tag={"Films"}
             title={"Introduce About Movie & Photography For Beginners"}
+            link={'/Our-Courses/Films'}
           />
           <Card
             toggleCard={() => toggleCard7(!card7)}
             card={card7}
-            tag={"medical"}
+            tag={"Medical"}
             title={"Best Courses For Learning  English Courses"}
+            link={'/Our-Courses/Medical'}
           />
           <Card
             toggleCard={() => toggleCard8(!card8)}
             card={card8}
-            tag={"apps UI"}
+            tag={"Apps UI"}
             title={"Learning How To Improve Mobile Ui Design"}
+            link={'/Our-Courses/Apps-UI'}
           />
         </div>
       </div>
