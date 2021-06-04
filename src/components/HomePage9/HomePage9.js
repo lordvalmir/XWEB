@@ -7,7 +7,7 @@ import {
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-function HomePage9() {
+const HomePage9 = () => {
   return (
     <div className="bg8">
       <div className="coursesTitle">... Artices & Tipes ...</div>

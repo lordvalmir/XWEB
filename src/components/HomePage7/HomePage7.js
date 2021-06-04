@@ -1,6 +1,7 @@
 import "./HomePage7.css";
 import sign from "../../images/sign.png";
-function HomePage7() {
+
+const HomePage7 = () => {
   return (
     <div className="bg6">
       <div className="studentTitle">... Students Feedback ...</div>

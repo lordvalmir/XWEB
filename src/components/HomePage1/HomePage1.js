@@ -2,7 +2,7 @@ import "./HomePage1.css";
 import img1 from "../../images/img1.png";
 import line from "../../images/line.png";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="homeBlock">
       <div className="orangeLink">... Welcome to EditPlus</div>
@@ -42,6 +42,6 @@ function Navbar() {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

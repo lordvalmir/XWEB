@@ -5,7 +5,7 @@ import youtube2 from "../../images/youtube2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
-function HomePage5(props) {
+const HomePage5 = (props) => {
   const [plus1, togglePlus1] = useState(false);
   const [plus2, togglePlus2] = useState(false);
   const [plus3, togglePlus3] = useState(false);

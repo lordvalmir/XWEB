@@ -7,7 +7,7 @@ import {
   faLaptop,
 } from "@fortawesome/free-solid-svg-icons";
 
-function InfoBoxes() {
+const InfoBoxes = () => {
   return (
     <div className="infoboxes">
       <div className="infobox">

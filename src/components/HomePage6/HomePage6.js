@@ -6,7 +6,8 @@ import {
   faClock,
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
-function HomePage6() {
+
+const HomePage6 = () => {
   return (
     <div className="bg5">
       <div className="coursesTitle">... Latest Events ...</div>

@@ -2,7 +2,7 @@ import "./HomePage8.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faLaptop } from "@fortawesome/free-solid-svg-icons";
 
-function HomePage8() {
+const HomePage8 = () => {
   return (
     <div className="bg7">
       <div className="becomeIns">

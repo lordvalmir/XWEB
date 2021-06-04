@@ -227,24 +227,32 @@ const Course1 = () => {
               <div className="CourseInstructor">
                 <div className="CourseInstructorIMG"></div>
                 <div className="CourseInstructorName">Somalia D Silva</div>
-                <div className="CourseInstructorSpecialization">Math Teacher</div>
+                <div className="CourseInstructorSpecialization">
+                  Math Teacher
+                </div>
               </div>
               <div className="CourseInstructor">
                 <div className="CourseInstructorIMG"></div>
                 <div className="CourseInstructorName">David Warner</div>
-                <div className="CourseInstructorSpecialization">Math Teacher</div>
+                <div className="CourseInstructorSpecialization">
+                  Math Teacher
+                </div>
               </div>
             </div>
             <div className="CourseInstructorsRow">
               <div className="CourseInstructor">
                 <div className="CourseInstructorIMG"></div>
                 <div className="CourseInstructorName">Zavib Makaullah</div>
-                <div className="CourseInstructorSpecialization">Math Teacher</div>
+                <div className="CourseInstructorSpecialization">
+                  Math Teacher
+                </div>
               </div>
               <div className="CourseInstructor">
                 <div className="CourseInstructorIMG"></div>
                 <div className="CourseInstructorName">Jhonson Maxwell</div>
-                <div className="CourseInstructorSpecialization">Math Teacher</div>
+                <div className="CourseInstructorSpecialization">
+                  Math Teacher
+                </div>
               </div>
             </div>
           </div>

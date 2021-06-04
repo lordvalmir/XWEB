@@ -1,7 +1,7 @@
 import "./HomePage4.css";
 import arrow3 from "../../images/arrow3.png";
 
-function HomePage4() {
+const HomePage4 = () => {
   return (
     <div className="bg3">
       <div className="coursesTitle">... Photo & Album ...</div>

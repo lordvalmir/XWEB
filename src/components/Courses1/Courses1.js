@@ -143,56 +143,56 @@ const Courses1 = () => {
             card={card1}
             tag={"English"}
             title={"Best Courses For Learning  English Courses"}
-            link={'/Our-Courses/English'}
+            link={"/Our-Courses/English"}
           />
           <Card
             toggleCard={() => toggleCard2(!card2)}
             card={card2}
             tag={"Design"}
             title={"Introduce About Graphics  Design For Beginners"}
-            link={'/Our-Courses/Design'}
+            link={"/Our-Courses/Design"}
           />
           <Card
             toggleCard={() => toggleCard3(!card3)}
             card={card3}
             tag={"Business"}
             title={"How To Improve Business Studies For Beginners"}
-            link={'/Our-Courses/Business'}
+            link={"/Our-Courses/Business"}
           />
           <Card
             toggleCard={() => toggleCard4(!card4)}
             card={card4}
             tag={"Php"}
             title={"Best Courses For Learning  English Courses"}
-            link={'/Our-Courses/Php'}
+            link={"/Our-Courses/Php"}
           />
           <Card
             toggleCard={() => toggleCard5(!card5)}
             card={card5}
             tag={"Marketing"}
             title={"Best Courses For Learning  Marketing Courses"}
-            link={'/Our-Courses/Marketing'}
+            link={"/Our-Courses/Marketing"}
           />
           <Card
             toggleCard={() => toggleCard6(!card6)}
             card={card6}
             tag={"Films"}
             title={"Introduce About Movie & Photography For Beginners"}
-            link={'/Our-Courses/Films'}
+            link={"/Our-Courses/Films"}
           />
           <Card
             toggleCard={() => toggleCard7(!card7)}
             card={card7}
             tag={"Medical"}
             title={"Best Courses For Learning  English Courses"}
-            link={'/Our-Courses/Medical'}
+            link={"/Our-Courses/Medical"}
           />
           <Card
             toggleCard={() => toggleCard8(!card8)}
             card={card8}
             tag={"Apps UI"}
             title={"Learning How To Improve Mobile Ui Design"}
-            link={'/Our-Courses/Apps-UI'}
+            link={"/Our-Courses/Apps-UI"}
           />
         </div>
       </div>

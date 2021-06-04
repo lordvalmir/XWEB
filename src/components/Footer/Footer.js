@@ -8,7 +8,7 @@ import log2 from "../../images/log2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
       <div className="footerUpper">
@@ -140,6 +140,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

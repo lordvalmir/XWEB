@@ -61,7 +61,7 @@ const data = [
   },
 ];
 
-function HomePage2() {
+const HomePage2 = () => {
   return (
     <div className="courseCategories">
       <div className="categoriesTitle">... Popular Categories ...</div>
