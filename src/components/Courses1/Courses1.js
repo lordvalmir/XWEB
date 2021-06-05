@@ -114,7 +114,7 @@ const Card = ({ toggleCard, card, tag, title, link }) => {
   );
 };
 
-const Courses1 = () => {
+const CoursesSection = () => {
   const [card1, toggleCard1] = useState(false);
   const [card2, toggleCard2] = useState(true);
   const [card3, toggleCard3] = useState(false);
@@ -124,78 +124,84 @@ const Courses1 = () => {
   const [card7, toggleCard7] = useState(false);
   const [card8, toggleCard8] = useState(false);
   return (
-    <div className="aboutSection">
-      <div className="welcomeSection2">
-        <div className="aboutNavbar">
-          <div className="aboutNavbarItem">Show all</div>
-          <div className="aboutNavbarItem">Design</div>
-          <div className="aboutNavbarItem">Computer</div>
-          <div className="aboutNavbarItem">Development</div>
-          <div className="aboutNavbarItem">Medical</div>
-          <div className="aboutNavbarItem">Photography</div>
-          <div className="aboutNavbarItem">Marketing</div>
-          <div className="aboutNavbarItem">Driving</div>
-          <div className="aboutNavbarItem">Business</div>
-        </div>
-        <div className="cards2">
-          <Card
-            toggleCard={() => toggleCard1(!card1)}
-            card={card1}
-            tag={"English"}
-            title={"Best Courses For Learning  English Courses"}
-            link={"/Our-Courses/English"}
-          />
-          <Card
-            toggleCard={() => toggleCard2(!card2)}
-            card={card2}
-            tag={"Design"}
-            title={"Introduce About Graphics  Design For Beginners"}
-            link={"/Our-Courses/Design"}
-          />
-          <Card
-            toggleCard={() => toggleCard3(!card3)}
-            card={card3}
-            tag={"Business"}
-            title={"How To Improve Business Studies For Beginners"}
-            link={"/Our-Courses/Business"}
-          />
-          <Card
-            toggleCard={() => toggleCard4(!card4)}
-            card={card4}
-            tag={"Php"}
-            title={"Best Courses For Learning  English Courses"}
-            link={"/Our-Courses/Php"}
-          />
-          <Card
-            toggleCard={() => toggleCard5(!card5)}
-            card={card5}
-            tag={"Marketing"}
-            title={"Best Courses For Learning  Marketing Courses"}
-            link={"/Our-Courses/Marketing"}
-          />
-          <Card
-            toggleCard={() => toggleCard6(!card6)}
-            card={card6}
-            tag={"Films"}
-            title={"Introduce About Movie & Photography For Beginners"}
-            link={"/Our-Courses/Films"}
-          />
-          <Card
-            toggleCard={() => toggleCard7(!card7)}
-            card={card7}
-            tag={"Medical"}
-            title={"Best Courses For Learning  English Courses"}
-            link={"/Our-Courses/Medical"}
-          />
-          <Card
-            toggleCard={() => toggleCard8(!card8)}
-            card={card8}
-            tag={"Apps UI"}
-            title={"Learning How To Improve Mobile Ui Design"}
-            link={"/Our-Courses/Apps-UI"}
-          />
-        </div>
+    <div className="welcomeSection2">
+      <div className="aboutNavbar">
+        <div className="aboutNavbarItem">Show all</div>
+        <div className="aboutNavbarItem">Design</div>
+        <div className="aboutNavbarItem">Computer</div>
+        <div className="aboutNavbarItem">Development</div>
+        <div className="aboutNavbarItem">Medical</div>
+        <div className="aboutNavbarItem">Photography</div>
+        <div className="aboutNavbarItem">Marketing</div>
+        <div className="aboutNavbarItem">Driving</div>
+        <div className="aboutNavbarItem">Business</div>
       </div>
+      <div className="cards2">
+        <Card
+          toggleCard={() => toggleCard1(!card1)}
+          card={card1}
+          tag={"English"}
+          title={"Best Courses For Learning  English Courses"}
+          link={"/Our-Courses/English"}
+        />
+        <Card
+          toggleCard={() => toggleCard2(!card2)}
+          card={card2}
+          tag={"Design"}
+          title={"Introduce About Graphics  Design For Beginners"}
+          link={"/Our-Courses/Design"}
+        />
+        <Card
+          toggleCard={() => toggleCard3(!card3)}
+          card={card3}
+          tag={"Business"}
+          title={"How To Improve Business Studies For Beginners"}
+          link={"/Our-Courses/Business"}
+        />
+        <Card
+          toggleCard={() => toggleCard4(!card4)}
+          card={card4}
+          tag={"Php"}
+          title={"Best Courses For Learning  English Courses"}
+          link={"/Our-Courses/Php"}
+        />
+        <Card
+          toggleCard={() => toggleCard5(!card5)}
+          card={card5}
+          tag={"Marketing"}
+          title={"Best Courses For Learning  Marketing Courses"}
+          link={"/Our-Courses/Marketing"}
+        />
+        <Card
+          toggleCard={() => toggleCard6(!card6)}
+          card={card6}
+          tag={"Films"}
+          title={"Introduce About Movie & Photography For Beginners"}
+          link={"/Our-Courses/Films"}
+        />
+        <Card
+          toggleCard={() => toggleCard7(!card7)}
+          card={card7}
+          tag={"Medical"}
+          title={"Best Courses For Learning  English Courses"}
+          link={"/Our-Courses/Medical"}
+        />
+        <Card
+          toggleCard={() => toggleCard8(!card8)}
+          card={card8}
+          tag={"Apps UI"}
+          title={"Learning How To Improve Mobile Ui Design"}
+          link={"/Our-Courses/Apps-UI"}
+        />
+      </div>
+    </div>
+  );
+};
+
+const Courses1 = () => {
+  return (
+    <div className="aboutSection">
+      <CoursesSection />
       <HomePage5 background={true} />
       <HomePage9 />
     </div>
@@ -203,3 +209,4 @@ const Courses1 = () => {
 };
 
 export default Courses1;
+export { Card };

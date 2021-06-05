@@ -1,8 +1,9 @@
-import Home from "./pages/Home";
 import About from "./pages/About";
 import Courses from "./pages/Courses";
 import Course from "./pages/Course";
 import Event from "./pages/Event";
+import Faq from "./pages/Faq"
+import Home from "./pages/Home";
 import Instructor from "./pages/Instructor";
 import { Route, Switch } from "react-router-dom";
 
@@ -12,6 +13,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home}></Route>
         <Route exact path="/About-Us" component={About}></Route>
+        <Route exact path="/Faq" component={Faq}></Route>
         <Route exact path="/Our-Courses" component={Courses}></Route>
         <Route exact path="/Our-Courses/:courseName" component={Course}></Route>
         <Route exact path="/Our-Events/:eventName" component={Event}></Route>

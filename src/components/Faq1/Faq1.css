@@ -1,0 +1,142 @@
+.FaqMain {
+  width: 100%;
+  background-color: #eaf4f7;
+}
+.FaqBoxes {
+  padding-top: 4rem;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6rem;
+}
+.FaqLeft {
+  width: 356px;
+}
+.FaqRight {
+  width: 756px;
+}
+.FaqLeftAutor {
+
+  height: 534px;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 2rem;
+}
+.FaqLeftAutorFace {
+  width: 216px;
+  height: 216px;
+  border-radius: 50%;
+  background-color: #af5e41;
+  margin: auto;
+  margin-top: 2rem;
+}
+.FaqLeftAutorName {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.FaqLeftAutorPosition {
+  color: #ea5822;
+  font-size: 14px;
+  text-align: center;
+}
+.FaqLeftAutorText {
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
+  text-align: center;
+}
+.FaqLeftTouch {
+  background-color: white;
+  padding: 30px;
+}
+.FaqLeftTouch path{
+    fill: #ea5822;
+  }
+.FaqRightTitle {
+  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.FaqRightItem {
+  height: 61px;
+  padding: 0 9%;
+  border: 1px solid #dedede;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #062A35;
+}
+.FaqRightMessage {
+  height: 121px;
+  padding: 9%;
+  border: 1px solid #dedede;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #062A35;
+}
+.FaqRightButton {
+  height: 61px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #ea5822;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.FaqRightButton svg {
+  margin-left: 1rem;
+}
+.FaqRight {
+    padding: 30px;
+    width: 591px;
+    background-color: white;
+}
+.FaqRightFaqTitle {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.FaqRightFaqItem {
+    width: 591px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 2rem;
+    
+}
+.FaqRightFaqItemOpen {
+    width: 591px;
+    display: flex;
+    color: #ea5822;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 2rem;
+}
+.FaqRightFaqItem path{
+    fill: #ea5822;
+}
+.FaqRightFaqItemOpen path{
+    fill: #ea5822;
+}
+.Faqtext {
+    margin-bottom: 2.5rem;
+}

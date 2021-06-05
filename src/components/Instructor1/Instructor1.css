@@ -1,0 +1,290 @@
+.InstructorMain {
+  width: 100%;
+  background-color: #eaf4f7;
+  padding-bottom: 6rem;
+}
+
+.InstructorTopBox {
+  width: 60%;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.InstructorBottomBox {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
+.InstructorTopUpper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.InstructorTopUpperLeft {
+  height: 601px;
+  width: 460px;
+  background-color: white;
+}
+.InstructorTopUpperRight {
+  height: 601px;
+  width: 660px;
+  background-color: white;
+}
+.InstructorTopUpperRightWrap {
+  padding: 9%;
+}
+.InstructorTopUpperLeftIMG {
+  background-color: #b7b7b7;
+  height: 411px;
+}
+.InstructorTopUpperLeftInfo {
+  padding: 9%;
+}
+.InstructorTopUpperLeftInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.InstructorTopUpperLeftInfoLeft {
+  width: 50%;
+}
+.InstructorTopUpperLeftName {
+  font-size: 24px;
+  font-weight: 700;
+}
+.InstructorTopUpperLeftPosition {
+  color: #708389;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.InstructorTopUpperLeftInfoLeft hr {
+  border-top: 0px solid #e2e2e2;
+}
+.InstructorTopUpperLeftCourses {
+  margin-top: 1.5rem;
+  color: #708389;
+  display: flex;
+  align-items: center;
+}
+.InstructorTopUpperLeftCourses svg {
+  margin-right: 0.5rem;
+}
+.InstructorTopUpperLeftCourses path {
+  fill: #ea5822;
+}
+.InstructorTopUpperLeftInfoRight {
+  width: 30%;
+}
+.InstructorTopUpperLeftInfoRight {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.InstructorTopUpperLeftInfoRight path {
+  fill: white;
+}
+.InstructorTopUpperFacebook {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #24a1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InstructorTopUpperTwitter {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #f7bb00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InstructorTopUpperYoutube {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InstructorTopUpperBehance {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #008bf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InstructorTopTitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.InstructorTopText {
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
+  margin-bottom: 1.5rem;
+}
+.InstructorTopBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.InstructorTopBottomHR {
+  width: 3px;
+  height: 100%;
+  background-color: #eaeaea;
+}
+.InstructorTopBottomLeft {
+  display: flex;
+  width: 50%;
+  border-right: 3px solid #eaeaea;
+}
+
+.InstructorTopBottomLeft svg {
+  margin-right: 1rem;
+}
+.InstructorTopBottomLeft path {
+  fill: #ea5822;
+}
+.InstructorTopBottomRight svg {
+  margin-right: 1rem;
+}
+.InstructorTopBottomRight path {
+  fill: #ea5822;
+}
+.InstructorTopBottomLeftInfoTitle {
+  color: #ea5822;
+  font-size: 35px;
+  font-weight: 700;
+}
+.InstructorTopBottomRight {
+  display: flex;
+}
+.InstructorTopBottomLeftInfoSubtitle {
+  font-size: 14px;
+  line-height: 28px;
+  color: #6e838a;
+}
+.InstructorTopLower {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.InstructorTopLowerLeft {
+  width: 556px;
+  height: 409px;
+  background-color: white;
+}
+.InstructorTopLowerRight {
+  width: 556px;
+  height: 409px;
+  background-color: white;
+}
+.InstructorTopLowerLeftWrap {
+  padding: 9%;
+}
+.InstructorTopLowerRightWrap {
+  padding: 9%;
+}
+.InstructorTopLowerLeftTitle {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.InstructorTopLowerLeftText {
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
+}
+.InstructorTopLowerLeftIMGs {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.InstructorTopLowerLeftIMG {
+  height: 101px;
+  width: 141px;
+  background-color: #b7b7b7;
+}
+.InstructorTopLowerRight path {
+  fill: #ea5822;
+}
+.InstructorTopLowerRightTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+.InstructorTopLowerRightInfo {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.InstructorTopLowerRightBox {
+  display: flex;
+}
+.InstructorTopLowerRightBox svg {
+  margin-right: 1rem;
+}
+.InstructorTopLowerRightInfoTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+.InstructorTopLowerRightInfoSubtitle {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #708389;
+}
+.InstructorBottomBox {
+  width: 70%;
+}
+.InstructorBottomBox .card2 {
+  width: 371px;
+}
+.InstructorBottomBox .courseTitle2a {
+  width: 70%;
+  padding: 0 2rem;
+}
+.InstructorBottomBox .courseIcons2a {
+  display: flex;
+  padding: 0rem 2rem;
+}
+.InstructorBottomBox .cardHeader2a {
+  display: flex;
+  padding: 2rem;
+  padding-bottom: 0;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.InstructorBottomBox .cardImgPrice2a {
+  background-color: #ea5822;
+  width: 68px;
+  height: 26px;
+  border-radius: 14px;
+  color: white;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.InstructorBottomBoxTitle {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.InstructorBottomBoxCardRow {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-around;
+}

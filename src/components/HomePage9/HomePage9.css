@@ -1,47 +1,44 @@
 .bg8 {
   width: 100vw;
-  height: 520px;
   max-width: 1920px;
-  max-height: 520px;
   padding-top: 5%;
-  padding-bottom: 5%;
+  margin-bottom: 5rem;
   color: black;
 }
-
 .news {
-  margin-top: 4%;
-  height: 80%;
+  padding-top: 4rem;
   width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
 .new {
-  width: 30%;
+  width: 372px;
+  height: 616px;
+  background-color: white;
 }
 .newIMG {
-  height: 55%;
-  background-color: #b7b7b7;
+  height: 351px;
+  background-color: #B7B7B7;
 }
 .newMain {
-  height: 50%;
+  height: 266px;
   border: #e6e6e6 solid 2px;
   border-top: none;
   position: relative;
 }
 .newBlock {
-  height: 50%;
-  margin: 10%;
-  padding-top: 10%;
-  margin-top: 0;
+  padding: 10%;
 }
 .newINFO {
   display: flex;
-  justify-content: space-between;
   font-size: 14px;
+  line-height: 28px;
+  color: #708389;
 }
 .newINFOText {
+  margin-right: 2rem;
+  text-transform: uppercase;
 }
 .newINFO svg {
   margin-right: 0.5rem;
@@ -51,20 +48,19 @@
 }
 .newTitle {
   font-weight: 800;
-  font-family: Roboto;
   font-size: 20px;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .newName {
   display: flex;
-}
-.newNameText {
   line-height: 36px;
-  margin-left: 0.5rem;
   color: #ea5822;
-  font-family: Roboto;
   font-weight: 600;
+  font-size: 18px;
+}
+.newName svg{
+  margin-right: 0.5rem;
 }
 .newButton {
   width: 61px;
@@ -75,26 +71,13 @@
   background-color: #062a35;
   text-align: center;
 }
+.newButton:hover {
+  background-color: #EA5822;
+}
 .newButton svg {
   fill: white;
   margin-top: 35%;
 }
 .newButton path {
-  fill: white;
-}
-.newButton2 {
-  width: 61px;
-  height: 61px;
-  position: absolute;
-  bottom: -2px;
-  right: -2px;
-  background-color: #ea5822;
-  text-align: center;
-}
-.newButton2 svg {
-  fill: white;
-  margin-top: 35%;
-}
-.newButton2 path {
   fill: white;
 }

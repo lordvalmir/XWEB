@@ -311,6 +311,10 @@
   font-weight: 600;
 }
 
+.aboutSection {
+  margin-bottom: 5rem;
+}
+
 .aboutSection .bg4 {
   background-color: white;
 }
