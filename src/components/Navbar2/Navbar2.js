@@ -11,7 +11,7 @@ function Navbar2() {
   return (
     <div className="navbar2">
       <div className="nawLeftSite2">
-        <div className="logo">
+        <div className="logo2">
           <img src={logo} height="61px" width="61px" alt="logo" />
           <div className="logoText">
             <b>Edu</b>plus
@@ -52,7 +52,7 @@ function Navbar2() {
           </a>
         </div>
         <div className="dropdown2">
-          <a href="/Blog">
+          <a href="/Blog-Grid">
             <div className="dropbtn">
               Blog
               <FontAwesomeIcon icon={faAngleDown} />
@@ -60,7 +60,7 @@ function Navbar2() {
           </a>
         </div>
         <div className="dropdown2">
-          <a href="/Contact">
+          <a href="/Contact-Us">
             <div className="dropbtn">Contact</div>
           </a>
         </div>

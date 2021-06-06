@@ -1,0 +1,305 @@
+.BlogMain {
+  width: 100%;
+  background-color: #eaf4f7;
+  padding-bottom: 6rem;
+}
+.BlogBoxes {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.BlogBoxLeft {
+  margin-top: 6rem;
+  width: 756px;
+  margin-right: 1.5rem;
+}
+.BlogPlayButton {
+  background-color: #fd1818;
+  width: 81px;
+  height: 56px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BlogPlayButton path {
+  fill: white;
+}
+.BlogVideo {
+  width: 756px;
+  height: 436px;
+  background-color: #b7b7b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BlogVideo:hover {
+  background-color: #4f646b;
+  cursor: pointer;
+}
+.BlogVideoMain {
+  margin-bottom: 2rem;
+}
+.BlogVideoDetail {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 40px;
+}
+.BlogVideoDetailInfo {
+  display: flex;
+  color: #708389;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailInfo svg {
+  margin-right: 0.5rem;
+}
+.BlogVideoDetailInfo path {
+  fill: #ea5822;
+}
+.BlogVideoDetailItem {
+  margin-right: 2rem;
+}
+.BlogVideoDetailTitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailTag {
+  width: 79px;
+  background-color: #ea5822;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.BlogVideoDetailText {
+  font-size: 15px;
+  line-height: 28px;
+  color: #708389;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailButton {
+  background-color: #ea5822;
+  width: 218px;
+  height: 63px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.BlogVideoDetailButton svg {
+  margin-left: 1rem;
+}
+.BlogBoxAddver {
+  background-color: #3662ff;
+  box-sizing: border-box;
+  padding: 40px;
+  margin-bottom: 1.5rem;
+}
+.BlogBoxAddverLower {
+  display: flex;
+  align-items: center;
+}
+.BlogBoxAddverLine {
+  width: 51px;
+  height: 4px;
+  background-color: white;
+  margin-right: 2rem;
+}
+.BlogBoxAddverLineText {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.BlogBoxAddverTitle {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 45px;
+  width: 85%;
+  margin-bottom: 1rem;
+}
+.BlogBoxRight {
+  margin-top: 6rem;
+  width: 356px;
+}
+.BlogBoxRightSearch {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 35px;
+  margin-bottom: 1.5rem;
+}
+
+.BlogBoxRightSearchTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.BlogBoxRightSearchTitle {
+  border-radius: 20px;
+}
+.BlogBoxRightSearchInput {
+  background-color: #f5f6fa;
+  height: 66px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.BlogBoxRightSearchInput input {
+  border: none;
+  background-color: #f5f6fa;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.BlogBoxRightSearchInput path {
+  fill: #ea5822;
+}
+.BlogBoxRightLinks {
+  background-color: white;
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.BlogBoxRightLinks:hover {
+  background-color: #ea5822;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.BlogBoxRightLinks:hover path {
+  fill: white;
+}
+.BlogBoxRightNews {
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  padding: 35px;
+  background-color: white;
+}
+.BlogBoxRightNewsTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.BlogBoxRightOneNews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #dbdbdb;
+  margin-top: 1.5rem;
+}
+.BlogBoxRightOneNews2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.BlogBoxRightOneNewsIMG {
+  min-width: 86px;
+  height: 69px;
+  background-color: #cdcdcd;
+  margin-right: 1rem;
+}
+.BlogBoxRightOneNewsInfoTitle {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.BlogBoxRightOneNewsInfoSubtitle {
+  font-size: 14px;
+  color: #708389;
+  font-weight: 600;
+}
+.BlogBoxRightOneNewsInfoSubtitle svg {
+  margin-right: 1rem;
+}
+.BlogBoxRightOneNewsInfoSubtitle path {
+  fill: #ea5822;
+}
+.BlogBoxRightGallery {
+  background-color: white;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  padding: 35px;
+}
+.BlogBoxRightGalleryTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.BlogBoxRightGalleryPhotos {
+  display: flex;
+  flex-flow: wrap;
+}
+.BlogBoxRightGalleryPhoto {
+  height: 132px;
+  width: 132px;
+  margin: 5px;
+  background-color: #c1c1c1;
+}
+.BlogBoxRightGalleryPhoto svg {
+  display: none;
+}
+.BlogBoxRightGalleryPhoto:hover {
+  background-color: #ee591e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.BlogBoxRightGalleryPhoto:hover svg {
+  display: block;
+}
+.BlogBoxRightGalleryPhoto:hover path {
+  fill: white;
+}
+.BlogBoxRightTags {
+  background-color: white;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  padding: 35px;
+}
+.BlogBoxRightTagsTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.BlogBoxRightTagColection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.BlogBoxRightTag {
+  padding: 12px;
+  color: #6a6a6a;
+  box-shadow: 0px 0px 175px grey;
+  font-size: 14px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.BlogBoxRightTag:hover {
+  background-color: #ea5822;
+  color: white;
+  cursor: pointer;
+}
+.BlogBoxRightIMG {
+    margin-top: 1.5rem;
+    height: 453px;
+    width: 100%;
+    background-color: #707070;
+}

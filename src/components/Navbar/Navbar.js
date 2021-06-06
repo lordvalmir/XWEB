@@ -51,7 +51,7 @@ function Navbar() {
             </a>
           </div>
           <div className="dropdown">
-            <a href="/">
+            <a href="/Blog-Grid">
               <div className="dropbtn">
                 Blog
                 <FontAwesomeIcon icon={faAngleDown} />
@@ -59,7 +59,7 @@ function Navbar() {
             </a>
           </div>
           <div className="dropdown">
-            <a href="/">
+            <a href="/Contact-Us">
               <div className="dropbtn">
                 Contact
                 <FontAwesomeIcon icon={faAngleDown} />

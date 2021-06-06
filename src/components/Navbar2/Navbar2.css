@@ -8,14 +8,17 @@
 .nawLeftSite2 {
   display: flex;
 }
-.logo {
-  height: 100px;
-  margin: 0;
-  align-items: center;
-  margin-left: 5%;
+.logo2 {
+  margin: auto;
+  margin-left: 3rem;
+  font-size: 45px;
+  display: flex;
+  letter-spacing: -1px;
+  line-height: 61px;
+  color: #062a35;
+  font-family: "Roboto";
 }
 .links {
-  height: 100px;
   margin: 0;
   align-items: center;
   display: flex;
@@ -29,7 +32,6 @@
   line-height: 1rem;
 }
 .nawRightSite {
-  height: 100px;
   margin: 0;
   align-items: center;
   margin-right: 5%;

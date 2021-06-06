@@ -5,3 +5,6 @@ export { Event } from "./";
 export { Faq } from "./";
 export { Home } from "./";
 export { Instructor } from "./";
+export { Blog } from "./";
+export { BlogDetail1 } from "./";
+export { Contact } from "./";

@@ -1,0 +1,307 @@
+.BlogDetailIMG {
+  height: 436px;
+  background-color: #b7b7b7;
+}
+.BlogDetailContent {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 40px;
+  
+}
+.BlogVideoDetailSubtitle {
+  margin-bottom: 1.5rem;
+  font-size: 22px;
+  font-weight: 700;
+}
+.BlogVideoDetailInterIMG {
+  width: 100%;
+  height: 361px;
+  background-color: #af5e41;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailInterPoints {
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailInterPoint {
+  display: flex;
+  align-items: center;
+  color: #708389;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.BlogVideoDetailInterPointCircle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.BlogVideoDetailInterPointCircle path {
+  fill: #ea5822;
+}
+.BlogVideoDetailAdvert {
+  background-color: #3662ff;
+  box-sizing: border-box;
+  padding: 40px;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailAdvertTitle {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  width: 95%;
+  margin-bottom: 1rem;
+}
+.BlogVideoDetailAdvertSubtitle {
+  display: flex;
+  color: white;
+  align-items: center;
+  font-weight: 600;
+}
+.BlogVideoDetailAdvertSubtitle svg {
+  margin-right: 1rem;
+}
+.BlogVideoDetailAdvertSubtitle path {
+  fill: white;
+}
+.BlogVideoDetailTags {
+  border-bottom: 2px solid #ededef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailTags b {
+  font-weight: 700;
+}
+.BlogVideoDetailTags svg {
+  margin-left: 1rem;
+}
+.BlogVideoDetailTags svg:hover path {
+  fill: #ea5822;
+}
+.BlogVideoDetailTags path {
+  fill: #757575;
+}
+.BlogVideoDetailTagsText {
+  color: #222222;
+}
+.BlogVideoDetailTagsAux {
+  display: flex;
+}
+.BlogVideoDetailInstructor {
+  display: flex;
+  background-color: #eaf4f7;
+  box-sizing: border-box;
+  padding: 40px;
+  margin-bottom: 2.5rem;
+}
+.BlogVideoDetailInstructorPhoto {
+  height: 161px;
+  min-width: 161px;
+  background-color: #b7b7b7;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.BlogVideoDetailInstructorTitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.BlogVideoDetailInstructorText {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #708389;
+  margin-bottom: 1rem;
+}
+.BlogVideoDetailInstructorMedia path {
+  display: flex;
+  fill: #757575;
+}
+.BlogVideoDetailInstructorMedia svg {
+  margin-right: 1rem;
+}
+.BlogVideoDetailInstructorMedia svg:hover path {
+  fill: #ea5822;
+}
+.BlogVideoDetailCurses {
+  border-top: 3px solid #ededef;
+  border-bottom: 3px solid #ededef;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.BlogVideoDetailCurseImg {
+  min-width: 81px;
+  height: 81px;
+  margin-right: 1rem;
+  background-color: #9b9b9b;
+}
+.BlogVideoDetailCurse {
+  display: flex;
+  justify-content: space-between;
+}
+.BlogVideoDetailCurseSubInfo {
+  display: flex;
+  color: #708389;
+  font-weight: 600;
+  font-size: 14px;
+}
+.BlogVideoDetailCurseSubInfo svg {
+  margin-right: 0.5rem;
+}
+
+.BlogVideoDetailCurseSubInfo path {
+  fill: #ea5822;
+}
+.BlogVideoDetailCurseSubItem {
+  margin-right: 1rem;
+}
+.BlogVideoDetailCurseTitle {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.BlogVideoDetailComment1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailComment2 {
+  margin-left: 15%;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailCommentIMG {
+  min-width: 81px;
+  height: 81px;
+  background-color: #6a6a6a;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.BlogVideoDetailCommentIInfo {
+  width: 100%;
+}
+.BlogVideoDetailCommentITop {
+  display: flex;
+  justify-content: space-between;
+}
+.BlogVideoDetailCommentITitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+.BlogVideoDetailCommentReply {
+  font-size: 14px;
+  font-weight: 600;
+  color: #708389;
+}
+.BlogVideoDetailCommentReply svg {
+  margin-left: 0.5rem;
+}
+.BlogVideoDetailCommentReply:hover {
+  font-size: 14px;
+  color: #ea5822;
+}
+.BlogVideoDetailCommentReply:hover path {
+  fill: #ea5822;
+}
+.BlogVideoDetailCommentISubtitle {
+  color: #ea5822;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.BlogVideoDetailCommentIText {
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
+}
+.BlogVideoDetailReply {
+  border-top: 2px solid #ededef;
+  padding-top: 3rem;
+  margin-top: 3rem;
+}
+.BlogVideoDetailForm {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailForm path {
+  fill: #ea5822;
+}
+.BlogVideoDetailName {
+  background-color: #f5f6fa;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  width: 321px;
+  justify-content: space-between;
+  align-items: center;
+}
+.BlogVideoDetailEmail {
+  background-color: #f5f6fa;
+  width: 321px;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  border: none;
+  background-color: #f5f6fa;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.BlogVideoDetailCommentary {
+  background-color: #f5f6fa;
+  width: 100%;
+  height: 121px;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.BlogVideoDetailCommentary path {
+  fill: #ea5822;
+}
+.BlogVideoDetailCommentary textarea {
+  border: none;
+  width: 100%;
+  background-color: #f5f6fa;
+  margin-right: 1rem;
+  resize: none;
+}
+.BlogVideoDetailButton {
+  background-color: #ea5822;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 258px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.BlogVideoDetailButton path {
+  fill: white;
+}

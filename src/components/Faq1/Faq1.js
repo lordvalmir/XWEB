@@ -165,8 +165,74 @@ const Faq1 = () => {
         </div>
       </div>
       <div className="FaqFooterMain">
-        <div className="FaqFooterBoxes">
-          <div></div>
+        <div className="FaqFooterLeft">
+          <div className="FaqFooterLeftBlock">
+            <div className="FaqFooterLeftBlockinto">... Build A Career</div>
+            <div className="FaqFooterLeftBlockTitle">Become an Instructor</div>
+            <div className="FaqFooterLeftBlockText">
+              Sed ut perspiciati unde omnis iste natus error sit voluptatem
+              accusanc tium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae abillo inventore veritatis et quasi architecto beatae vitae
+              dicta sun
+            </div>
+            <div className="FaqFooterLeftBlockButton">
+              apply now
+              <svg
+                width="46"
+                height="11"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0.389 46 10.222"
+                fill="#fff"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="46"
+                  height="11"
+                  viewBox="2 1.998 45 10"
+                >
+                  <path
+                    paint-order="stroke fill markers"
+                    fill-rule="evenodd"
+                    d="M2 6h35v2H2V6zm35-4.002l10 5-10 5v-10z"
+                  ></path>
+                </svg>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="FaqFooterRight">
+          <div className="FaqFooterRightBlock">
+            <div className="FaqFooterRightBlockinto">... Build A Career</div>
+            <div className="FaqFooterRightBlockTitle">Become a Partner</div>
+            <div className="FaqFooterRightBlockText">
+              Sed ut perspiciati unde omnis iste natus error sit voluptatem
+              doloremque laudantium totam rem aperiam eaque ipsa qabillo
+              inventore veritatis et quasi architecto beatae vitae
+            </div>
+            <div className="FaqFooterRightBlockButton">
+              contact us
+              <svg
+                width="46"
+                height="11"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0.389 46 10.222"
+                fill="#fff"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="46"
+                  height="11"
+                  viewBox="2 1.998 45 10"
+                >
+                  <path
+                    paint-order="stroke fill markers"
+                    fill-rule="evenodd"
+                    d="M2 6h35v2H2V6zm35-4.002l10 5-10 5v-10z"
+                  ></path>
+                </svg>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     </div>
