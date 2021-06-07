@@ -4,18 +4,17 @@ import sign from "../../images/sign.png";
 const HomePage7 = () => {
   return (
     <div className="bg6">
-      <div className="studentTitle">... Students Feedback ...</div>
-      <div className="studentSubtitle">What Our Students Say</div>
-      <div className="StudentsBlock">
-        <div className="StudentsBlockLeft">
-          <div className="paper">
-            <div className="bigPaper">
+      <div className="studentMain">
+        <div className="studentTitle">... Students Feedback ...</div>
+        <div className="studentSubtitle">What Our Students Say</div>
+        <div className="StudentsBlock">
+          <div className="StudentsBlockLeft">
+            <div className="paper">
               <div className="bigPaperMain">
                 <div className="bigPaperMainText">
                   Sed ut perspiciatis unde omnis natus error sit voluptatem
                   accusa ntium dolore mque lauda enim ad minima veniam quis
-                  nostrumexe rcitationem ullam corporise suscipit laboriosam
-                  nisi ut aliquid exea
+                  nostrumexe rcitationem ullam corporise
                 </div>
                 <div className="bigPaperMainSubText">
                   Rnimad minima veniam quis nostreercit ationem ullam corporis
@@ -89,28 +88,28 @@ const HomePage7 = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="StudentsBlockRight">
-          <div className="StudentsBlockRightFiles">
-            <div className="StudentsBlockRightFiles1">
-              <div className="smallPaper1"></div>
-              <div className="smallPaper2"></div>
-            </div>
-            <div className="StudentsBlockRightFiles2">
-              <div className="smallPaper"></div>
-              <div className="smallPaper"></div>
-              <div className="smallPaper"></div>
-            </div>
-            <div className="StudentsBlockRightFiles3">
-              <div className="smallPaper"></div>
-              <div className="smallPaper"></div>
-              <div className="smallPaper"></div>
+          <div className="StudentsBlockRight">
+            <div className="StudentsBlockRightFiles">
+              <div className="StudentsBlockRightFiles1">
+                <div className="smallPaper1"></div>
+                <div className="smallPaper2"></div>
+              </div>
+              <div className="StudentsBlockRightFiles2">
+                <div className="smallPaper"></div>
+                <div className="smallPaper"></div>
+                <div className="smallPaper"></div>
+              </div>
+              <div className="StudentsBlockRightFiles3">
+                <div className="smallPaper"></div>
+                <div className="smallPaper"></div>
+                <div className="smallPaper"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default HomePage7;

@@ -1,28 +1,23 @@
 .bg6 {
-  width: 100vw;
-  height: 760px;
-  max-width: 1920px;
-  max-height: 760px;
   background-color: #000c0f;
-  margin-top: 5%;
-  padding-top: 5%;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
-
+.studentMain {
+  width: 60%;
+  margin: auto;
+}
 .eventsBox {
-  margin-top: 3%;
-  margin-left: 15%;
-  margin-right: 15%;
-  height: 70%;
+  height: 60%;
   display: flex;
   min-height: 505px;
 }
 .studentTitle {
   color: white;
   font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
-  line-height: 12px;
+  line-height: 24px;
   font-size: 18px;
   text-align: center;
-  margin-top: 3rem;
 }
 
 .studentSubtitle {
@@ -31,19 +26,17 @@
   font-size: 48px;
   font-weight: bold;
   text-align: center;
-  margin-top: 1rem;
 }
 .paper {
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -10px -10px 0 0px #eee;
-  width: 430px;
-  height: 491px;
-  margin-left: 30%;
+  width: 460px;
+  height: 531px;
 }
 
 .StudentsBlock {
-  width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .StudentsBlockRight {
@@ -56,24 +49,25 @@
 }
 
 .bigPaperMain {
-  padding: 10%;
-  padding-top: 13%;
+  padding: 60px;
+  box-sizing: border-box;
 }
 
 .bigPaperMainText {
   color: #062a35;
   font-family: Hind-Medium, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
   margin-bottom: 1rem;
-  line-height: 25px;
 }
 .bigPaperMainSubText {
   color: #708389;
   font-family: IBMPlexSans, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 16px;
-  margin-bottom: 1rem;
+  font-size: 15px;
   line-height: 25px;
+  margin-bottom: 1rem;
+
 }
 
 .bigPaperMainProfile {

@@ -51,7 +51,7 @@ const Block = () => {
           explicabo. Nemo enim ipsam voluptatem quia voluptas quam nihil
           molestiae consequatur
         </div>
-        <div className="BlogVideoDetailButton">
+        <a href="/Blog-Grid/someNews"><div className="BlogVideoDetailButton">
           Read More
           <svg
             width="46"
@@ -73,7 +73,7 @@ const Block = () => {
               />
             </svg>
           </svg>
-        </div>
+        </div></a>
       </div>
     </div>
   );

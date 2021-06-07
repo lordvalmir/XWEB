@@ -1,9 +1,10 @@
 .bg2 {
-  width: 100vw;
-  height: 1036px;
-  max-width: 1920px;
-  max-height: 1036px;
   background-color: #062a35;
+  padding: 6rem 0;
+}
+.coursesMain {
+  width: 60%;
+  margin: auto;
 }
 .coursesTitle {
   text-align: center;
@@ -16,7 +17,6 @@
   font-family: Hind-SemiBold, AdobeInvisFont, MyriadPro-Regular;
   font-size: 15px;
   color: #ea5822;
-  padding-top: 8rem;
 }
 
 .coursesSubTitle {
@@ -55,8 +55,7 @@
 .cards {
   display: flex;
   margin: 3rem auto;
-  width: 60%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .card {
   width: 371px;
@@ -293,11 +292,11 @@
 .courseIcons2 {
   margin-top: 3rem;
   display: flex;
+  justify-content: center;
 }
 
 .allCourses {
-  padding-top: 5rem;
-  
+  padding-top: 3rem;
 }
 
 .allCoursesButton {

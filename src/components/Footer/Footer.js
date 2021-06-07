@@ -14,9 +14,9 @@ const Footer = () => {
       <div className="footerUpper">
         <div className="footerUpperBox">
           <img src={logo1} width="162px" height="90px" alt="img1"></img>
-          <img src={logo2} width="164px" height="93px" alt="img2"></img>
+          <img src={logo4} width="164px" height="93px" alt="img4"></img>
           <img src={logo3} width="104px" height="96px" alt="img3"></img>
-          <img src={logo4} width="193px" height="85px" alt="img4"></img>
+          <img src={logo2} width="193px" height="85px" alt="img2"></img>
           <img src={logo5} width="117px" height="95px" alt="img5"></img>
         </div>
       </div>

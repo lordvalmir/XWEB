@@ -4,7 +4,8 @@
   max-width: 1920px;
   max-height: 1200px;
   background-color: white;
-  padding-top: 5%;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .bg4b {
   width: 100vw;
@@ -12,40 +13,39 @@
   max-width: 1920px;
   max-height: 1200px;
   background-color: #eaf4f7;
-  padding-top: 5%;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
 }
 
 .instructors {
   width: 60%;
   margin: auto;
-  margin-top: 3%;
-  padding-bottom: 3%;
   display: flex;
-  height: 30rem;
+  justify-content: space-between;
+  margin-top: 3rem;
 }
 
 .instructor {
-  width: 22%;
-  height: 70%;
-  margin: auto;
-  background-color: white;
-}
-
-.instructorInfoBox {
+  width: 271px;
   position: relative;
-  margin: auto;
-  height: 40%;
-  margin-top: 5%;
-  bottom: 7%;
-  width: 80%;
+}
+.categorieIMG2 {
+  background-color: #b7b7b7;
+  height: 251px;
+}
+.instructorInfoBox {
+  height: 178px;
+  box-sizing: border-box;
+  padding: 35px;
+  background-color: white;
 }
 
 .instructorInfoBox hr {
   background: #e2e2e2;
   border: none;
-  height: 1%;
-  margin-top: 5%;
-  margin-bottom: 4%;
+  height: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .instructorIMG {
@@ -77,11 +77,11 @@
 }
 
 .plusMenu {
-  position: relative;
-  left: 70%;
-  bottom: 5%;
-  width: 2rem;
-  height: 2rem;
+  position: absolute;
+  width: 46px;
+  left: 190px;
+  top: 225px;
+  height: 46px;
   display: block;
   background-color: #ea5822;
   display: inline-block;
@@ -109,25 +109,64 @@
 .instructorTitle {
   font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .instructorSubtitle {
   font-family: Hind-Medium, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
 }
 
 .instructorInfo {
   display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 28px;
+  color: #708389;
 }
 
-.instructorInfo img {
+.instructorInfo svg {
   margin-right: 0.5rem;
+}
+.instructorInfo path {
+  fill: #ea5822;
 }
 
 .openPlusMenu {
-  box-shadow: 5px 5px 10px 1px rgb(0 0 0 / 10%);
+  padding: 6.5px;
   position: absolute;
   bottom: 100%;
   background-color: white;
+}
+.openPlusMenuYellow {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #f7bb00;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.openPlusMenuRed {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.openPlusMenuBlue {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #24a1ff;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

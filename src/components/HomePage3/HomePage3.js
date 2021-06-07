@@ -122,21 +122,23 @@ const HomePage3 = () => {
 
   return (
     <div className="bg2">
-      <div className="coursesTitle2">... Popular Courses ...</div>
-      <div className="coursesSubTitle">Available Courses</div>
-      <div className="cards">
-        <Card toggleCard={() => toggleCard1(!card1)} card={card1} />
-        <Card toggleCard={() => toggleCard2(!card2)} card={card2} />
-        <Card toggleCard={() => toggleCard3(!card3)} card={card3} />
-      </div>
-      <div className="allCourses">
-        <div className="allCoursesButton">
-          <a href="/Our-Courses">
-            <button className="allCoursesButtonData">
-              <div className="allCoursesButtonText">view all courses</div>
-              <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />
-            </button>
-          </a>
+      <div className="coursesMain">
+        <div className="coursesTitle2">... Popular Courses ...</div>
+        <div className="coursesSubTitle">Available Courses</div>
+        <div className="cards">
+          <Card toggleCard={() => toggleCard1(!card1)} card={card1} />
+          <Card toggleCard={() => toggleCard2(!card2)} card={card2} />
+          <Card toggleCard={() => toggleCard3(!card3)} card={card3} />
+        </div>
+        <div className="allCourses">
+          <div className="allCoursesButton">
+            <a href="/Our-Courses">
+              <button className="allCoursesButtonData">
+                <div className="allCoursesButtonText">view all courses</div>
+                <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

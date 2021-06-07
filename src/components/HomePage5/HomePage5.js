@@ -1,9 +1,45 @@
 import "./HomePage5.css";
 import { useState } from "react";
-import book from "../../images/book.png";
-import youtube2 from "../../images/youtube2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faPlus, faBook } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTwitter,
+  faFacebookF,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+
+const Instructor = ({ togglePlus, plus, name, subject, info }) => {
+  return (
+    <div className="instructor">
+      <div className="categorieIMG2"></div>
+      <div className="plusMenu" onClick={() => togglePlus(!plus)}>
+        <FontAwesomeIcon icon={faPlus} />
+        {plus ? (
+          <div className="openPlusMenu">
+            <div className="openPlusMenuYellow">
+              <FontAwesomeIcon icon={faTwitter} />
+            </div>
+            <div className="openPlusMenuRed">
+              <FontAwesomeIcon icon={faYoutube} />
+            </div>
+            <div className="openPlusMenuBlue">
+              <FontAwesomeIcon icon={faFacebookF} />
+            </div>
+          </div>
+        ) : null}
+      </div>
+      <div className="instructorInfoBox">
+        <div className="instructorTitle">{name}</div>
+        <div className="instructorSubtitle">{subject}</div>
+        <hr></hr>
+        <div className="instructorInfo">
+          <FontAwesomeIcon icon={faBook} />
+          {info}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const HomePage5 = (props) => {
   const [plus1, togglePlus1] = useState(false);
@@ -16,110 +52,37 @@ const HomePage5 = (props) => {
       <div className="coursesTitle">... Team Members ...</div>
       <div className="categoriesSubTitle">Expert Instructors</div>
       <div className="instructors">
-        <div className="instructor">
-          <div className="categorieIMG">
-            <div className="categorieIMGplaceholder"></div>
-          </div>
-          <div className="plusMenu" onClick={() => togglePlus1(!plus1)}>
-            <FontAwesomeIcon icon={faPlus} />
-            {plus1 ? (
-              <div className="openPlusMenu">
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-              </div>
-            ) : null}
-          </div>
-          <div className="instructorInfoBox">
-            <div className="instructorTitle">Somalia D Silva</div>
-            <div className="instructorSubtitle">Math Teacher</div>
-            <hr></hr>
-            <div className="instructorInfo">
-              <img src={book} width="20px" height="20px" alt="img1"></img>
-              <div>750+ Courses</div>
-            </div>
-          </div>
-        </div>
-        <div className="instructor">
-          <div className="categorieIMG">
-            {/* <div className="categorieIMGplaceholder"></div> */}
-            <div className="categorieIMGplaceholder"></div>
-          </div>
-          <div className="plusMenu" onClick={() => togglePlus2(!plus2)}>
-            <FontAwesomeIcon icon={faPlus} />
-            {plus2 ? (
-              <div className="openPlusMenu">
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-              </div>
-            ) : null}
-          </div>
-          <div className="instructorInfoBox">
-            <div className="instructorTitle">Somalia D Silva</div>
-            <div className="instructorSubtitle">Math Teacher</div>
-            <hr></hr>
-            <div className="instructorInfo">
-              <img src={book} width="20px" height="20px" alt="img1"></img>
-              <div>750+ Courses</div>
-            </div>
-          </div>
-        </div>
-        <div className="instructor">
-          <div className="categorieIMG">
-            <div className="categorieIMGplaceholder"></div>
-          </div>
-          <div className="plusMenu" onClick={() => togglePlus3(!plus3)}>
-            <FontAwesomeIcon icon={faPlus} />
-            {plus3 ? (
-              <div className="openPlusMenu">
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-              </div>
-            ) : null}
-          </div>
-          <div className="instructorInfoBox">
-            <div className="instructorTitle">Somalia D Silva</div>
-            <div className="instructorSubtitle">Math Teacher</div>
-            <hr></hr>
-            <div className="instructorInfo">
-              <img src={book} width="20px" height="20px" alt="img1"></img>
-              <div>750+ Courses</div>
-            </div>
-          </div>
-        </div>
-        <div className="instructor">
-          <div className="categorieIMG">
-            <div className="categorieIMGplaceholder"></div>
-          </div>
-          <div className="plusMenu" onClick={() => togglePlus4(!plus4)}>
-            <FontAwesomeIcon icon={faPlus} />
-            {plus4 ? (
-              <div className="openPlusMenu">
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-                <img src={youtube2} width="32px" height="32px" alt="img1"></img>
-              </div>
-            ) : null}
-          </div>
-          <div className="instructorInfoBox">
-            <div className="instructorTitle">Somalia D Silva</div>
-            <div className="instructorSubtitle">Math Teacher</div>
-            <hr></hr>
-            <div className="instructorInfo">
-              <img src={book} width="20px" height="20px" alt="img1"></img>
-              <div>750+ Courses</div>
-            </div>
-          </div>
-        </div>
+        <Instructor
+          togglePlus={() => togglePlus1(!plus1)}
+          plus={plus1}
+          name={"Somalia D Silva"}
+          subject={"Math Teacher"}
+          info={"750+ Courses"}
+        />
+        <Instructor
+          togglePlus={() => togglePlus2(!plus2)}
+          plus={plus2}
+          name={"David D Warner"}
+          subject={"English Teacher"}
+          info={"750+ Courses"}
+        />
+        <Instructor
+          togglePlus={() => togglePlus3(!plus3)}
+          plus={plus3}
+          name={"Xavi Toni Crusse"}
+          subject={"Computer Teacher"}
+          info={"632+ Courses"}
+        />
+        <Instructor
+          togglePlus={() => togglePlus4(!plus4)}
+          plus={plus4}
+          name={"Shaine Watson"}
+          subject={"Web Designer"}
+          info={"985+ Courses"}
+        />
       </div>
     </div>
   );
-}
+};
 
 export default HomePage5;

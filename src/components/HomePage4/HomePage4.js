@@ -1,5 +1,21 @@
 import "./HomePage4.css";
 import arrow3 from "../../images/arrow3.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+
+const GalleryCard = ({ title }) => {
+  return (
+    <div className="galeryCard">
+      <div className="galeryCardInside">
+        <div className="galeryCardTitle">{title}</div>
+        <div className="galeryCardSubtitle">University Campus</div>
+        <div className="galeryCardButton">
+          <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const HomePage4 = () => {
   return (
@@ -18,78 +34,16 @@ const HomePage4 = () => {
       <hr className="galeryDisplayBar"></hr>
       <div className="galeryCards">
         <div className="galeryCardRow">
-          <div className="galeryCard">
-            <div className="galeryCardInside">
-              <div className="galeryCardTitle">University</div>
-              <div className="galeryCardSubtitle">University Campus</div>
-              <div className="galeryCardButton">
-                <button>
-                  <img src={arrow3} width="22px" height="20" alt="arrow3"></img>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="galeryCard">
-            <div className="galeryCardInside">
-              <div className="galeryCardTitle">Group Study</div>
-              <div className="galeryCardSubtitle">University Campus</div>
-              <div className="galeryCardButton">
-                <button>
-                  <img src={arrow3} width="22px" height="20" alt="arrow3"></img>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="galeryCard">
-            <div className="galeryCardInside">
-              <div className="galeryCardTitle">Awards</div>
-              <div className="galeryCardSubtitle">University Campus</div>
-              <div className="galeryCardButton">
-                <button>
-                  <img src={arrow3} width="22px" height="20" alt="arrow3"></img>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="galeryCardRow">
-          <div className="galeryCard">
-            <div className="galeryCardInside">
-              <div className="galeryCardTitle">Students</div>
-              <div className="galeryCardSubtitle">University Campus</div>
-              <div className="galeryCardButton">
-                <button>
-                  <img src={arrow3} width="22px" height="20" alt="arrow3"></img>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="galeryCard">
-            <div className="galeryCardInside">
-              <div className="galeryCardTitle">Teachers</div>
-              <div className="galeryCardSubtitle">University Campus</div>
-              <div className="galeryCardButton">
-                <button>
-                  <img src={arrow3} width="22px" height="20" alt="arrow3"></img>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="galeryCard">
-            <div className="galeryCardInside">
-              <div className="galeryCardTitle">Campus</div>
-              <div className="galeryCardSubtitle">University Campus</div>
-              <div className="galeryCardButton">
-                <button>
-                  <img src={arrow3} width="22px" height="20" alt="arrow3"></img>
-                </button>
-              </div>
-            </div>
-          </div>
+          <GalleryCard title="University" />
+          <GalleryCard title="Group Study" />
+          <GalleryCard title="Awards" />
+          <GalleryCard title="Students" />
+          <GalleryCard title="Teachers" />
+          <GalleryCard title="Campus" />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default HomePage4;

@@ -21,7 +21,7 @@ const HomePage8 = () => {
           </div>
           <div className="becomeInsRightBoxs">
             <div className="becomeInsRightBoxRight">
-              <FontAwesomeIcon icon={faLaptop} />
+              <FontAwesomeIcon icon={faLaptop} size='3x'/>
               <div className="becomeInsRightBoxTitle">Digitalization</div>
               <div className="becomeInsRightBoxText">
                 Sed ut perspia unde omnis aste natus error sit volu
@@ -29,7 +29,7 @@ const HomePage8 = () => {
             </div>
             <div></div>
             <div className="becomeInsRightBox">
-              <FontAwesomeIcon icon={faBook} />
+              <FontAwesomeIcon icon={faBook} size='3x'/>
               <div className="becomeInsRightBoxTitle">Book Friendly</div>
               <div className="becomeInsRightBoxText">
                 Sed ut perspia unde omnis aste natus error sit volu
@@ -38,7 +38,6 @@ const HomePage8 = () => {
           </div>
           <div className="becomeInsRightButtons">
             <div className="becomeInsRightButtonJoin">
-              <div className="becomeInsButtonText">
                 join with us
                 <svg
                   width="46"
@@ -60,10 +59,9 @@ const HomePage8 = () => {
                     />
                   </svg>
                 </svg>
-              </div>
             </div>
             <div className="becomeInsRightButtonBecome">
-              <div className="becomeInsButtonText">Become a Partner</div>
+              Become a Partner
             </div>
           </div>
         </div>

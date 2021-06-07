@@ -86,8 +86,8 @@ const Card = ({ toggleCard, card, tag, title, link }) => {
           <div className="getEnrolled">
             <a href={link}>
               <button className="getEnrolledButton2">
-                <div className="getEnrolledData">
-                  <div className="getEnrolledText">GET ENROLLED</div>
+                <div className="getEnrolledData2">
+                  GET ENROLLED
                   <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />
                 </div>
               </button>
@@ -200,11 +200,11 @@ const CoursesSection = () => {
 
 const Courses1 = () => {
   return (
-    <div className="aboutSection">
+    <>
       <CoursesSection />
       <HomePage5 background={true} />
       <HomePage9 />
-    </div>
+    </>
   );
 };
 

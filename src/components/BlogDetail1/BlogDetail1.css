@@ -85,6 +85,7 @@
 }
 .BlogVideoDetailTags svg {
   margin-left: 1rem;
+  cursor: pointer;
 }
 .BlogVideoDetailTags svg:hover path {
   fill: #ea5822;
@@ -208,6 +209,7 @@
   font-size: 14px;
   font-weight: 600;
   color: #708389;
+  cursor: pointer;
 }
 .BlogVideoDetailCommentReply svg {
   margin-left: 0.5rem;
@@ -301,6 +303,7 @@ input:focus {
   color: white;
   font-size: 14px;
   font-weight: 600;
+  cursor: pointer;
 }
 .BlogVideoDetailButton path {
   fill: white;

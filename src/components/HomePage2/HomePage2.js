@@ -71,9 +71,7 @@ const HomePage2 = () => {
           return (
             <div className="categorie">
               <a href={catagorie.link}>
-                <div className="categorieIMG">
-                  <div className="categorieIMGplaceholder"></div>
-                </div>
+                <div className="categorieIMG"></div>
                 <div className="categorieInfoBox">
                   <div className="categorieTitle">{catagorie.title}</div>
                   <div className="categorieSubtitle">{catagorie.subTitle}</div>
