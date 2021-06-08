@@ -48,6 +48,7 @@
 .dropdown {
   float: left;
   overflow: hidden;
+  margin-right: 1rem;
 }
 
 .dropdown .dropbtn {
@@ -56,11 +57,14 @@
   background-color: inherit;
   font-size: 18px;
   line-height: 22px;
-  color: #062a35;
-  font-weight: 500;
+  color: balck;
+  font-weight: 600;
   font-family: "Roboto";
-  font-size: 24px;
 }
+.dropbtn:hover {
+  color: #EA5822;
+}
+
 
 .dropbtn svg {
   margin-left: 0.5rem;
@@ -70,9 +74,11 @@
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 160px;
+  min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-top: 2px solid #EA5822;
+  font-weight: 600;
 }
 
 .dropdown-content a {
@@ -92,7 +98,8 @@
   margin-left: 3rem;
 }
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #EA5822;
+  color: white;
 }
 
 .dropdown:hover .dropdown-content {

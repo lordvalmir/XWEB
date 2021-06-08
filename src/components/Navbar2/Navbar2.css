@@ -20,6 +20,7 @@
 }
 .links {
   margin: 0;
+  margin-left: 2rem;
   align-items: center;
   display: flex;
 }
@@ -35,4 +36,74 @@
   margin: 0;
   align-items: center;
   margin-right: 5%;
+}
+.nawRightSiteFB {
+  width: 51px;
+  height: 51px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nawRightSiteFB:hover {
+  background-color: #EA5822;
+  cursor: pointer;
+}
+.nawRightSiteFB path{
+  fill: #EA5822;
+}
+.nawRightSiteFB:hover path{
+  fill: white;
+}
+.nawRightSiteYOU {
+  width: 51px;
+  height: 51px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nawRightSiteYOU:hover {
+  background-color: #EA5822;
+  cursor: pointer;
+}
+.nawRightSiteYOU path{
+  fill: #EA5822;
+}
+.nawRightSiteYOU:hover path{
+  fill: white;
+}
+.nawRightSiteSIGN {
+  width: 121px;
+  height: 51px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.nawRightSiteSIGN:hover {
+  background-color: #EA5822;
+  cursor: pointer;
+  color: white;
+}
+.nawRightSiteSIGN svg{
+  margin-right: 0.5rem;
+}
+.nawRightSiteSIGN path{
+  fill: #EA5822;
+}
+.nawRightSiteSIGN:hover path{
+  fill: white;
+}
+.nawRightSiteMenu {
+  background-color: transparent;
+  cursor: pointer;
+}
+.nawRightSiteMenu svg{
+  margin-left: 2rem;
+}
+.nawRightSiteMenu path{
+  fill: #EA5822;
 }

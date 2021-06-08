@@ -1,11 +1,8 @@
 import "./Navbar.css";
 import logo from "../../images/logo.png";
-import fb from "../../images/fb.png";
-import youtube from "../../images/youtube.png";
-import login from "../../images/login.png";
-import menu from "../../images/menu.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faUser, faTh} from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   return (
@@ -17,70 +14,82 @@ function Navbar() {
             <b>Edu</b>plus
           </div>
         </div>
-        <div className="dropdowns">
-          <div className="dropdown">
-            <a href="/">
-              <div className="dropbtn">
-                Home
-                <FontAwesomeIcon icon={faAngleDown} />
-              </div>
-            </a>
+        <div className="links">
+          <div class="dropdown">
+            <button class="dropbtn">
+              Home
+              <FontAwesomeIcon icon={faAngleDown} />
+            </button>
+            <div class="dropdown-content">
+              <a href="/">Home</a>
+            </div>
           </div>
-          <div className="dropdown">
-            <a href="/Our-Courses">
-              <div className="dropbtn">
-                Courses
-                <FontAwesomeIcon icon={faAngleDown} />
-              </div>
-            </a>
+          <div class="dropdown">
+            <button class="dropbtn">
+            Courses
+              <FontAwesomeIcon icon={faAngleDown} />
+            </button>
+            <div class="dropdown-content">
+              <a href="/Our-Courses">Course</a>
+              <a href="/Our-Courses">Course List</a>
+              <a href="/Our-Courses/Cooking">Course Detail</a>
+            </div>
           </div>
-          <div className="dropdown">
-            <a href="/Our-Events">
-              <div className="dropbtn">
-                Events
-                <FontAwesomeIcon icon={faAngleDown} />
-              </div>
-            </a>
+          <div class="dropdown">
+            <button class="dropbtn">
+            Events
+              <FontAwesomeIcon icon={faAngleDown} />
+            </button>
+            <div class="dropdown-content">
+              <a href="/Our-Events/Event">Events Detail</a>
+            </div>
           </div>
-          <div className="dropdown">
-            <a href="/">
-              <div className="dropbtn">
-                Pages
-                <FontAwesomeIcon icon={faAngleDown} />
-              </div>
-            </a>
+          <div class="dropdown">
+            <button class="dropbtn">
+            Pages
+              <FontAwesomeIcon icon={faAngleDown} />
+            </button>
+            <div class="dropdown-content">
+              <a href="/Faq">FAQ</a>
+              <a href="/Instructor-Details/Tomas">Instructors</a>
+              <a href="/About-Us">About us</a>
+            </div>
           </div>
-          <div className="dropdown">
-            <a href="/Blog-Grid">
-              <div className="dropbtn">
-                Blog
-                <FontAwesomeIcon icon={faAngleDown} />
-              </div>
-            </a>
+          <div class="dropdown">
+            <button class="dropbtn">
+            Blog
+              <FontAwesomeIcon icon={faAngleDown} />
+            </button>
+            <div class="dropdown-content">
+              <a href="/Blog-Grid">Blog</a>
+              <a href="/Blog-Grid/News">Blog Detail</a>
+            </div>
           </div>
-          <div className="dropdown">
-            <a href="/Contact-Us">
-              <div className="dropbtn">
-                Contact
-                <FontAwesomeIcon icon={faAngleDown} />
-              </div>
-            </a>
+          <div class="dropdown">
+            <button class="dropbtn">
+            Contact
+              <FontAwesomeIcon icon={faAngleDown} />
+            </button>
+            <div class="dropdown-content">
+              <a href="/Contact-Us">Contact</a>
+            </div>
           </div>
         </div>
       </div>
       <div className="nawRightSite">
-        <a href="/">
-          <img src={fb} width="50" height="50" alt="fb"></img>
-        </a>
-        <a href="/">
-          <img src={youtube} width="50" height="50" alt="yotuube"></img>
-        </a>
-        <a href="/">
-          <img src={login} width="120" height="50" alt="login"></img>
-        </a>
-        <a href="/">
-          <img src={menu} width="50" height="50" alt="menu"></img>
-        </a>
+        <div className="nawRightSiteFB">
+          <FontAwesomeIcon icon={faFacebookF} />
+        </div>
+        <div className="nawRightSiteYOU">
+          <FontAwesomeIcon icon={faYoutube} />
+        </div>
+        <div className="nawRightSiteSIGN">
+          <FontAwesomeIcon icon={faUser} />
+          SING IN
+        </div>
+        <div className="nawRightSiteMenu">
+          <FontAwesomeIcon icon={faTh} size='3x'/>
+        </div>
       </div>
     </div>
   );
