@@ -80,7 +80,7 @@
   background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(180deg, #b7b7b7, black);
 }
-.cardImg2 img{
+.cardImg2 img {
   position: absolute;
   width: 100%;
   height: 251px;

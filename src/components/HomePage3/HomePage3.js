@@ -148,12 +148,12 @@ const HomePage3 = () => {
           />
         </div>
         <div className="allCourses">
-            <a href="/Our-Courses">
-              <div className="allCoursesButtonData">
-                view all courses
-                <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />
-              </div>
-            </a>
+          <a href="/Our-Courses">
+            <div className="allCoursesButtonData">
+              view all courses
+              <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />
+            </div>
+          </a>
         </div>
       </div>
     </div>

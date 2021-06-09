@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import logo from "../../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown, faUser, faTh} from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faUser, faTh } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
@@ -26,7 +26,7 @@ function Navbar() {
           </div>
           <div class="dropdown">
             <button class="dropbtn">
-            Courses
+              Courses
               <FontAwesomeIcon icon={faAngleDown} />
             </button>
             <div class="dropdown-content">
@@ -37,7 +37,7 @@ function Navbar() {
           </div>
           <div class="dropdown">
             <button class="dropbtn">
-            Events
+              Events
               <FontAwesomeIcon icon={faAngleDown} />
             </button>
             <div class="dropdown-content">
@@ -46,7 +46,7 @@ function Navbar() {
           </div>
           <div class="dropdown">
             <button class="dropbtn">
-            Pages
+              Pages
               <FontAwesomeIcon icon={faAngleDown} />
             </button>
             <div class="dropdown-content">
@@ -57,7 +57,7 @@ function Navbar() {
           </div>
           <div class="dropdown">
             <button class="dropbtn">
-            Blog
+              Blog
               <FontAwesomeIcon icon={faAngleDown} />
             </button>
             <div class="dropdown-content">
@@ -67,7 +67,7 @@ function Navbar() {
           </div>
           <div class="dropdown">
             <button class="dropbtn">
-            Contact
+              Contact
               <FontAwesomeIcon icon={faAngleDown} />
             </button>
             <div class="dropdown-content">
@@ -88,7 +88,7 @@ function Navbar() {
           SING IN
         </div>
         <div className="nawRightSiteMenu">
-          <FontAwesomeIcon icon={faTh} size='3x'/>
+          <FontAwesomeIcon icon={faTh} size="3x" />
         </div>
       </div>
     </div>

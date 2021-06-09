@@ -11,11 +11,9 @@ import HomePage5 from "../HomePage5/HomePage5";
 import HomePage7 from "../HomePage7/HomePage7";
 import HomePage9 from "../HomePage9/HomePage9";
 
-import img1 from '../../images/img1.jpg'
-import img2 from '../../images/img2.jpg'
-import img3 from '../../images/img3.jpg'
-
-import img18 from '../../images/img18.jpg'
+import img1 from "../../images/img1.jpg";
+import img2 from "../../images/img2.jpg";
+import img3 from "../../images/img3.jpg";
 
 const AboutUs1 = () => {
   return (
@@ -23,9 +21,11 @@ const AboutUs1 = () => {
       <div className="welcomeSection">
         <div className="becomeIns">
           <div className="becomeInsLeft">
-            <div className="becomeInsLeftPaperBehind"><img src={img1} alt={"logo"} /></div>
+            <div className="becomeInsLeftPaperBehind">
+              <img src={img1} alt={"logo"} />
+            </div>
             <div className="becomeInsLeftPaperFront">
-            <img src={img2} alt={"logo"} />
+              <img src={img2} alt={"logo"} />
               <div class="circleBase circle1">
                 <div class="circleText">
                   <b>25</b>

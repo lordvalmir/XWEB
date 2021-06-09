@@ -15,7 +15,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import img30 from '../../images/img30.jpg'
+import img30 from "../../images/img30.jpg";
 
 const Contact1 = () => {
   return (
@@ -79,26 +79,30 @@ const Contact1 = () => {
             </div>
           </div>
         </div>
-        <div className="ContactBoxRight"><img src={img30} alt={"logo"}/></div>
+        <div className="ContactBoxRight">
+          <img src={img30} alt={"logo"} />
+        </div>
       </div>
       <div className="ContactMessage">
         <div className="ContactMessageInfo">... Get In Touch</div>
         <div className="ContactMessageTitle">Leave Us Message</div>
         <div className="ContactMessageForm">
           <div className="ContactMessageInput">
-            <input placeholder={'Full Name'}></input>
+            <input placeholder={"Full Name"}></input>
             <FontAwesomeIcon icon={faUser} />
           </div>
           <div className="ContactMessageInput">
-          <input placeholder={'Email Address'}></input>
+            <input placeholder={"Email Address"}></input>
             <FontAwesomeIcon icon={faEnvelope} />
           </div>
           <div className="ContactMessageInput">
-          <input placeholder={'Phone Number'}></input>
+            <input placeholder={"Phone Number"}></input>
             <FontAwesomeIcon icon={faPhone} />
           </div>
         </div>
-        <div className="ContactMessageInputMessage"><input placeholder={'Write Message'}></input></div>
+        <div className="ContactMessageInputMessage">
+          <input placeholder={"Write Message"}></input>
+        </div>
         <div className="ContactMessageInputButton">
           send message
           <svg

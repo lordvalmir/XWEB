@@ -192,6 +192,6 @@ const HomePage6 = () => {
       </div>
     </div>
   );
-}
+};
 
 export default HomePage6;

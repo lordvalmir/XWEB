@@ -24,21 +24,18 @@ import {
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 
-
-import simg1 from '../../images/simg1.jpg'
-import simg2 from '../../images/simg2.jpg'
-import simg3 from '../../images/simg3.jpg'
-import simg4 from '../../images/simg4.jpg'
-import img5 from '../../images/img5.jpg'
-import img6 from '../../images/img6.jpg'
-import img7 from '../../images/img7.jpg'
-import img8 from '../../images/img8.jpg'
-import img9 from '../../images/img9.jpg'
-import img11 from '../../images/img11.jpg'
-import img21 from '../../images/img21.jpg'
-import img19 from '../../images/img19.jpg'
-import img16 from '../../images/img16.jpg'
-import img25 from '../../images/img25.jpg'
+import simg2 from "../../images/simg2.jpg";
+import simg3 from "../../images/simg3.jpg";
+import simg4 from "../../images/simg4.jpg";
+import img6 from "../../images/img6.jpg";
+import img7 from "../../images/img7.jpg";
+import img8 from "../../images/img8.jpg";
+import img9 from "../../images/img9.jpg";
+import img11 from "../../images/img11.jpg";
+import img21 from "../../images/img21.jpg";
+import img19 from "../../images/img19.jpg";
+import img16 from "../../images/img16.jpg";
+import img25 from "../../images/img25.jpg";
 
 const BlogDetail1 = () => {
   return (
@@ -98,7 +95,9 @@ const BlogDetail1 = () => {
               non numquam eius modi tempora incidunt ut labore et dolore magnam
               aliquam quaerat voluptatem enim ad minima veniam
             </div>
-            <div className="BlogVideoDetailInterIMG"><img src={img6} alt={"logo"}/></div>
+            <div className="BlogVideoDetailInterIMG">
+              <img src={img6} alt={"logo"} />
+            </div>
             <div className="BlogVideoDetailInterPoints">
               <div className="BlogVideoDetailInterPoint">
                 <div className="BlogVideoDetailInterPointCircle">
@@ -158,7 +157,9 @@ const BlogDetail1 = () => {
               </div>
             </div>
             <div className="BlogVideoDetailInstructor">
-              <div className="BlogVideoDetailInstructorPhoto"><img src={simg4} alt={"logo"}/></div>
+              <div className="BlogVideoDetailInstructorPhoto">
+                <img src={simg4} alt={"logo"} />
+              </div>
               <div className="BlogVideoDetailInstructorInfo">
                 <div className="BlogVideoDetailInstructorTitle">
                   Eugene A. Pearson
@@ -178,7 +179,9 @@ const BlogDetail1 = () => {
             </div>
             <div className="BlogVideoDetailCurses">
               <div className="BlogVideoDetailCurse">
-                <div className="BlogVideoDetailCurseImg"><img src={img19} alt={"logo"}/></div>
+                <div className="BlogVideoDetailCurseImg">
+                  <img src={img19} alt={"logo"} />
+                </div>
                 <div className="BlogVideoDetailCurseInfo">
                   <div className="BlogVideoDetailCurseTitle">
                     Mixing Tangible & Intan Interfaces Using
@@ -196,7 +199,9 @@ const BlogDetail1 = () => {
                 </div>
               </div>
               <div className="BlogVideoDetailCurse">
-                <div className="BlogVideoDetailCurseImg"><img src={img16} alt={"logo"}/></div>
+                <div className="BlogVideoDetailCurseImg">
+                  <img src={img16} alt={"logo"} />
+                </div>
                 <div className="BlogVideoDetailCurseInfo">
                   <div className="BlogVideoDetailCurseTitle">
                     Mixing Tangible & Intan Interfaces Using
@@ -216,7 +221,9 @@ const BlogDetail1 = () => {
             </div>
             <div className="BlogVideoDetailSubtitle">People’s Comments</div>
             <div className="BlogVideoDetailComment1">
-              <div className="BlogVideoDetailCommentIMG"><img src={simg2} alt={"logo"}/></div>
+              <div className="BlogVideoDetailCommentIMG">
+                <img src={simg2} alt={"logo"} />
+              </div>
               <div className="BlogVideoDetailCommentIInfo">
                 <div className="BlogVideoDetailCommentITop">
                   <div className="BlogVideoDetailCommentITitle">
@@ -238,7 +245,9 @@ const BlogDetail1 = () => {
               </div>
             </div>
             <div className="BlogVideoDetailComment2">
-              <div className="BlogVideoDetailCommentIMG"><img src={simg3} alt={"logo"}/></div>
+              <div className="BlogVideoDetailCommentIMG">
+                <img src={simg3} alt={"logo"} />
+              </div>
               <div className="BlogVideoDetailCommentIInfo">
                 <div className="BlogVideoDetailCommentITop">
                   <div className="BlogVideoDetailCommentITitle">
@@ -260,7 +269,9 @@ const BlogDetail1 = () => {
               </div>
             </div>
             <div className="BlogVideoDetailComment1">
-              <div className="BlogVideoDetailCommentIMG"><img src={img8} alt={"logo"}/></div>
+              <div className="BlogVideoDetailCommentIMG">
+                <img src={img8} alt={"logo"} />
+              </div>
               <div className="BlogVideoDetailCommentIInfo">
                 <div className="BlogVideoDetailCommentITop">
                   <div className="BlogVideoDetailCommentITitle">
@@ -358,7 +369,9 @@ const BlogDetail1 = () => {
           <div className="BlogBoxRightNews">
             <div className="BlogBoxRightNewsTitle">Recent News</div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"><img src={img7} alt={"logo"}/></div>
+              <div className="BlogBoxRightOneNewsIMG">
+                <img src={img7} alt={"logo"} />
+              </div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -370,7 +383,9 @@ const BlogDetail1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"><img src={img9} alt={"logo"}/></div>
+              <div className="BlogBoxRightOneNewsIMG">
+                <img src={img9} alt={"logo"} />
+              </div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -382,7 +397,9 @@ const BlogDetail1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"><img src={img11} alt={"logo"}/></div>
+              <div className="BlogBoxRightOneNewsIMG">
+                <img src={img11} alt={"logo"} />
+              </div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -394,7 +411,9 @@ const BlogDetail1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews2">
-              <div className="BlogBoxRightOneNewsIMG"><img src={img21} alt={"logo"}/></div>
+              <div className="BlogBoxRightOneNewsIMG">
+                <img src={img21} alt={"logo"} />
+              </div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -440,7 +459,9 @@ const BlogDetail1 = () => {
               <div className="BlogBoxRightTag">Renewable</div>
             </div>
           </div>
-          <div className="BlogBoxRightIMG"><img src={img25} alt={"logo"}/></div>
+          <div className="BlogBoxRightIMG">
+            <img src={img25} alt={"logo"} />
+          </div>
         </div>
       </div>
     </div>

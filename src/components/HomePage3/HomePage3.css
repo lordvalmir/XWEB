@@ -341,7 +341,7 @@
   background-color: #ea5822;
   color: white;
 }
-.allCoursesButtonData:hover path{
+.allCoursesButtonData:hover path {
   fill: white;
 }
 .allCoursesButtonData svg {

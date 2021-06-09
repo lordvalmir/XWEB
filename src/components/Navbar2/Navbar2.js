@@ -1,7 +1,7 @@
 import "./Navbar2.css";
 import logo from "../../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown, faUser, faTh} from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faUser, faTh } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar2() {
@@ -88,7 +88,7 @@ function Navbar2() {
           SING IN
         </div>
         <div className="nawRightSiteMenu">
-          <FontAwesomeIcon icon={faTh} size='3x'/>
+          <FontAwesomeIcon icon={faTh} size="3x" />
         </div>
       </div>
     </div>

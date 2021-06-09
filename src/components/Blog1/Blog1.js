@@ -12,15 +12,15 @@ import {
   faCamera,
 } from "@fortawesome/free-solid-svg-icons";
 
-import img5 from '../../images/img5.jpg'
-import img6 from '../../images/img6.jpg'
-import img7 from '../../images/img7.jpg'
-import img8 from '../../images/img8.jpg'
-import img21 from '../../images/img21.jpg'
-import img22 from '../../images/img22.jpg'
-import img25 from '../../images/img25.jpg'
+import img5 from "../../images/img5.jpg";
+import img6 from "../../images/img6.jpg";
+import img7 from "../../images/img7.jpg";
+import img8 from "../../images/img8.jpg";
+import img21 from "../../images/img21.jpg";
+import img22 from "../../images/img22.jpg";
+import img25 from "../../images/img25.jpg";
 
-const Block = ({img}) => {
+const Block = ({ img }) => {
   return (
     <div className="BlogVideoMain">
       <div className="BlogVideo">
@@ -59,29 +59,31 @@ const Block = ({img}) => {
           explicabo. Nemo enim ipsam voluptatem quia voluptas quam nihil
           molestiae consequatur
         </div>
-        <a href="/Blog-Grid/someNews"><div className="BlogVideoDetailButton">
-          Read More
-          <svg
-            width="46"
-            height="11"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0.389 46 10.222"
-            fill="#fff"
-          >
+        <a href="/Blog-Grid/someNews">
+          <div className="BlogVideoDetailButton">
+            Read More
             <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="46"
               height="11"
-              viewBox="2 1.998 45 10"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0.389 46 10.222"
+              fill="#fff"
             >
-              <path
-                paint-order="stroke fill markers"
-                fill-rule="evenodd"
-                d="M2 6h35v2H2V6zm35-4.002l10 5-10 5v-10z"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="46"
+                height="11"
+                viewBox="2 1.998 45 10"
+              >
+                <path
+                  paint-order="stroke fill markers"
+                  fill-rule="evenodd"
+                  d="M2 6h35v2H2V6zm35-4.002l10 5-10 5v-10z"
+                />
+              </svg>
             </svg>
-          </svg>
-        </div></a>
+          </div>
+        </a>
       </div>
     </div>
   );
@@ -92,9 +94,9 @@ const Blog1 = () => {
     <div className="BlogMain">
       <div className="BlogBoxes">
         <div className="BlogBoxLeft">
-          <Block img={img5}/>
-          <Block img={img6}/>
-          <Block img={img7}/>
+          <Block img={img5} />
+          <Block img={img6} />
+          <Block img={img7} />
           <div className="BlogBoxAddver">
             <div className="BlogBoxAddverTitle">
               Setting TypeScript For Modern React Projects Using Webpack How To
@@ -142,7 +144,9 @@ const Blog1 = () => {
           <div className="BlogBoxRightNews">
             <div className="BlogBoxRightNewsTitle">Recent News</div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"><img src={img8} alt={"logo"}/></div>
+              <div className="BlogBoxRightOneNewsIMG">
+                <img src={img8} alt={"logo"} />
+              </div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -154,7 +158,9 @@ const Blog1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"><img src={img21} alt={"logo"}/></div>
+              <div className="BlogBoxRightOneNewsIMG">
+                <img src={img21} alt={"logo"} />
+              </div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -166,7 +172,9 @@ const Blog1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"><img src={img22} alt={"logo"}/></div>
+              <div className="BlogBoxRightOneNewsIMG">
+                <img src={img22} alt={"logo"} />
+              </div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -178,7 +186,9 @@ const Blog1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews2">
-              <div className="BlogBoxRightOneNewsIMG"><img src={img25} alt={"logo"}/></div>
+              <div className="BlogBoxRightOneNewsIMG">
+                <img src={img25} alt={"logo"} />
+              </div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -224,7 +234,9 @@ const Blog1 = () => {
               <div className="BlogBoxRightTag">Renewable</div>
             </div>
           </div>
-          <div className="BlogBoxRightIMG"><img src={img25} alt={"logo"}/></div>
+          <div className="BlogBoxRightIMG">
+            <img src={img25} alt={"logo"} />
+          </div>
         </div>
       </div>
     </div>

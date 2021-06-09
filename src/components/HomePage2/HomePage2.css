@@ -49,7 +49,7 @@
 .categorieInfoBox {
   box-sizing: border-box;
   padding: 30px;
-  border: 1px solid #D7D7D7;
+  border: 1px solid #d7d7d7;
   border-top: 0;
 }
 
@@ -87,7 +87,7 @@
 .categorieInfo div {
   margin-right: 1rem;
 }
-.categorie a{
+.categorie a {
   text-decoration: none;
   color: black;
 }

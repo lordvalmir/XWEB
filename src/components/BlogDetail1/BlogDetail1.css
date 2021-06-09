@@ -6,7 +6,6 @@
   background-color: white;
   box-sizing: border-box;
   padding: 40px;
-  
 }
 .BlogVideoDetailSubtitle {
   margin-bottom: 1.5rem;
@@ -19,7 +18,7 @@
   background-color: #af5e41;
   margin-bottom: 1.5rem;
 }
-.BlogVideoDetailInterIMG img{
+.BlogVideoDetailInterIMG img {
   width: 100%;
   height: 361px;
 }
@@ -118,7 +117,7 @@
   border-radius: 50%;
   margin-right: 2rem;
 }
-.BlogVideoDetailInstructorPhoto img{
+.BlogVideoDetailInstructorPhoto img {
   height: 161px;
   min-width: 161px;
   max-width: 161px;

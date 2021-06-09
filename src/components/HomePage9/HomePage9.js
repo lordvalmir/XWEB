@@ -14,11 +14,15 @@ import img13 from "../../images/img13.jpg";
 const New = ({ title, img, link }) => {
   return (
     <div className="new">
-      <div className="newIMG"><img src={img} alt={"logo"} /></div>
+      <div className="newIMG">
+        <img src={img} alt={"logo"} />
+      </div>
       <div className="newMain">
-        <a href={link}><div className="newButton">
-          <FontAwesomeIcon icon={faArrowRight} />
-        </div></a>
+        <a href={link}>
+          <div className="newButton">
+            <FontAwesomeIcon icon={faArrowRight} />
+          </div>
+        </a>
 
         <div className="newBlock">
           <div className="newINFO">

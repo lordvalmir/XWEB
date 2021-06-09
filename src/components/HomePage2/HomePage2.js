@@ -1,14 +1,14 @@
 import "./HomePage2.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUsers, faBook } from "@fortawesome/free-solid-svg-icons";
-import img1 from '../../images/img1.jpg'
-import img2 from '../../images/img2.jpg'
-import img3 from '../../images/img3.jpg'
-import img4 from '../../images/img4.jpg'
-import img5 from '../../images/img5.jpg'
-import img6 from '../../images/img6.jpg'
-import img7 from '../../images/img7.jpg'
-import img8 from '../../images/img8.jpg'
+import img1 from "../../images/img1.jpg";
+import img2 from "../../images/img2.jpg";
+import img3 from "../../images/img3.jpg";
+import img4 from "../../images/img4.jpg";
+import img5 from "../../images/img5.jpg";
+import img6 from "../../images/img6.jpg";
+import img7 from "../../images/img7.jpg";
+import img8 from "../../images/img8.jpg";
 
 const data = [
   {
@@ -87,7 +87,9 @@ const HomePage2 = () => {
           return (
             <div className="categorie">
               <a href={catagorie.link}>
-                <div className="categorieIMG"><img src={catagorie.img} alt={"logo"}/></div>
+                <div className="categorieIMG">
+                  <img src={catagorie.img} alt={"logo"} />
+                </div>
                 <div className="categorieInfoBox">
                   <div className="categorieTitle">{catagorie.title}</div>
                   <div className="categorieSubtitle">{catagorie.subTitle}</div>
@@ -105,6 +107,6 @@ const HomePage2 = () => {
       </div>
     </div>
   );
-}
+};
 
 export default HomePage2;

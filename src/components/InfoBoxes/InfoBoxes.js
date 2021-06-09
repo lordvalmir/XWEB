@@ -48,6 +48,6 @@ const InfoBoxes = () => {
       </div>
     </div>
   );
-}
+};
 
 export default InfoBoxes;

@@ -17,19 +17,18 @@ import {
   faBehance,
 } from "@fortawesome/free-brands-svg-icons";
 
-import img1 from '../../images/img1.jpg'
-import img2 from '../../images/img2.jpg'
-import img3 from '../../images/img3.jpg'
-import img4 from '../../images/img4.jpg'
-import img5 from '../../images/img5.jpg'
-import img6 from '../../images/img6.jpg'
-import img7 from '../../images/img7.jpg'
+import img1 from "../../images/img1.jpg";
+import img2 from "../../images/img2.jpg";
+import img3 from "../../images/img3.jpg";
+import img4 from "../../images/img4.jpg";
+import img5 from "../../images/img5.jpg";
+import img6 from "../../images/img6.jpg";
 
-import simg1 from '../../images/simg1.jpg'
-import simg2 from '../../images/simg2.jpg'
-import simg3 from '../../images/simg3.jpg'
+import simg1 from "../../images/simg1.jpg";
+import simg2 from "../../images/simg2.jpg";
+import simg3 from "../../images/simg3.jpg";
 
-import img18 from '../../images/img18.jpg'
+import img18 from "../../images/img18.jpg";
 
 const Instructor1 = () => {
   const [card1, toggleCard1] = useState(false);
@@ -38,7 +37,9 @@ const Instructor1 = () => {
       <div className="InstructorTopBox">
         <div className="InstructorTopUpper">
           <div className="InstructorTopUpperLeft">
-            <div className="InstructorTopUpperLeftIMG"><img src={img18} alt={"logo"} /></div>
+            <div className="InstructorTopUpperLeftIMG">
+              <img src={img18} alt={"logo"} />
+            </div>
             <div className="InstructorTopUpperLeftInfo">
               <div className="InstructorTopUpperLeftInfoLeft">
                 <div className="InstructorTopUpperLeftName">
@@ -130,9 +131,15 @@ const Instructor1 = () => {
                 aspernatur
               </div>
               <div className="InstructorTopLowerLeftIMGs">
-                <div className="InstructorTopLowerLeftIMG"><img src={simg1} alt={"logo"} /></div>
-                <div className="InstructorTopLowerLeftIMG"><img src={simg2} alt={"logo"} /></div>
-                <div className="InstructorTopLowerLeftIMG"><img src={simg3} alt={"logo"} /></div>
+                <div className="InstructorTopLowerLeftIMG">
+                  <img src={simg1} alt={"logo"} />
+                </div>
+                <div className="InstructorTopLowerLeftIMG">
+                  <img src={simg2} alt={"logo"} />
+                </div>
+                <div className="InstructorTopLowerLeftIMG">
+                  <img src={simg3} alt={"logo"} />
+                </div>
               </div>
             </div>
           </div>

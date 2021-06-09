@@ -1,5 +1,4 @@
 import "./HomePage4.css";
-import arrow3 from "../../images/arrow3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -42,12 +41,12 @@ const HomePage4 = () => {
       <hr className="galeryDisplayBar"></hr>
       <div className="galeryCards">
         <div className="galeryCardRow">
-          <GalleryCard title="University" img={img1}/>
-          <GalleryCard title="Group Study" img={img2}/>
-          <GalleryCard title="Awards" img={img3}/>
-          <GalleryCard title="Students" img={img4}/>
-          <GalleryCard title="Teachers" img={img5}/>
-          <GalleryCard title="Campus" img={img6}/>
+          <GalleryCard title="University" img={img1} />
+          <GalleryCard title="Group Study" img={img2} />
+          <GalleryCard title="Awards" img={img3} />
+          <GalleryCard title="Students" img={img4} />
+          <GalleryCard title="Teachers" img={img5} />
+          <GalleryCard title="Campus" img={img6} />
         </div>
       </div>
     </div>

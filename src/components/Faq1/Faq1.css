@@ -17,7 +17,6 @@
   width: 756px;
 }
 .FaqLeftAutor {
-
   height: 534px;
   background-color: white;
   padding: 30px;
@@ -61,9 +60,9 @@
   background-color: white;
   padding: 30px;
 }
-.FaqLeftTouch path{
-    fill: #ea5822;
-  }
+.FaqLeftTouch path {
+  fill: #ea5822;
+}
 .FaqRightTitle {
   margin-top: 1rem;
   font-size: 30px;
@@ -79,7 +78,7 @@
   align-items: center;
   margin-bottom: 1rem;
   font-weight: 700;
-  color: #062A35;
+  color: #062a35;
 }
 .FaqRightMessage {
   height: 121px;
@@ -89,7 +88,7 @@
   justify-content: space-between;
   margin-bottom: 1rem;
   font-weight: 700;
-  color: #062A35;
+  color: #062a35;
 }
 .FaqRightButton {
   height: 61px;
@@ -107,132 +106,131 @@
   margin-left: 1rem;
 }
 .FaqRight {
-    padding: 30px;
-    width: 591px;
-    background-color: white;
+  padding: 30px;
+  width: 591px;
+  background-color: white;
 }
 .FaqRightFaqTitle {
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 3rem;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 3rem;
 }
 .FaqRightFaqItem {
-    width: 591px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #E5E5E5;
-    margin-bottom: 2rem;
-    
+  width: 591px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2rem;
 }
 .FaqRightFaqItemOpen {
-    width: 591px;
-    display: flex;
-    color: #ea5822;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #E5E5E5;
-    margin-bottom: 2rem;
+  width: 591px;
+  display: flex;
+  color: #ea5822;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2rem;
 }
-.FaqRightFaqItem path{
-    fill: #ea5822;
+.FaqRightFaqItem path {
+  fill: #ea5822;
 }
-.FaqRightFaqItemOpen path{
-    fill: #ea5822;
+.FaqRightFaqItemOpen path {
+  fill: #ea5822;
 }
 .Faqtext {
-    margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .FaqFooterMain {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 .FaqFooterLeft {
-    width: 50%;
-    background-color: #0E1851;
-    display: flex;
-    align-items: center;
+  width: 50%;
+  background-color: #0e1851;
+  display: flex;
+  align-items: center;
 }
 .FaqFooterRight {
-    width: 50%;
-    background-color: #000846;
-    display: flex;
-    align-items: center;
+  width: 50%;
+  background-color: #000846;
+  display: flex;
+  align-items: center;
 }
 .FaqFooterLeftBlock {
-    margin-left: 40%;
-    margin-bottom: 6rem;
-    margin-top: 6rem;
+  margin-left: 40%;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
 }
 .FaqFooterLeftBlockinto {
-    color: white;
-    font-size: 15px;
+  color: white;
+  font-size: 15px;
 }
 .FaqFooterLeftBlockTitle {
-    color: white;
-    font-size: 48px;
-    font-weight: 600;
-    margin-bottom: 1rem;
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 .FaqFooterLeftBlockText {
-    color: #999EC4;
-    font-size: 14px;
-    line-height: 28px;
-    margin-bottom: 2.5rem;
-    width: 80%;
+  color: #999ec4;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 2.5rem;
+  width: 80%;
 }
 .FaqFooterLeftBlockButton {
-    background-color: #ea5822;
-    width: 218px;
-    height: 63px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: white;
-    cursor: pointer;
+  background-color: #ea5822;
+  width: 218px;
+  height: 63px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
 }
-.FaqFooterLeftBlockButton svg{
-    margin-left: 1rem;
+.FaqFooterLeftBlockButton svg {
+  margin-left: 1rem;
 }
 .FaqFooterRightBlock {
-    margin-right: 40%;
-    margin-left: 18%;
-    color: white;
-    margin-bottom: 6rem;
-    margin-top: 6rem;
+  margin-right: 40%;
+  margin-left: 18%;
+  color: white;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
 }
 .FaqFooterRightBlockinto {
-    font-size: 15px;
+  font-size: 15px;
 }
 .FaqFooterRightBlockTitle {
-    font-size: 48px;
-    font-weight: 600;
-    margin-bottom: 1rem;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 .FaqFooterRightBlockText {
-    color: #999EC4;
-    font-size: 14px;
-    line-height: 28px;
-    margin-bottom: 2.5rem;
+  color: #999ec4;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 2.5rem;
 }
 .FaqFooterRightBlockButton {
-    background-color: #3662FF;
-    width: 218px;
-    height: 63px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: white;
-    cursor: pointer;
+  background-color: #3662ff;
+  width: 218px;
+  height: 63px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
 }
-.FaqFooterRightBlockButton svg{
-    margin-left: 1rem;
+.FaqFooterRightBlockButton svg {
+  margin-left: 1rem;
 }

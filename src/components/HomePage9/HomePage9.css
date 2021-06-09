@@ -17,9 +17,9 @@
 }
 .newIMG {
   height: 351px;
-  background-color: #B7B7B7;
+  background-color: #b7b7b7;
 }
-.newIMG img{
+.newIMG img {
   height: 351px;
   width: 100%;
 }
@@ -61,7 +61,7 @@
   font-weight: 600;
   font-size: 18px;
 }
-.newName svg{
+.newName svg {
   margin-right: 0.5rem;
 }
 .newButton {
@@ -75,7 +75,7 @@
   cursor: pointer;
 }
 .newButton:hover {
-  background-color: #EA5822;
+  background-color: #ea5822;
 }
 .newButton svg {
   fill: white;

@@ -16,7 +16,9 @@ import img4 from "../../images/img4.jpg";
 const Instructor = ({ togglePlus, plus, name, subject, info, img }) => {
   return (
     <div className="instructor">
-      <div className="categorieIMG2"><img src={img} alt={"logo"} /></div>
+      <div className="categorieIMG2">
+        <img src={img} alt={"logo"} />
+      </div>
       <div className="plusMenu" onClick={() => togglePlus(!plus)}>
         <FontAwesomeIcon icon={faPlus} />
         {plus ? (

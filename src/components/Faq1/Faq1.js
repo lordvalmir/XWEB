@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
   faEnvelope,
-  faLongArrowAltRight,
   faAngleDown,
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
@@ -40,8 +39,6 @@ const FaqRow = ({ setFAQ, faq, title }) => {
   );
 };
 
-
-
 const Faq1 = () => {
   const [faq1, setFAQ1] = useState(false);
   const [faq2, setFAQ2] = useState(false);
@@ -59,7 +56,9 @@ const Faq1 = () => {
         <div className="FaqBoxes">
           <div className="FaqLeft">
             <div className="FaqLeftAutor">
-              <div className="FaqLeftAutorFace"><img src={iimg1} alt={"logo"} /></div>
+              <div className="FaqLeftAutorFace">
+                <img src={iimg1} alt={"logo"} />
+              </div>
               <div className="FaqLeftAutorName">David Warner</div>
               <div className="FaqLeftAutorPosition">CEO & Founder</div>
               <div className="FaqLeftAutorText">
@@ -71,19 +70,19 @@ const Faq1 = () => {
             <div className="FaqLeftTouch">
               <div className="FaqRightTitle">Get In Touch</div>
               <div className="FaqRightItem">
-              <input placeholder="Your Name"></input>
+                <input placeholder="Your Name"></input>
                 <FontAwesomeIcon icon={faUser} />
               </div>
               <div className="FaqRightItem">
-              <input placeholder="Your Email"></input>
+                <input placeholder="Your Email"></input>
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <div className="FaqRightMessage">
-              <input placeholder="Write Message"></input>
+                <input placeholder="Write Message"></input>
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <div className="FaqRightButton">
-              Send Message
+                Send Message
                 <svg
                   width="46"
                   height="11"

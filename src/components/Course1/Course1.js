@@ -16,16 +16,13 @@ import {
   faAngleDown,
 } from "@fortawesome/free-solid-svg-icons";
 
-import simg1 from '../../images/simg1.jpg'
-import simg2 from '../../images/simg2.jpg'
-import simg3 from '../../images/simg3.jpg'
-import simg4 from '../../images/simg4.jpg'
-import img5 from '../../images/img5.jpg'
-import img6 from '../../images/img6.jpg'
-import img7 from '../../images/img7.jpg'
-import img8 from '../../images/img8.jpg'
-import img9 from '../../images/img9.jpg'
-import img10 from '../../images/img10.jpg'
+import simg1 from "../../images/simg1.jpg";
+import simg2 from "../../images/simg2.jpg";
+import simg3 from "../../images/simg3.jpg";
+import simg4 from "../../images/simg4.jpg";
+import img5 from "../../images/img5.jpg";
+import img6 from "../../images/img6.jpg";
+import img7 from "../../images/img7.jpg";
 
 const Course1 = () => {
   const [fag1, setFAG1] = useState(false);
@@ -37,7 +34,7 @@ const Course1 = () => {
       <div className="CourseBoxes">
         <div className="CourseBoxLeft">
           <div className="CourseVideo">
-            <img src={img7} alt={"logo"}/>
+            <img src={img7} alt={"logo"} />
             <div className="CourseVideoPlay">
               <FontAwesomeIcon icon={faPlay} />
             </div>
@@ -113,9 +110,7 @@ const Course1 = () => {
             </div>
           </div>
           <div className="CourseMainIMG">
-            <img src={img6} alt={"logo"}/>
-
-
+            <img src={img6} alt={"logo"} />
           </div>
           <div className="CourseFAQ">
             <div className="CourseFAQTitle">Frequently Asked Questions</div>
@@ -241,14 +236,18 @@ const Course1 = () => {
             <div className="CourseInstructorsTitle">Course Instructors</div>
             <div className="CourseInstructorsRow">
               <div className="CourseInstructor">
-                <div className="CourseInstructorIMG"><img src={simg1} alt={"logo"}/></div>
+                <div className="CourseInstructorIMG">
+                  <img src={simg1} alt={"logo"} />
+                </div>
                 <div className="CourseInstructorName">Somalia D Silva</div>
                 <div className="CourseInstructorSpecialization">
                   Math Teacher
                 </div>
               </div>
               <div className="CourseInstructor">
-                <div className="CourseInstructorIMG"><img src={simg2} alt={"logo"}/></div>
+                <div className="CourseInstructorIMG">
+                  <img src={simg2} alt={"logo"} />
+                </div>
                 <div className="CourseInstructorName">David Warner</div>
                 <div className="CourseInstructorSpecialization">
                   Math Teacher
@@ -257,14 +256,18 @@ const Course1 = () => {
             </div>
             <div className="CourseInstructorsRow">
               <div className="CourseInstructor">
-                <div className="CourseInstructorIMG"><img src={simg3} alt={"logo"}/></div>
+                <div className="CourseInstructorIMG">
+                  <img src={simg3} alt={"logo"} />
+                </div>
                 <div className="CourseInstructorName">Zavib Makaullah</div>
                 <div className="CourseInstructorSpecialization">
                   Math Teacher
                 </div>
               </div>
               <div className="CourseInstructor">
-                <div className="CourseInstructorIMG"><img src={simg4} alt={"logo"}/></div>
+                <div className="CourseInstructorIMG">
+                  <img src={simg4} alt={"logo"} />
+                </div>
                 <div className="CourseInstructorName">Jhonson Maxwell</div>
                 <div className="CourseInstructorSpecialization">
                   Math Teacher
@@ -348,7 +351,9 @@ const Course1 = () => {
               </svg>
             </div>
           </div>
-          <div className="CourseInfoIMG"><img src={img5} alt={"logo"}/></div>
+          <div className="CourseInfoIMG">
+            <img src={img5} alt={"logo"} />
+          </div>
         </div>
       </div>
     </div>

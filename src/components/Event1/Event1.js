@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Event1.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,10 +11,6 @@ import {
 
 import img16 from "../../images/img16.jpg";
 import img19 from "../../images/img19.jpg";
-
-import img21 from "../../images/img21.jpg";
-import img22 from "../../images/img22.jpg";
-import img23 from "../../images/img23.png";
 
 const Event1 = () => {
   return (

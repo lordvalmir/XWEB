@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
 }
-.CourseVideo img{
+.CourseVideo img {
   width: 760px;
   height: 451px;
   position: absolute;
@@ -104,7 +104,7 @@
   background-color: #a2a2a8;
   margin-top: 3rem;
 }
-.CourseInfoIMG img{
+.CourseInfoIMG img {
   width: 100%;
   height: 453px;
 }
@@ -181,7 +181,7 @@
   background-color: #b7b7b7;
   margin-top: 3rem;
 }
-.CourseMainIMG img{
+.CourseMainIMG img {
   width: 771px;
   height: 451px;
   position: absolute;
@@ -207,8 +207,8 @@
   font-weight: 600;
   border-bottom: 1px solid #ebebeb;
 }
-.CourseFAQQuestion path{
-fill: #ea5822;
+.CourseFAQQuestion path {
+  fill: #ea5822;
 }
 .CourseFAQQuestion2 {
   display: flex;
@@ -218,9 +218,9 @@ fill: #ea5822;
   font-size: 16px;
   font-weight: 600;
 }
-.CourseFAQQuestion2 path{
+.CourseFAQQuestion2 path {
   fill: #ea5822;
-  }
+}
 .CourseFAQAnswer {
   border: 1px solid #ebebeb;
 }
@@ -256,18 +256,18 @@ fill: #ea5822;
   margin-top: 1.5rem;
   width: 371px;
   height: 371px;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
 }
 .CourseInstructorIMG {
   height: 181px;
   width: 181px;
   border-radius: 50%;
-  background-color: #B7B7B7;
+  background-color: #b7b7b7;
   margin: auto;
   margin-top: 4rem;
   overflow: hidden;
 }
-.CourseInstructorIMG img{
+.CourseInstructorIMG img {
   height: 181px;
   width: 181px;
   border-radius: 50%;
