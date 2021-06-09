@@ -2,13 +2,16 @@ import "./HomePage8.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faLaptop } from "@fortawesome/free-solid-svg-icons";
 
+import img10 from "../../images/img10.jpg";
+import iimg1 from "../../images/iimg1.jpg";
+
 const HomePage8 = () => {
   return (
     <div className="bg7">
       <div className="becomeIns">
         <div className="becomeInsLeft">
-          <div className="becomeInsLeftPaperBehind"></div>
-          <div className="becomeInsLeftPaperFront"></div>
+          <div className="becomeInsLeftPaperBehind"><img src={img10} alt={"logo"} /></div>
+          <div className="becomeInsLeftPaperFront"><img src={iimg1} alt={"logo"} /></div>
         </div>
         <div className="becomeInsRight">
           <div className="becomeInsRightTag">... Build A Career ...</div>

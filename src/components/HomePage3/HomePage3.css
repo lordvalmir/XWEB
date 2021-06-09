@@ -85,6 +85,12 @@
   background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(180deg, white, black);
 }
+.cardImg img {
+  height: 251px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
 
 .cardImgcircle {
   display: flex;
@@ -95,6 +101,7 @@
   align-items: center;
   background-color: white;
   border-radius: 50%;
+  z-index: 2;
 }
 .cardImgcircle2 {
   display: flex;
@@ -105,9 +112,11 @@
   align-items: center;
   background-color: white;
   border-radius: 50%;
+  z-index: 2;
 }
 .cardImgName {
   display: flex;
+  z-index: 2;
 }
 .cardImgname {
   font-weight: 800;
@@ -119,6 +128,7 @@
 
 .price {
   margin: 1rem;
+  z-index: 2;
 }
 
 .cardInfo {

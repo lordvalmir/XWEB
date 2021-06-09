@@ -14,6 +14,7 @@
   width: 70%;
   margin: auto;
   background-color: white;
+  padding-bottom: 4rem;
 }
 .InstructorTopUpper {
   display: flex;
@@ -36,6 +37,11 @@
 .InstructorTopUpperLeftIMG {
   background-color: #b7b7b7;
   height: 411px;
+}
+.InstructorTopUpperLeftIMG img {
+  height: 411px;
+  width: 460px;
+  position: absolute;
 }
 .InstructorTopUpperLeftInfo {
   padding: 9%;
@@ -212,6 +218,11 @@
   height: 101px;
   width: 141px;
   background-color: #b7b7b7;
+}
+.InstructorTopLowerLeftIMG img{
+  height: 101px;
+  width: 141px;
+  position: absolute;
 }
 .InstructorTopLowerRight path {
   fill: #ea5822;

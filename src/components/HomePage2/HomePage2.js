@@ -1,6 +1,14 @@
 import "./HomePage2.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUsers, faBook } from "@fortawesome/free-solid-svg-icons";
+import img1 from '../../images/img1.jpg'
+import img2 from '../../images/img2.jpg'
+import img3 from '../../images/img3.jpg'
+import img4 from '../../images/img4.jpg'
+import img5 from '../../images/img5.jpg'
+import img6 from '../../images/img6.jpg'
+import img7 from '../../images/img7.jpg'
+import img8 from '../../images/img8.jpg'
 
 const data = [
   {
@@ -9,6 +17,7 @@ const data = [
     people: "250",
     curses: "800+ Courses",
     link: "/Our-Courses/Graphics-Design-(UI)",
+    img: img1,
   },
   {
     title: "Business Studies",
@@ -16,6 +25,7 @@ const data = [
     people: "320",
     curses: "750+ Courses",
     link: "/Our-Courses/Business-Studies",
+    img: img2,
   },
   {
     title: "Web Development",
@@ -23,6 +33,7 @@ const data = [
     people: "320",
     curses: "750+ Courses",
     link: "/Our-Courses/Web-Development",
+    img: img3,
   },
   {
     title: "Product Engineering",
@@ -30,6 +41,7 @@ const data = [
     people: "320",
     curses: "750+ Courses",
     link: "/Our-Courses/Product-Engineering",
+    img: img4,
   },
   {
     title: "Basic Photography",
@@ -37,6 +49,7 @@ const data = [
     people: "320",
     curses: "750+ Courses",
     link: "/Our-Courses/Basic-Photography",
+    img: img5,
   },
   {
     title: "Medical & Health",
@@ -44,6 +57,7 @@ const data = [
     people: "320",
     curses: "750+ Courses",
     link: "/Our-Courses/Medical-&-Health",
+    img: img6,
   },
   {
     title: "Marketing Strategy",
@@ -51,6 +65,7 @@ const data = [
     people: "250",
     curses: "50+ Courses",
     link: "/Our-Courses/Marketing-Strategy",
+    img: img7,
   },
   {
     title: "Mobile UI Design",
@@ -58,6 +73,7 @@ const data = [
     people: "320",
     curses: "750+ Courses",
     link: "/Our-Courses/Mobile-UI-Design",
+    img: img8,
   },
 ];
 
@@ -71,7 +87,7 @@ const HomePage2 = () => {
           return (
             <div className="categorie">
               <a href={catagorie.link}>
-                <div className="categorieIMG"></div>
+                <div className="categorieIMG"><img src={catagorie.img} alt={"logo"}/></div>
                 <div className="categorieInfoBox">
                   <div className="categorieTitle">{catagorie.title}</div>
                   <div className="categorieSubtitle">{catagorie.subTitle}</div>

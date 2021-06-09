@@ -1,16 +1,10 @@
 .welcomeSection {
-  width: 100vw;
-  height: 650px;
-  max-width: 1920px;
-  max-height: 650px;
-  padding-top: 5%;
-  background-color: #ffffff;
-  padding-bottom: 10rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .becomeIns {
   width: 60%;
-  height: 100%;
-  margin: 0 20% 0 20%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -20,7 +14,10 @@
   background: #b7b7b7;
   z-index: 1;
 }
-
+.becomeInsLeftPaperBehind img{
+  width: 75%;
+  height: 75%;
+}
 .becomeInsLeftPaperFront {
   width: 50%;
   height: 50%;
@@ -29,6 +26,11 @@
   bottom: 0;
   z-index: 2;
   background: #dedede;
+}
+.becomeInsLeftPaperFront img{
+  width: 50%;
+  height: 50%;
+  position: absolute;
 }
 .circleText b {
   font-size: 25px;
@@ -153,12 +155,8 @@
   transform: translateY(10rem);
 }
 .instituteSection {
-  width: 100vw;
-  height: 650px;
-  max-width: 1920px;
-  max-height: 650px;
-  margin-top: 5%;
   padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #eaf4f7;
 }
 .welcomeSection .boxcom {
@@ -206,11 +204,17 @@
   justify-content: space-between;
 }
 .instituteSectionRight {
-  width: 60%;
+  width: 671px;
+  height: 381px;
   background-color: #707f83;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.instituteSectionRight img{
+  position: absolute;
+  width: 671px;
+  height: 381px;
 }
 .instituteSectionRightPlay {
   height: 91px;
@@ -223,6 +227,7 @@
   padding: 8px;
   background-clip: content-box;
   border: 2px #a2acae solid;
+  z-index: 2;
 }
 .instituteSectionRightPlay path {
   fill: #ea5822;

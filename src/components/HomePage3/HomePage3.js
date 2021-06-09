@@ -10,7 +10,11 @@ import {
   faLongArrowAltRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Card = ({ toggleCard, card }) => {
+import img1 from "../../images/img1.jpg";
+import img2 from "../../images/img2.jpg";
+import img3 from "../../images/img3.jpg";
+
+const Card = ({ toggleCard, card, img }) => {
   return (
     <div
       className={card ? "card is-flipped" : "card"}
@@ -18,6 +22,7 @@ const Card = ({ toggleCard, card }) => {
     >
       <div className="card__face card__face--front">
         <div className="cardImg">
+          <img src={img} alt={"logo"} />
           <div className="cardImgName">
             <div className="cardImgcircle"></div>
             <div className="cardImgname">Warner</div>
@@ -126,9 +131,21 @@ const HomePage3 = () => {
         <div className="coursesTitle2">... Popular Courses ...</div>
         <div className="coursesSubTitle">Available Courses</div>
         <div className="cards">
-          <Card toggleCard={() => toggleCard1(!card1)} card={card1} />
-          <Card toggleCard={() => toggleCard2(!card2)} card={card2} />
-          <Card toggleCard={() => toggleCard3(!card3)} card={card3} />
+          <Card
+            toggleCard={() => toggleCard1(!card1)}
+            card={card1}
+            img={img1}
+          />
+          <Card
+            toggleCard={() => toggleCard2(!card2)}
+            card={card2}
+            img={img2}
+          />
+          <Card
+            toggleCard={() => toggleCard3(!card3)}
+            card={card3}
+            img={img3}
+          />
         </div>
         <div className="allCourses">
           <div className="allCoursesButton">

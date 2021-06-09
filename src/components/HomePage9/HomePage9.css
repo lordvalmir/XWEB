@@ -19,6 +19,10 @@
   height: 351px;
   background-color: #B7B7B7;
 }
+.newIMG img{
+  height: 351px;
+  width: 100%;
+}
 .newMain {
   height: 266px;
   border: #e6e6e6 solid 2px;

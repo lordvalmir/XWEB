@@ -33,6 +33,10 @@
   background-color: #b7b7b7;
   height: 251px;
 }
+.categorieIMG2 img {
+  height: 251px;
+  width: 100%;
+}
 .instructorInfoBox {
   height: 178px;
   box-sizing: border-box;

@@ -8,10 +8,15 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Instructor = ({ togglePlus, plus, name, subject, info }) => {
+import img1 from "../../images/img1.jpg";
+import img2 from "../../images/img2.jpg";
+import img3 from "../../images/img3.jpg";
+import img4 from "../../images/img4.jpg";
+
+const Instructor = ({ togglePlus, plus, name, subject, info, img }) => {
   return (
     <div className="instructor">
-      <div className="categorieIMG2"></div>
+      <div className="categorieIMG2"><img src={img} alt={"logo"} /></div>
       <div className="plusMenu" onClick={() => togglePlus(!plus)}>
         <FontAwesomeIcon icon={faPlus} />
         {plus ? (
@@ -58,6 +63,7 @@ const HomePage5 = (props) => {
           name={"Somalia D Silva"}
           subject={"Math Teacher"}
           info={"750+ Courses"}
+          img={img1}
         />
         <Instructor
           togglePlus={() => togglePlus2(!plus2)}
@@ -65,6 +71,7 @@ const HomePage5 = (props) => {
           name={"David D Warner"}
           subject={"English Teacher"}
           info={"750+ Courses"}
+          img={img2}
         />
         <Instructor
           togglePlus={() => togglePlus3(!plus3)}
@@ -72,6 +79,7 @@ const HomePage5 = (props) => {
           name={"Xavi Toni Crusse"}
           subject={"Computer Teacher"}
           info={"632+ Courses"}
+          img={img3}
         />
         <Instructor
           togglePlus={() => togglePlus4(!plus4)}
@@ -79,6 +87,7 @@ const HomePage5 = (props) => {
           name={"Shaine Watson"}
           subject={"Web Designer"}
           info={"985+ Courses"}
+          img={img4}
         />
       </div>
     </div>

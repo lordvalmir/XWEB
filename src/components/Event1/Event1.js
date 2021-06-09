@@ -9,6 +9,13 @@ import {
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 
+import img16 from "../../images/img16.jpg";
+import img19 from "../../images/img19.jpg";
+
+import img21 from "../../images/img21.jpg";
+import img22 from "../../images/img22.jpg";
+import img23 from "../../images/img23.png";
+
 const Event1 = () => {
   return (
     <div className="EventMain">
@@ -75,7 +82,9 @@ const Event1 = () => {
           voluptate velit esse quam nihil molestiae consequatur, vel illum qui
           dolorem eum fugiat quo voluptas nulla
         </div>
-        <div className="EventBoxIMG"></div>
+        <div className="EventBoxIMG">
+          <img src={img16} alt={"logo"} />
+        </div>
         <div className="EventBoxText">
           But I must explain to you how all this mistaken idea of denouncing
           pleasure and praising pain was born and I will give you a complete
@@ -144,10 +153,12 @@ const Event1 = () => {
               </div>
             </div>
           </div>
-          <div className="EventBoxMapSectionRight"></div>
+          <div className="EventBoxMapSectionRight">
+            <img src={img19} alt={"logo"} />
+          </div>
         </div>
         <div className="EventBoxMoreEvents">
-          <div className="EventBoxMoreEvent">
+          <div className="EventBoxMoreEvent1">
             <div className="EventBoxMoreEventPrice">$20</div>
             <div className="EventBoxMoreEventInfo">
               <div className="EventBoxMoreEventInfoLine">
@@ -188,7 +199,7 @@ const Event1 = () => {
               </div>
             </div>
           </div>
-          <div className="EventBoxMoreEvent">
+          <div className="EventBoxMoreEvent2">
             <div className="EventBoxMoreEventPrice">$20</div>
             <div className="EventBoxMoreEventInfo">
               <div className="EventBoxMoreEventInfoLine">
@@ -229,7 +240,7 @@ const Event1 = () => {
               </div>
             </div>
           </div>
-          <div className="EventBoxMoreEvent">
+          <div className="EventBoxMoreEvent3">
             <div className="EventBoxMoreEventPrice">$20</div>
             <div className="EventBoxMoreEventInfo">
               <div className="EventBoxMoreEventInfoLine">

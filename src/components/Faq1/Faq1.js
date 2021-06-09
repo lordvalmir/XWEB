@@ -9,6 +9,8 @@ import {
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
 
+import iimg1 from "../../images/iimg1.jpg";
+
 const FaqRow = ({ setFAQ, faq, title }) => {
   return (
     <div>
@@ -38,6 +40,8 @@ const FaqRow = ({ setFAQ, faq, title }) => {
   );
 };
 
+
+
 const Faq1 = () => {
   const [faq1, setFAQ1] = useState(false);
   const [faq2, setFAQ2] = useState(false);
@@ -55,13 +59,13 @@ const Faq1 = () => {
         <div className="FaqBoxes">
           <div className="FaqLeft">
             <div className="FaqLeftAutor">
-              <div className="FaqLeftAutorFace"></div>
+              <div className="FaqLeftAutorFace"><img src={iimg1} alt={"logo"} /></div>
               <div className="FaqLeftAutorName">David Warner</div>
               <div className="FaqLeftAutorPosition">CEO & Founder</div>
               <div className="FaqLeftAutorText">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusan umdolremque laudantium totam rem aperiam eaque ipsa quae
-                ab illoinventore veritati quasi{" "}
+                ab illoinventore veritati quasi
               </div>
             </div>
             <div className="FaqLeftTouch">

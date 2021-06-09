@@ -42,7 +42,10 @@
   width: 100%;
   background-color: #717171;
 }
-
+.categorieIMG img {
+  height: 201px;
+  width: 100%;
+}
 .categorieInfoBox {
   box-sizing: border-box;
   padding: 30px;

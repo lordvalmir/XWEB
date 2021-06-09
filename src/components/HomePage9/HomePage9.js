@@ -7,10 +7,14 @@ import {
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-const New = ({title}) => {
+import img11 from "../../images/img11.jpg";
+import img12 from "../../images/img12.jpg";
+import img13 from "../../images/img13.jpg";
+
+const New = ({ title, img }) => {
   return (
     <div className="new">
-      <div className="newIMG"></div>
+      <div className="newIMG"><img src={img} alt={"logo"} /></div>
       <div className="newMain">
         <div className="newButton">
           <FontAwesomeIcon icon={faArrowRight} />
@@ -26,9 +30,7 @@ const New = ({title}) => {
               Com(30)
             </div>
           </div>
-          <div className="newTitle">
-            {title}
-          </div>
+          <div className="newTitle">{title}</div>
           <div className="newName">
             <svg
               width="36"
@@ -63,16 +65,21 @@ const HomePage9 = () => {
       <div className="coursesTitle">... Artices & Tipes ...</div>
       <div className="categoriesSubTitle">Latest News & Blog</div>
       <div className="news">
-        <New title={"Learning Resources In Challenec Times Online Workshops"} />
+        <New
+          title={"Learning Resources In Challenec Times Online Workshops"}
+          img={img11}
+        />
         <New
           title={
             "Djang Highlights Models Admin And Harness Rela Tional Database"
           }
+          img={img12}
         />
         <New
           title={
             "Smash Podcast Episode With Laura Kalbag What Is Online Privacy"
           }
+          img={img13}
         />
       </div>
     </div>

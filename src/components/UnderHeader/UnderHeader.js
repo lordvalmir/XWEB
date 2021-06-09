@@ -1,7 +1,7 @@
 import "./UnderHeader.css";
 import { useLocation } from "react-router-dom";
 
-function UnderHeader() {
+const UnderHeader = () => {
   const location = useLocation();
   const subPage = location.pathname.split("/");
   const page = subPage[1].replace("-", " ");
@@ -16,6 +16,6 @@ function UnderHeader() {
       </div>
     </div>
   );
-}
+};
 
 export default UnderHeader;

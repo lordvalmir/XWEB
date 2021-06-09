@@ -1,6 +1,16 @@
 import "./HomePage7.css";
 import sign from "../../images/sign.png";
 
+import simg1 from "../../images/simg1.jpg";
+import simg2 from "../../images/simg2.jpg";
+import simg3 from "../../images/simg3.jpg";
+import simg4 from "../../images/simg4.jpg";
+import simg5 from "../../images/simg5.jpg";
+import simg6 from "../../images/simg6.jpg";
+import simg7 from "../../images/simg7.jpg";
+import simg8 from "../../images/simg8.jpg";
+import img9 from "../../images/img9.jpg";
+
 const HomePage7 = () => {
   return (
     <div className="bg6">
@@ -91,18 +101,18 @@ const HomePage7 = () => {
           <div className="StudentsBlockRight">
             <div className="StudentsBlockRightFiles">
               <div className="StudentsBlockRightFiles1">
-                <div className="smallPaper1"></div>
-                <div className="smallPaper2"></div>
+                <div className="smallPaper1"><img src={simg1} alt={"logo"} /></div>
+                <div className="smallPaper2"><img src={simg2} alt={"logo"} /></div>
               </div>
               <div className="StudentsBlockRightFiles2">
-                <div className="smallPaper"></div>
-                <div className="smallPaper"></div>
-                <div className="smallPaper"></div>
+                <div className="smallPaper"><img src={simg3} alt={"logo"} /></div>
+                <div className="smallPaper"><img src={simg4} alt={"logo"} /></div>
+                <div className="smallPaper"><img src={simg5} alt={"logo"} /></div>
               </div>
               <div className="StudentsBlockRightFiles3">
-                <div className="smallPaper"></div>
-                <div className="smallPaper"></div>
-                <div className="smallPaper"></div>
+                <div className="smallPaper"><img src={simg6} alt={"logo"} /></div>
+                <div className="smallPaper"><img src={simg7} alt={"logo"} /></div>
+                <div className="smallPaper"><img src={simg8} alt={"logo"} /></div>
               </div>
             </div>
           </div>

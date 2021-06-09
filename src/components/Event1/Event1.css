@@ -74,6 +74,10 @@
   background-color: #b7b7b7;
   margin-bottom: 1.5rem;
 }
+.EventBoxIMG img{
+  height: 672px;
+  width: 100%;
+}
 .EventBoxMapSection {
   display: flex;
   padding-bottom: 2rem;
@@ -87,6 +91,11 @@
   width: 50%;
   height: 420px;
   background-color: #b7b7b7;
+}
+.EventBoxMapSectionRight img {
+  width: 571px;
+  height: 420px;
+  position: absolute;
 }
 .EventBoxMapSectionTitle {
   font-size: 30px;
@@ -127,15 +136,31 @@
     justify-content: space-between;
     margin-bottom: 2rem;
 }
-.EventBoxMoreEvent {
+.EventBoxMoreEvent1 {
     width: 371px;
     height: 318px;
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 0%, rgba(97,97,97,1) 100%);
-    
+    background: linear-gradient(0deg, rgba(2,0,36,0.8) 0%, rgba(2,0,36,0.8) 0%, rgba(97,97,97,0.8) 100%), url("../../images/img21.jpg");
     position: relative;
     display: flex;
     align-items: flex-end;
 }
+.EventBoxMoreEvent2 {
+  width: 371px;
+  height: 318px;
+  background: linear-gradient(0deg, rgba(2,0,36,0.8) 0%, rgba(2,0,36,0.8) 0%, rgba(97,97,97,0.8) 100%), url("../../images/img22.jpg");
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.EventBoxMoreEvent3 {
+  width: 371px;
+  height: 318px;
+  background: linear-gradient(0deg, rgba(2,0,36,0.8) 0%, rgba(2,0,36,0.8) 0%, rgba(97,97,97,0.8) 100%), url("../../images/img23.png");
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
 .EventBoxMoreEventPrice {
     position: absolute;
     right: 1rem;
@@ -150,8 +175,8 @@
     color: white;
     font-weight: 600;
     font-size: 20px;
-
 }
+
 .EventBoxMoreEventInfoLine {
     display: flex;
     color: #BACBD8;

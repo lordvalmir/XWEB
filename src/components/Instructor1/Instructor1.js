@@ -17,6 +17,20 @@ import {
   faBehance,
 } from "@fortawesome/free-brands-svg-icons";
 
+import img1 from '../../images/img1.jpg'
+import img2 from '../../images/img2.jpg'
+import img3 from '../../images/img3.jpg'
+import img4 from '../../images/img4.jpg'
+import img5 from '../../images/img5.jpg'
+import img6 from '../../images/img6.jpg'
+import img7 from '../../images/img7.jpg'
+
+import simg1 from '../../images/simg1.jpg'
+import simg2 from '../../images/simg2.jpg'
+import simg3 from '../../images/simg3.jpg'
+
+import img18 from '../../images/img18.jpg'
+
 const Instructor1 = () => {
   const [card1, toggleCard1] = useState(false);
   return (
@@ -24,7 +38,7 @@ const Instructor1 = () => {
       <div className="InstructorTopBox">
         <div className="InstructorTopUpper">
           <div className="InstructorTopUpperLeft">
-            <div className="InstructorTopUpperLeftIMG"></div>
+            <div className="InstructorTopUpperLeftIMG"><img src={img18} alt={"logo"} /></div>
             <div className="InstructorTopUpperLeftInfo">
               <div className="InstructorTopUpperLeftInfoLeft">
                 <div className="InstructorTopUpperLeftName">
@@ -116,9 +130,9 @@ const Instructor1 = () => {
                 aspernatur
               </div>
               <div className="InstructorTopLowerLeftIMGs">
-                <div className="InstructorTopLowerLeftIMG"></div>
-                <div className="InstructorTopLowerLeftIMG"></div>
-                <div className="InstructorTopLowerLeftIMG"></div>
+                <div className="InstructorTopLowerLeftIMG"><img src={simg1} alt={"logo"} /></div>
+                <div className="InstructorTopLowerLeftIMG"><img src={simg2} alt={"logo"} /></div>
+                <div className="InstructorTopLowerLeftIMG"><img src={simg3} alt={"logo"} /></div>
               </div>
             </div>
           </div>
@@ -187,6 +201,7 @@ const Instructor1 = () => {
             tag={"English"}
             title={"Best Courses For Learning  English Courses"}
             link={"/Our-Courses/English"}
+            img={img1}
           />
           <Card
             toggleCard={() => toggleCard1(card1)}
@@ -194,6 +209,7 @@ const Instructor1 = () => {
             tag={"Business"}
             title={"Learning About It Consulting Business Solutions "}
             link={"/Our-Courses/Business"}
+            img={img2}
           />
           <Card
             toggleCard={() => toggleCard1(card1)}
@@ -201,6 +217,7 @@ const Instructor1 = () => {
             tag={"Design"}
             title={"Introduced About Basic Web Design For Begineers"}
             link={"/Our-Courses/Design"}
+            img={img3}
           />
         </div>
         <div className="InstructorBottomBoxCardRow">
@@ -210,6 +227,7 @@ const Instructor1 = () => {
             tag={"Marketing"}
             title={"Best Courses For Learning English Courses"}
             link={"/Our-Courses/Marketing"}
+            img={img4}
           />
           <Card
             toggleCard={() => toggleCard1(card1)}
@@ -217,6 +235,7 @@ const Instructor1 = () => {
             tag={"Photography"}
             title={"Learning About It Consulting Business Solutions "}
             link={"/Our-Courses/Photography"}
+            img={img5}
           />
           <Card
             toggleCard={() => toggleCard1(card1)}
@@ -224,6 +243,7 @@ const Instructor1 = () => {
             tag={"Development"}
             title={"Introduced About Basic Web Design For Begineers"}
             link={"/Our-Courses/Development"}
+            img={img6}
           />
         </div>
       </div>

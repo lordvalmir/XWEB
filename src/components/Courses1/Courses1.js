@@ -12,7 +12,16 @@ import {
   faLongArrowAltRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Card = ({ toggleCard, card, tag, title, link }) => {
+import img1 from '../../images/img1.jpg'
+import img2 from '../../images/img2.jpg'
+import img3 from '../../images/img3.jpg'
+import img4 from '../../images/img4.jpg'
+import img5 from '../../images/img5.jpg'
+import img6 from '../../images/img6.jpg'
+import img7 from '../../images/img7.jpg'
+import img8 from '../../images/img8.jpg'
+
+const Card = ({ toggleCard, card, tag, title, link, img }) => {
   return (
     <div
       className={card ? "card2 is-flipped" : "card2"}
@@ -20,6 +29,7 @@ const Card = ({ toggleCard, card, tag, title, link }) => {
     >
       <div className="card__face card__face--front">
         <div className="cardImg2">
+          <img src={img} alt={"logo"} />
           <div className="cardImgName">
             <div className="cardImgcircle"></div>
             <div className="cardImgname">Warner</div>
@@ -143,6 +153,7 @@ const CoursesSection = () => {
           tag={"English"}
           title={"Best Courses For Learning  English Courses"}
           link={"/Our-Courses/English"}
+          img={img1}
         />
         <Card
           toggleCard={() => toggleCard2(!card2)}
@@ -150,6 +161,7 @@ const CoursesSection = () => {
           tag={"Design"}
           title={"Introduce About Graphics  Design For Beginners"}
           link={"/Our-Courses/Design"}
+          img={img2}
         />
         <Card
           toggleCard={() => toggleCard3(!card3)}
@@ -157,6 +169,7 @@ const CoursesSection = () => {
           tag={"Business"}
           title={"How To Improve Business Studies For Beginners"}
           link={"/Our-Courses/Business"}
+          img={img3}
         />
         <Card
           toggleCard={() => toggleCard4(!card4)}
@@ -164,6 +177,7 @@ const CoursesSection = () => {
           tag={"Php"}
           title={"Best Courses For Learning  English Courses"}
           link={"/Our-Courses/Php"}
+          img={img4}
         />
         <Card
           toggleCard={() => toggleCard5(!card5)}
@@ -171,6 +185,7 @@ const CoursesSection = () => {
           tag={"Marketing"}
           title={"Best Courses For Learning  Marketing Courses"}
           link={"/Our-Courses/Marketing"}
+          img={img5}
         />
         <Card
           toggleCard={() => toggleCard6(!card6)}
@@ -178,6 +193,7 @@ const CoursesSection = () => {
           tag={"Films"}
           title={"Introduce About Movie & Photography For Beginners"}
           link={"/Our-Courses/Films"}
+          img={img6}
         />
         <Card
           toggleCard={() => toggleCard7(!card7)}
@@ -185,6 +201,7 @@ const CoursesSection = () => {
           tag={"Medical"}
           title={"Best Courses For Learning  English Courses"}
           link={"/Our-Courses/Medical"}
+          img={img7}
         />
         <Card
           toggleCard={() => toggleCard8(!card8)}
@@ -192,6 +209,7 @@ const CoursesSection = () => {
           tag={"Apps UI"}
           title={"Learning How To Improve Mobile Ui Design"}
           link={"/Our-Courses/Apps-UI"}
+          img={img8}
         />
       </div>
     </div>

@@ -24,6 +24,17 @@ import {
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 
+import simg1 from '../../images/simg1.jpg'
+import simg2 from '../../images/simg2.jpg'
+import simg3 from '../../images/simg3.jpg'
+import simg4 from '../../images/simg4.jpg'
+import img5 from '../../images/img5.jpg'
+import img6 from '../../images/img6.jpg'
+import img7 from '../../images/img7.jpg'
+import img8 from '../../images/img8.jpg'
+import img9 from '../../images/img9.jpg'
+import img10 from '../../images/img10.jpg'
+
 const BlogDetail1 = () => {
   return (
     <div className="BlogMain">

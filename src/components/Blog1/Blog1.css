@@ -28,13 +28,15 @@
 .BlogVideo {
   width: 756px;
   height: 436px;
-  background-color: #b7b7b7;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../../images/img21.jpg');
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .BlogVideo:hover {
-  background-color: #4f646b;
+  background: linear-gradient( rgba(80, 80, 80, 0.8), rgba(80, 80, 80, 0.8) ), url('../../images/img21.jpg');
+  background-size: cover;
   cursor: pointer;
 }
 .BlogVideoMain {
@@ -210,10 +212,19 @@ textarea:focus, input:focus{
   margin-top: 1.5rem;
 }
 .BlogBoxRightOneNewsIMG {
+  max-width: 86px;
   min-width: 86px;
   height: 69px;
   background-color: #cdcdcd;
-  margin-right: 1rem;
+}
+.BlogBoxRightOneNewsIMG img {
+  max-width: 86px;
+  min-width: 86px;
+  height: 69px;
+  position: absolute;
+}
+.BlogBoxRightOneNewsInfo {
+  margin-left: 1rem;
 }
 .BlogBoxRightOneNewsInfoTitle {
   font-size: 18px;
@@ -250,7 +261,12 @@ textarea:focus, input:focus{
   height: 132px;
   width: 132px;
   margin: 5px;
-  background-color: #c1c1c1;
+}
+.gal img {
+  height: 132px;
+  width: 132px;
+  position: absolute;
+  z-index: 0;
 }
 .BlogBoxRightGalleryPhoto svg {
   display: none;
@@ -261,12 +277,15 @@ textarea:focus, input:focus{
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 5;
 }
 .BlogBoxRightGalleryPhoto:hover svg {
   display: block;
+  z-index: 5;
 }
 .BlogBoxRightGalleryPhoto:hover path {
   fill: white;
+  z-index: 5;
 }
 .BlogBoxRightTags {
   background-color: white;

@@ -12,7 +12,22 @@ import {
   faCamera,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Block = () => {
+
+import simg1 from '../../images/simg1.jpg'
+import simg2 from '../../images/simg2.jpg'
+import simg3 from '../../images/simg3.jpg'
+import simg4 from '../../images/simg4.jpg'
+import img5 from '../../images/img5.jpg'
+import img6 from '../../images/img6.jpg'
+import img7 from '../../images/img7.jpg'
+import img8 from '../../images/img8.jpg'
+import img9 from '../../images/img9.jpg'
+import img10 from '../../images/img10.jpg'
+import img21 from '../../images/img21.jpg'
+import img22 from '../../images/img22.jpg'
+import img23 from '../../images/img23.png'
+
+const Block = ({img}) => {
   return (
     <div className="BlogVideoMain">
       <div className="BlogVideo">
@@ -84,9 +99,9 @@ const Blog1 = () => {
     <div className="BlogMain">
       <div className="BlogBoxes">
         <div className="BlogBoxLeft">
-          <Block />
-          <Block />
-          <Block />
+          <Block img={img5}/>
+          <Block img={img6}/>
+          <Block img={img7}/>
           <div className="BlogBoxAddver">
             <div className="BlogBoxAddverTitle">
               Setting TypeScript For Modern React Projects Using Webpack How To
@@ -134,7 +149,7 @@ const Blog1 = () => {
           <div className="BlogBoxRightNews">
             <div className="BlogBoxRightNewsTitle">Recent News</div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"></div>
+              <div className="BlogBoxRightOneNewsIMG"><img src={img8} alt={"logo"}/></div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -146,7 +161,7 @@ const Blog1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"></div>
+              <div className="BlogBoxRightOneNewsIMG"><img src={img21} alt={"logo"}/></div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -158,7 +173,7 @@ const Blog1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews">
-              <div className="BlogBoxRightOneNewsIMG"></div>
+              <div className="BlogBoxRightOneNewsIMG"><img src={img22} alt={"logo"}/></div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -170,7 +185,7 @@ const Blog1 = () => {
               </div>
             </div>
             <div className="BlogBoxRightOneNews2">
-              <div className="BlogBoxRightOneNewsIMG"></div>
+              <div className="BlogBoxRightOneNewsIMG"><img src={img23} alt={"logo"}/></div>
               <div className="BlogBoxRightOneNewsInfo">
                 <div className="BlogBoxRightOneNewsInfoTitle">
                   Smaing Podcast Epis Ode 15 With Phile
@@ -184,24 +199,24 @@ const Blog1 = () => {
           </div>
           <div className="BlogBoxRightGallery">
             <div className="BlogBoxRightGalleryTitle">Photo Gallery</div>
-            <div className="BlogBoxRightGalleryPhotos">
+            <div className="BlogBoxRightGalleryPhotos gal">
               <div className="BlogBoxRightGalleryPhoto">
-                <FontAwesomeIcon icon={faCamera} size="2x" />
+                <img src={img23} alt={"logo"}/><FontAwesomeIcon icon={faCamera} size="2x" />
               </div>
               <div className="BlogBoxRightGalleryPhoto">
-                <FontAwesomeIcon icon={faCamera} size="2x" />
+                <img src={img23} alt={"logo"}/><FontAwesomeIcon icon={faCamera} size="2x" />
               </div>
               <div className="BlogBoxRightGalleryPhoto">
-                <FontAwesomeIcon icon={faCamera} size="2x" />
+                <img src={img23} alt={"logo"}/><FontAwesomeIcon icon={faCamera} size="2x" />
               </div>
               <div className="BlogBoxRightGalleryPhoto">
-                <FontAwesomeIcon icon={faCamera} size="2x" />
+                <img src={img23} alt={"logo"}/><FontAwesomeIcon icon={faCamera} size="2x" />
               </div>
               <div className="BlogBoxRightGalleryPhoto">
-                <FontAwesomeIcon icon={faCamera} size="2x" />
+                <img src={img23} alt={"logo"}/><FontAwesomeIcon icon={faCamera} size="2x" />
               </div>
               <div className="BlogBoxRightGalleryPhoto">
-                <FontAwesomeIcon icon={faCamera} size="2x" />
+                <img src={img23} alt={"logo"}/><FontAwesomeIcon icon={faCamera} size="2x" />
               </div>
             </div>
           </div>

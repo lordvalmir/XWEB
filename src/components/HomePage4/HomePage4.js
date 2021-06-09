@@ -3,9 +3,17 @@ import arrow3 from "../../images/arrow3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
-const GalleryCard = ({ title }) => {
+import img1 from "../../images/img1.jpg";
+import img2 from "../../images/img2.jpg";
+import img3 from "../../images/img3.jpg";
+import img4 from "../../images/img4.jpg";
+import img5 from "../../images/img5.jpg";
+import img6 from "../../images/img6.jpg";
+
+const GalleryCard = ({ title, img }) => {
   return (
     <div className="galeryCard">
+      <img src={img} alt={"logo"} />
       <div className="galeryCardInside">
         <div className="galeryCardTitle">{title}</div>
         <div className="galeryCardSubtitle">University Campus</div>
@@ -34,12 +42,12 @@ const HomePage4 = () => {
       <hr className="galeryDisplayBar"></hr>
       <div className="galeryCards">
         <div className="galeryCardRow">
-          <GalleryCard title="University" />
-          <GalleryCard title="Group Study" />
-          <GalleryCard title="Awards" />
-          <GalleryCard title="Students" />
-          <GalleryCard title="Teachers" />
-          <GalleryCard title="Campus" />
+          <GalleryCard title="University" img={img1}/>
+          <GalleryCard title="Group Study" img={img2}/>
+          <GalleryCard title="Awards" img={img3}/>
+          <GalleryCard title="Students" img={img4}/>
+          <GalleryCard title="Teachers" img={img5}/>
+          <GalleryCard title="Campus" img={img6}/>
         </div>
       </div>
     </div>
