@@ -93,6 +93,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .CourseInfoButton svg {
   margin-left: 1rem;

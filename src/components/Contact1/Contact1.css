@@ -21,6 +21,10 @@
   height: 566px;
   background-color: #555555;
 }
+.ContactBoxRight img {
+  width: 700px;
+  height: 566px;
+}
 .ContactBoxLeftCircle {
   width: 51px;
   height: 51px;
@@ -76,6 +80,7 @@
   justify-content: center;
   align-items: center;
   margin-right: 0.5rem;
+  cursor: pointer;
 }
 .ContactBoxLeftMediaCircle path{
     fill: white;
@@ -142,6 +147,7 @@
     color: white;
     text-transform: uppercase;
     font-weight: 600;
+    cursor: pointer;
 }
 .ContactMessageInputButton svg{
     margin-left: 1rem;

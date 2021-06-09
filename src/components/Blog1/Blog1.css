@@ -28,14 +28,16 @@
 .BlogVideo {
   width: 756px;
   height: 436px;
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../../images/img21.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../images/img21.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .BlogVideo:hover {
-  background: linear-gradient( rgba(80, 80, 80, 0.8), rgba(80, 80, 80, 0.8) ), url('../../images/img21.jpg');
+  background: linear-gradient(rgba(80, 80, 80, 0.8), rgba(80, 80, 80, 0.8)),
+    url("../../images/img21.jpg");
   background-size: cover;
   cursor: pointer;
 }
@@ -161,8 +163,9 @@
   border: none;
   background-color: #f5f6fa;
 }
-textarea:focus, input:focus{
-    outline: none;
+textarea:focus,
+input:focus {
+  outline: none;
 }
 .BlogBoxRightSearchInput path {
   fill: #ea5822;
@@ -261,18 +264,15 @@ textarea:focus, input:focus{
   height: 132px;
   width: 132px;
   margin: 5px;
+  background: url("../../images/img21.jpg");
 }
-.gal img {
-  height: 132px;
-  width: 132px;
-  position: absolute;
-  z-index: 0;
-}
+
 .BlogBoxRightGalleryPhoto svg {
   display: none;
 }
 .BlogBoxRightGalleryPhoto:hover {
-  background-color: #ee591e;
+  background: linear-gradient(rgba(234, 88, 34, 0.8), rgba(234, 88, 34, 0.8)),
+    url("../../images/img21.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -287,6 +287,149 @@ textarea:focus, input:focus{
   fill: white;
   z-index: 5;
 }
+
+.BlogBoxRightGalleryPhoto1 {
+  height: 132px;
+  width: 132px;
+  margin: 5px;
+  background: url("../../images/img5.jpg");
+  background-position: center;
+}
+
+.BlogBoxRightGalleryPhoto1 svg {
+  display: none;
+}
+.BlogBoxRightGalleryPhoto1:hover {
+  background: linear-gradient(rgba(234, 88, 34, 0.8), rgba(234, 88, 34, 0.8)),
+    url("../../images/img8.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto1:hover svg {
+  display: block;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto1:hover path {
+  fill: white;
+  z-index: 5;
+}
+
+.BlogBoxRightGalleryPhoto2 {
+  height: 132px;
+  width: 132px;
+  margin: 5px;
+  background: url("../../images/img13.jpg");
+}
+
+.BlogBoxRightGalleryPhoto2 svg {
+  display: none;
+}
+.BlogBoxRightGalleryPhoto2:hover {
+  background: linear-gradient(rgba(234, 88, 34, 0.8), rgba(234, 88, 34, 0.8)),
+    url("../../images/img13.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto2:hover svg {
+  display: block;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto2:hover path {
+  fill: white;
+  z-index: 5;
+}
+
+.BlogBoxRightGalleryPhoto3 {
+  height: 132px;
+  width: 132px;
+  margin: 5px;
+  background: url("../../images/img15.jpg");
+}
+
+.BlogBoxRightGalleryPhoto3 svg {
+  display: none;
+}
+.BlogBoxRightGalleryPhoto3:hover {
+  background: linear-gradient(rgba(234, 88, 34, 0.8), rgba(234, 88, 34, 0.8)),
+    url("../../images/img15.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto3:hover svg {
+  display: block;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto3:hover path {
+  fill: white;
+  z-index: 5;
+}
+
+.BlogBoxRightGalleryPhoto4 {
+  height: 132px;
+  width: 132px;
+  margin: 5px;
+  background: url("../../images/img23.png");
+}
+
+.BlogBoxRightGalleryPhoto4 svg {
+  display: none;
+}
+.BlogBoxRightGalleryPhoto4:hover {
+  background: linear-gradient(rgba(234, 88, 34, 0.8), rgba(234, 88, 34, 0.8)),
+    url("../../images/img23.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto4:hover svg {
+  display: block;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto4:hover path {
+  fill: white;
+  z-index: 5;
+}
+
+.BlogBoxRightGalleryPhoto5 {
+  height: 132px;
+  width: 132px;
+  margin: 5px;
+  background: url("../../images/img22.jpg");
+  background-position: center;
+}
+
+.BlogBoxRightGalleryPhoto5 svg {
+  display: none;
+}
+.BlogBoxRightGalleryPhoto5:hover {
+  background: linear-gradient(rgba(234, 88, 34, 0.8), rgba(234, 88, 34, 0.8)),
+    url("../../images/img22.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto5:hover svg {
+  display: block;
+  z-index: 5;
+}
+.BlogBoxRightGalleryPhoto5:hover path {
+  fill: white;
+  z-index: 5;
+}
+
 .BlogBoxRightTags {
   background-color: white;
   margin-top: 1.5rem;
@@ -317,8 +460,13 @@ textarea:focus, input:focus{
   cursor: pointer;
 }
 .BlogBoxRightIMG {
-    margin-top: 1.5rem;
-    height: 453px;
-    width: 100%;
-    background-color: #707070;
+  margin-top: 1.5rem;
+  height: 453px;
+  width: 100%;
+  background-color: #707070;
+}
+.BlogBoxRightIMG img{
+  height: 453px;
+  width: 356px;
+  position: absolute;
 }

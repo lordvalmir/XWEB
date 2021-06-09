@@ -101,6 +101,7 @@
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .FaqRightButton svg {
   margin-left: 1rem;
@@ -194,6 +195,7 @@
     align-items: center;
     text-transform: uppercase;
     color: white;
+    cursor: pointer;
 }
 .FaqFooterLeftBlockButton svg{
     margin-left: 1rem;
@@ -229,6 +231,7 @@
     align-items: center;
     text-transform: uppercase;
     color: white;
+    cursor: pointer;
 }
 .FaqFooterRightBlockButton svg{
     margin-left: 1rem;

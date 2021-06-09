@@ -37,6 +37,7 @@ input.searchBar {
   width: 90%;
   height: inherit;
   background-color: white;
+  padding-left: 1rem;
 }
 
 button.searchBar {

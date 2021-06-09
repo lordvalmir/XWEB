@@ -125,7 +125,6 @@ const Footer = () => {
                   placeholder="Enter Your Email"
                 ></input>
                 <div className="footersLinkBoxRightSearchButton">
-                  {" "}
                   <FontAwesomeIcon icon={faArrowRight} />
                 </div>
               </div>

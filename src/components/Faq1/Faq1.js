@@ -71,19 +71,19 @@ const Faq1 = () => {
             <div className="FaqLeftTouch">
               <div className="FaqRightTitle">Get In Touch</div>
               <div className="FaqRightItem">
-                Your Name
+              <input placeholder="Your Name"></input>
                 <FontAwesomeIcon icon={faUser} />
               </div>
               <div className="FaqRightItem">
-                Your Email
+              <input placeholder="Your Email"></input>
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <div className="FaqRightMessage">
-                Write Message
+              <input placeholder="Write Message"></input>
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <div className="FaqRightButton">
-                Send Message
+              Send Message
                 <svg
                   width="46"
                   height="11"

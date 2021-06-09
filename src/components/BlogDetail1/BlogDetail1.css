@@ -19,6 +19,10 @@
   background-color: #af5e41;
   margin-bottom: 1.5rem;
 }
+.BlogVideoDetailInterIMG img{
+  width: 100%;
+  height: 361px;
+}
 .BlogVideoDetailInterPoints {
   margin-bottom: 1.5rem;
 }
@@ -109,9 +113,16 @@
 .BlogVideoDetailInstructorPhoto {
   height: 161px;
   min-width: 161px;
+  max-width: 161px;
   background-color: #b7b7b7;
   border-radius: 50%;
   margin-right: 2rem;
+}
+.BlogVideoDetailInstructorPhoto img{
+  height: 161px;
+  min-width: 161px;
+  max-width: 161px;
+  border-radius: 50%;
 }
 .BlogVideoDetailInstructorTitle {
   font-size: 22px;
@@ -149,6 +160,11 @@
   height: 81px;
   margin-right: 1rem;
   background-color: #9b9b9b;
+}
+.BlogVideoDetailCurseImg img {
+  min-width: 81px;
+  max-width: 81px;
+  height: 81px;
 }
 .BlogVideoDetailCurse {
   display: flex;
@@ -188,11 +204,15 @@
   margin-bottom: 1.5rem;
 }
 .BlogVideoDetailCommentIMG {
-  min-width: 81px;
+  width: 81px;
   height: 81px;
-  background-color: #6a6a6a;
-  border-radius: 50%;
   margin-right: 2rem;
+}
+.BlogVideoDetailCommentIMG img {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  position: absolute;
 }
 .BlogVideoDetailCommentIInfo {
   width: 100%;
@@ -266,7 +286,7 @@
 }
 input {
   border: none;
-  background-color: #f5f6fa;
+  background-color: transparent;
 }
 textarea:focus,
 input:focus {

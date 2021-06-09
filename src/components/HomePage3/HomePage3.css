@@ -315,25 +315,35 @@
   margin: auto;
   background: transparent;
   border: solid #113742 2px;
+  cursor: pointer;
+  color: #417b8d;
+  text-transform: uppercase;
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
 }
 
 .allCoursesButtonData {
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-  border: none;
+  height: 67px;
+  width: 281px;
+  margin: auto;
+  background: transparent;
+  border: solid #113742 2px;
+  cursor: pointer;
+  color: #417b8d;
+  text-transform: uppercase;
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border: 1px solid #113742;
 }
-
-.allCoursesButtonText {
-  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
-  color: #417b8d;
-  text-transform: uppercase;
+.allCoursesButtonData:hover {
+  background-color: #ea5822;
+  color: white;
 }
-
+.allCoursesButtonData:hover path{
+  fill: white;
+}
 .allCoursesButtonData svg {
   margin-left: 1rem;
 }

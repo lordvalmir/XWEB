@@ -10,8 +10,12 @@ const HomePage8 = () => {
     <div className="bg7">
       <div className="becomeIns">
         <div className="becomeInsLeft">
-          <div className="becomeInsLeftPaperBehind"><img src={img10} alt={"logo"} /></div>
-          <div className="becomeInsLeftPaperFront"><img src={iimg1} alt={"logo"} /></div>
+          <div className="becomeInsLeftPaperBehind">
+            <img src={img10} alt={"logo"} />
+          </div>
+          <div className="becomeInsLeftPaperFront">
+            <img src={iimg1} alt={"logo"} />
+          </div>
         </div>
         <div className="becomeInsRight">
           <div className="becomeInsRightTag">... Build A Career ...</div>
@@ -24,7 +28,7 @@ const HomePage8 = () => {
           </div>
           <div className="becomeInsRightBoxs">
             <div className="becomeInsRightBoxRight">
-              <FontAwesomeIcon icon={faLaptop} size='3x'/>
+              <FontAwesomeIcon icon={faLaptop} size="3x" />
               <div className="becomeInsRightBoxTitle">Digitalization</div>
               <div className="becomeInsRightBoxText">
                 Sed ut perspia unde omnis aste natus error sit volu
@@ -32,7 +36,7 @@ const HomePage8 = () => {
             </div>
             <div></div>
             <div className="becomeInsRightBox">
-              <FontAwesomeIcon icon={faBook} size='3x'/>
+              <FontAwesomeIcon icon={faBook} size="3x" />
               <div className="becomeInsRightBoxTitle">Book Friendly</div>
               <div className="becomeInsRightBoxText">
                 Sed ut perspia unde omnis aste natus error sit volu
@@ -40,7 +44,8 @@ const HomePage8 = () => {
             </div>
           </div>
           <div className="becomeInsRightButtons">
-            <div className="becomeInsRightButtonJoin">
+            <a href="/Instructor-Details/Katerina">
+              <div className="becomeInsRightButtonJoin">
                 join with us
                 <svg
                   width="46"
@@ -62,15 +67,14 @@ const HomePage8 = () => {
                     />
                   </svg>
                 </svg>
-            </div>
-            <div className="becomeInsRightButtonBecome">
-              Become a Partner
-            </div>
+              </div>
+            </a>
+            <div className="becomeInsRightButtonBecome">Become a Partner</div>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default HomePage8;

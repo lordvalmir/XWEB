@@ -11,14 +11,15 @@ import img11 from "../../images/img11.jpg";
 import img12 from "../../images/img12.jpg";
 import img13 from "../../images/img13.jpg";
 
-const New = ({ title, img }) => {
+const New = ({ title, img, link }) => {
   return (
     <div className="new">
       <div className="newIMG"><img src={img} alt={"logo"} /></div>
       <div className="newMain">
-        <div className="newButton">
+        <a href={link}><div className="newButton">
           <FontAwesomeIcon icon={faArrowRight} />
-        </div>
+        </div></a>
+
         <div className="newBlock">
           <div className="newINFO">
             <div className="newINFOText">
@@ -68,18 +69,21 @@ const HomePage9 = () => {
         <New
           title={"Learning Resources In Challenec Times Online Workshops"}
           img={img11}
+          link="/Blog-Grid/1"
         />
         <New
           title={
             "Djang Highlights Models Admin And Harness Rela Tional Database"
           }
           img={img12}
+          link="/Blog-Grid/2"
         />
         <New
           title={
             "Smash Podcast Episode With Laura Kalbag What Is Online Privacy"
           }
           img={img13}
+          link="/Blog-Grid/3"
         />
       </div>
     </div>

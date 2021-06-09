@@ -137,6 +137,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .welcomeSectionButton svg {
@@ -210,6 +212,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .instituteSectionRight img{
   position: absolute;

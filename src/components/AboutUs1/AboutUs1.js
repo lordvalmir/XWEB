@@ -74,7 +74,7 @@ const AboutUs1 = () => {
               </div>
             </div>
             <div className="welcomeSectionButton">
-              learn more{" "}
+              learn more
               <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />
             </div>
           </div>
