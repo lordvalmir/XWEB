@@ -46,6 +46,9 @@ button.searchBar {
   width: 8%;
   height: 80%;
   background-color: #ea5822;
+  color: white;
+  font-size: 600;
+  cursor: pointer;
 }
 
 .searchBar {
