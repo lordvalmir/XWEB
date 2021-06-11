@@ -76,9 +76,13 @@
 }
 
 .bigPaperMainProfileIMG {
-  width: 20%;
+  margin-right: 1rem;
 }
-
+.bigPaperMainProfileIMG img{
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+}
 .bigPaperMainProfileIMGINFO {
   width: 80%;
 }
