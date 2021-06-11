@@ -8,13 +8,19 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="nawLeftSite">
-        <div className="logo">
-          <img src={logo} height="61px" width="61px" alt="logo" />
-          <div className="logoText">
-            <b>Edu</b>plus
+        <div className="hideFlex">
+          <div className="logo">
+            <img src={logo} height="61px" width="61px" alt="logo" />
+            <div className="logoText">
+              <b>Edu</b>plus
+            </div>
+          </div>
+          <div className="nawRightSiteSIGN2">
+            <FontAwesomeIcon icon={faUser} />
+            SING IN
           </div>
         </div>
-        <div className="links">
+        <div className="links2">
           <div class="dropdown">
             <button class="dropbtn">
               Home

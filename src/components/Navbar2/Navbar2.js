@@ -8,14 +8,20 @@ function Navbar2() {
   return (
     <div className="navbar2">
       <div className="nawLeftSite2">
-        <div className="logo2">
-          <img src={logo} height="61px" width="61px" alt="logo" />
-          <div className="logoText">
-            <b>Edu</b>plus
+        <div className="hideFlex2">
+          <div className="logo2">
+            <img src={logo} height="61px" width="61px" alt="logo" />
+            <div className="logoText">
+              <b>Edu</b>plus
+            </div>
+          </div>
+          <div className="nawRightSiteSIGN2">
+            <FontAwesomeIcon icon={faUser} />
+            SING IN
           </div>
         </div>
       </div>
-      <div className="links">
+      <div className="links2">
         <div class="dropdown">
           <button class="dropbtn">
             Home

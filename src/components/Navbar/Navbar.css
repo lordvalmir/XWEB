@@ -10,6 +10,12 @@
   display: flex;
   width: 70%;
 }
+.nawRightSiteMenuHide {
+  display: none;
+}
+.hideFlex {
+  display: block;
+}
 
 .nawRightSite {
   display: flex;
@@ -103,4 +109,78 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.nawRightSiteSIGN2 {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .nawRightSiteSIGN2 {
+    width: 121px;
+    height: 51px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+  }
+  .nawRightSiteSIGN2:hover {
+    background-color: #ea5822;
+    cursor: pointer;
+    color: white;
+  }
+  .nawRightSiteSIGN2 svg {
+    margin-right: 0.5rem;
+  }
+  .nawRightSiteSIGN2 path {
+    fill: #ea5822;
+  }
+  .nawRightSiteSIGN2:hover path {
+    fill: white;
+  }
+  .nawLeftSite {
+    display: block;
+    width: 70%;
+    margin-left: 0;
+  }
+  .links {
+    margin-left: 0;
+  }
+  .nawRightSiteFB {
+    display: none;
+  }
+  .nawRightSiteYOU {
+    display: none;
+  }
+  .nawRightSiteMenu {
+    display: none;
+  }
+  .nawRightSiteMenuHide {
+    display: block;
+  }
+  .nawRightSiteSIGN {
+    display: none;
+  }
+  .hideFlex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 964px) {
+  .nawLeftSite {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nawRightSiteSIGN2 {
+    display: none;
+  }
+  .links {
+    display: inline-grid;
+  }
+  .dropbtn svg {
+    display: none;
+  }
 }

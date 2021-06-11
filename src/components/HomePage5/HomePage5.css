@@ -1,17 +1,8 @@
 .bg4 {
-  width: 100vw;
-  height: auto;
-  max-width: 1920px;
-  max-height: 1200px;
-  background-color: white;
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
 .bg4b {
-  width: 100vw;
-  height: auto;
-  max-width: 1920px;
-  max-height: 1200px;
   background-color: #eaf4f7;
   padding-bottom: 6rem;
   padding-top: 6rem;
@@ -22,11 +13,13 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 3rem;
 }
 
 .instructor {
   width: 271px;
+  margin-bottom: 1rem;
   position: relative;
 }
 .categorieIMG2 {

@@ -8,6 +8,7 @@ body {
     "Roboto-Thin";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto-Bold, AdobeInvisFont, MyriadPro-Regular;
 }
 
 code {

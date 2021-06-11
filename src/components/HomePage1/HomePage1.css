@@ -78,3 +78,19 @@ button.searchBar {
 .orangeLink {
   color: #ea5822;
 }
+@media screen and (max-width: 1200px) {
+  .homeBlock {
+    width: 40%;
+  }
+  .mainPageTitle {
+    font-size: 30px;
+  }
+  .orangeLink {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 964px) {
+  .homeBlock {
+    width: 60%;
+  }
+}

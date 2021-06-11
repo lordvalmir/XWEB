@@ -1,6 +1,4 @@
 .bg8 {
-  width: 100vw;
-  max-width: 1920px;
   padding-top: 6rem;
   padding-bottom: 6rem;
   color: black;
@@ -11,9 +9,11 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .new {
   width: 371px;
+  margin-bottom: 1rem;
 }
 .newIMG {
   height: 351px;
